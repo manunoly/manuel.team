@@ -1,5 +1,5 @@
 {
-  "name": "personalTurboBasic",
+  "name": "manue.team",
   "private": true,
   "scripts": {
     "build": "turbo build",
