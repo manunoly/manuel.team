@@ -12,14 +12,24 @@
       <div class="brand">
         <div class="brand__logo">MT</div>
         <div>
-          <p class="brand__name">Manuel Team</p>
-          <p class="brand__tag">Software Studio</p>
+          <p id="brand-name" class="brand__name">Manuel Team</p>
+          <p id="brand-tag" class="brand__tag">Software Studio</p>
         </div>
+      </div>
+      <div class="controls" aria-label="Preferencias de perfil">
+        <label class="controls__item">
+          <span id="profile-label">Perfil</span>
+          <select id="profile-select" aria-label="Seleccionar perfil"></select>
+        </label>
+        <label class="controls__item">
+          <span id="language-label">Idioma</span>
+          <select id="language-select" aria-label="Seleccionar idioma"></select>
+        </label>
       </div>
       <ul id="menu" class="menu"></ul>
       <div class="contact-cta">
-        <p>¿Listo para colaborar?</p>
-        <a href="#contacto" class="button">Agenda una reunión</a>
+        <p id="cta-prompt">¿Listo para colaborar?</p>
+        <a id="cta-button" href="#contacto" class="button">Agenda una reunión</a>
       </div>
     </nav>
 

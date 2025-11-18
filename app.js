@@ -1,26 +1,21 @@
 const DATA_URL = './data/profile.json';
 
-const sections = [
-  { id: 'inicio', label: 'Inicio', eyebrow: 'Presentación', title: 'Hola, soy Manuel Team', renderer: renderHero },
-  { id: 'skills', label: 'Skills', eyebrow: 'Fortalezas', title: 'Stack y nube de conocimientos', renderer: renderSkills },
-  { id: 'trayectoria', label: 'Trayectoria', eyebrow: 'Experiencia', title: 'Carrera y formación', renderer: renderTimeline },
-  { id: 'proyectos', label: 'Proyectos', eyebrow: 'Portafolio', title: 'Selección de proyectos', renderer: renderProjects },
-  { id: 'servicios', label: 'Servicios', eyebrow: 'Oferta', title: 'Cómo puedo ayudarte', renderer: renderServices },
-  { id: 'contacto', label: 'Contacto', eyebrow: 'Conversemos', title: 'Hablemos de tu siguiente reto', renderer: renderContact }
-];
+const state = {
+  data: null,
+  locale: null,
+  profileId: null,
+  sections: [],
+  observer: null,
+};
 
 async function main() {
   const data = await loadData();
-  buildMenu();
-  const app = document.getElementById('app');
+  state.data = data;
+  state.locale = data.defaultLocale || Object.keys(data.locales)[0];
+  state.profileId = data.profiles?.[0]?.id;
 
-  sections.forEach((section) => {
-    const node = createSection(section.eyebrow, section.title, section.id);
-    section.renderer(node.querySelector('.section__body'), data);
-    app.appendChild(node);
-  });
-
-  observeSections();
+  initSelectors();
+  renderAll();
 }
 
 async function loadData() {
@@ -31,8 +26,121 @@ async function loadData() {
   return response.json();
 }
 
-function buildMenu() {
+function initSelectors() {
+  const profileSelect = document.getElementById('profile-select');
+  const languageSelect = document.getElementById('language-select');
+
+  state.data.profiles.forEach((profile) => {
+    const option = document.createElement('option');
+    option.value = profile.id;
+    option.textContent = getProfileLabel(profile, state.locale);
+    profileSelect.appendChild(option);
+  });
+
+  Object.keys(state.data.locales).forEach((localeKey) => {
+    const option = document.createElement('option');
+    option.value = localeKey;
+    option.textContent = localeKey.toUpperCase();
+    languageSelect.appendChild(option);
+  });
+
+  profileSelect.value = state.profileId;
+  languageSelect.value = state.locale;
+
+  profileSelect.addEventListener('change', (event) => {
+    state.profileId = event.target.value;
+    renderAll();
+  });
+
+  languageSelect.addEventListener('change', (event) => {
+    state.locale = event.target.value;
+    updateProfileLabels();
+    renderAll();
+  });
+}
+
+function updateProfileLabels() {
+  const profileSelect = document.getElementById('profile-select');
+  Array.from(profileSelect.options).forEach((option) => {
+    const profile = state.data.profiles.find((p) => p.id === option.value);
+    if (profile) {
+      option.textContent = getProfileLabel(profile, state.locale);
+    }
+  });
+}
+
+function renderAll() {
+  const localeStrings = getLocaleStrings();
+  const profile = getProfileData();
+
+  document.documentElement.lang = state.locale;
+
+  renderBrand(localeStrings);
+  renderControls(localeStrings);
+  renderCTA(localeStrings);
+
+  const sections = buildSections(localeStrings);
+  state.sections = sections;
+
+  buildMenu(sections);
+  renderSections(sections, profile, localeStrings);
+
+  if (state.observer) {
+    state.observer.disconnect();
+  }
+  observeSections();
+}
+
+function getProfileLabel(profile, locale) {
+  if (profile.labels) {
+    return profile.labels[locale] || profile.labels[state.data.defaultLocale] || profile.id;
+  }
+  return profile.id;
+}
+
+function getLocaleStrings() {
+  return state.data.locales[state.locale] || state.data.locales[state.data.defaultLocale];
+}
+
+function getProfileData() {
+  const fallbackProfile = state.data.profiles[0];
+  const profile = state.data.profiles.find((p) => p.id === state.profileId) || fallbackProfile;
+  const profileLocale = profile.locales[state.locale] || profile.locales[state.data.defaultLocale];
+  return profileLocale;
+}
+
+function renderBrand(localeStrings) {
+  const brandName = document.getElementById('brand-name');
+  const brandTag = document.getElementById('brand-tag');
+  brandName.textContent = localeStrings.brand.name;
+  brandTag.textContent = localeStrings.brand.tag;
+}
+
+function renderControls(localeStrings) {
+  document.getElementById('profile-label').textContent = localeStrings.controls.profile;
+  document.getElementById('language-label').textContent = localeStrings.controls.language;
+}
+
+function renderCTA(localeStrings) {
+  document.getElementById('cta-prompt').textContent = localeStrings.cta.prompt;
+  document.getElementById('cta-button').textContent = localeStrings.cta.button;
+}
+
+function buildSections(localeStrings) {
+  const sectionsMap = localeStrings.sections;
+  return [
+    { id: 'inicio', label: sectionsMap.inicio.label, eyebrow: sectionsMap.inicio.eyebrow, title: sectionsMap.inicio.title, renderer: renderHero },
+    { id: 'skills', label: sectionsMap.skills.label, eyebrow: sectionsMap.skills.eyebrow, title: sectionsMap.skills.title, renderer: renderSkills },
+    { id: 'trayectoria', label: sectionsMap.trayectoria.label, eyebrow: sectionsMap.trayectoria.eyebrow, title: sectionsMap.trayectoria.title, renderer: renderTimeline },
+    { id: 'proyectos', label: sectionsMap.proyectos.label, eyebrow: sectionsMap.proyectos.eyebrow, title: sectionsMap.proyectos.title, renderer: renderProjects },
+    { id: 'servicios', label: sectionsMap.servicios.label, eyebrow: sectionsMap.servicios.eyebrow, title: sectionsMap.servicios.title, renderer: renderServices },
+    { id: 'contacto', label: sectionsMap.contacto.label, eyebrow: sectionsMap.contacto.eyebrow, title: sectionsMap.contacto.title, renderer: renderContact },
+  ];
+}
+
+function buildMenu(sections) {
   const menu = document.getElementById('menu');
+  menu.innerHTML = '';
   sections.forEach((section) => {
     const li = document.createElement('li');
     li.className = 'menu__item';
@@ -57,7 +165,18 @@ function createSection(eyebrow, title, id) {
   return node;
 }
 
-function renderHero(container, data) {
+function renderSections(sections, profile, localeStrings) {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+
+  sections.forEach((section) => {
+    const node = createSection(section.eyebrow, section.title, section.id);
+    section.renderer(node.querySelector('.section__body'), profile, localeStrings);
+    app.appendChild(node);
+  });
+}
+
+function renderHero(container, data, localeStrings) {
   const card = document.createElement('article');
   card.className = 'hero';
   const headline = document.createElement('h1');
@@ -75,7 +194,7 @@ function renderHero(container, data) {
   container.appendChild(card);
 }
 
-function renderSkills(container, data) {
+function renderSkills(container, data, localeStrings) {
   const wrapper = document.createElement('div');
   wrapper.className = 'grid-2';
 
@@ -83,7 +202,7 @@ function renderSkills(container, data) {
   stackCard.className = 'card';
   const title = document.createElement('h3');
   title.className = 'card__title';
-  title.textContent = 'Stack principal';
+  title.textContent = localeStrings.content.stackTitle;
   const badges = document.createElement('div');
   badges.className = 'badges';
   data.skills.forEach((skill) => {
@@ -239,7 +358,7 @@ function renderContact(container, data) {
 
 function observeSections() {
   const links = Array.from(document.querySelectorAll('.menu__item a'));
-  const observer = new IntersectionObserver(
+  state.observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         const link = links.find((l) => l.getAttribute('href') === `#${entry.target.id}`);
@@ -251,7 +370,7 @@ function observeSections() {
     { threshold: 0.4 }
   );
 
-  document.querySelectorAll('section').forEach((section) => observer.observe(section));
+  document.querySelectorAll('section').forEach((section) => state.observer.observe(section));
 }
 
 main().catch((error) => {
