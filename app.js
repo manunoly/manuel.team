@@ -222,7 +222,7 @@ function renderSkills(container, data, localeStrings) {
     const pos = getPosition(index, data.skills.length);
     node.style.left = pos.x;
     node.style.top = pos.y;
-    node.style.animationDelay = `${(index % 5) * 1.2}s`;
+    node.style.animationDelay = `${(index % ANIMATION_DELAY_GROUPS) * ANIMATION_DELAY_MULTIPLIER}s`;
     cloud.appendChild(node);
   });
 
@@ -235,6 +235,10 @@ const BASE_RADIUS = 35;
 const RADIUS_VARIANCE_GROUPS = 3;
 const RADIUS_VARIANCE_STEP = 10;
 const CENTER_OFFSET = 50;
+
+// Constants for animation delay calculation
+const ANIMATION_DELAY_GROUPS = 5;
+const ANIMATION_DELAY_MULTIPLIER = 1.2;
 
 function getPosition(index, total) {
   const angle = (index / total) * Math.PI * 2;
