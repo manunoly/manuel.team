@@ -350,7 +350,7 @@ function renderContact(container, data) {
   site.href = data.contact.website;
   site.textContent = data.contact.website;
   site.target = '_blank';
-  site.rel = 'noreferrer noopener';
+  site.rel = 'noopener noreferrer';
 
   box.append(cta, email, phone, site);
   container.appendChild(box);
