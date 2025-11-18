@@ -307,7 +307,7 @@ function renderProjects(container, data) {
       anchor.href = link.url;
       anchor.textContent = link.label;
       anchor.target = '_blank';
-      anchor.rel = 'noreferrer noopener';
+      anchor.rel = 'noopener noreferrer';
       links.appendChild(anchor);
     });
 
@@ -350,7 +350,7 @@ function renderContact(container, data) {
   site.href = data.contact.website;
   site.textContent = data.contact.website;
   site.target = '_blank';
-  site.rel = 'noreferrer noopener';
+  site.rel = 'noopener noreferrer';
 
   box.append(cta, email, phone, site);
   container.appendChild(box);
