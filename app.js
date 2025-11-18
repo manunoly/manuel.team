@@ -313,7 +313,7 @@ function renderProjects(container, data) {
       anchor.href = link.url;
       anchor.textContent = link.label;
       anchor.target = '_blank';
-      anchor.rel = 'noreferrer noopener';
+      anchor.rel = 'noopener noreferrer';
       links.appendChild(anchor);
     });
 
