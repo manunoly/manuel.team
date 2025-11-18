@@ -1,0 +1,469 @@
+{
+    "defaultLocale": "es",
+    "locales": {
+        "es": {
+            "brand": {
+                "name": "Manuel Team",
+                "tag": "Software Studio"
+            },
+            "controls": {
+                "profile": "Perfil",
+                "language": "Idioma"
+            },
+            "cta": {
+                "prompt": "\u00bfListo para colaborar?",
+                "button": "Agenda una reuni\u00f3n"
+            },
+            "sections": {
+                "inicio": {
+                    "label": "Inicio",
+                    "eyebrow": "Presentaci\u00f3n",
+                    "title": "Hola, soy tu socio tech"
+                },
+                "skills": {
+                    "label": "Skills",
+                    "eyebrow": "Fortalezas",
+                    "title": "Stack y nube de conocimientos"
+                },
+                "trayectoria": {
+                    "label": "Trayectoria",
+                    "eyebrow": "Experiencia",
+                    "title": "Carrera y formaci\u00f3n"
+                },
+                "proyectos": {
+                    "label": "Proyectos",
+                    "eyebrow": "Portafolio",
+                    "title": "Selecci\u00f3n de proyectos"
+                },
+                "servicios": {
+                    "label": "Servicios",
+                    "eyebrow": "Oferta",
+                    "title": "C\u00f3mo puedo ayudarte"
+                },
+                "contacto": {
+                    "label": "Contacto",
+                    "eyebrow": "Conversemos",
+                    "title": "Hablemos de tu siguiente reto"
+                }
+            },
+            "content": {
+                "stackTitle": "Stack principal"
+            }
+        },
+        "en": {
+            "brand": {
+                "name": "Manuel Team",
+                "tag": "Software Studio"
+            },
+            "controls": {
+                "profile": "Profile",
+                "language": "Language"
+            },
+            "cta": {
+                "prompt": "Ready to collaborate?",
+                "button": "Book a call"
+            },
+            "sections": {
+                "inicio": {
+                    "label": "Intro",
+                    "eyebrow": "About",
+                    "title": "Hi, I\u2019m your tech partner"
+                },
+                "skills": {
+                    "label": "Skills",
+                    "eyebrow": "Strengths",
+                    "title": "Stack and knowledge cloud"
+                },
+                "trayectoria": {
+                    "label": "Journey",
+                    "eyebrow": "Experience",
+                    "title": "Career and education"
+                },
+                "proyectos": {
+                    "label": "Projects",
+                    "eyebrow": "Portfolio",
+                    "title": "Selected work"
+                },
+                "servicios": {
+                    "label": "Services",
+                    "eyebrow": "Offer",
+                    "title": "How I can help"
+                },
+                "contacto": {
+                    "label": "Contact",
+                    "eyebrow": "Let\u2019s talk",
+                    "title": "Let\u2019s discuss your next challenge"
+                }
+            },
+            "content": {
+                "stackTitle": "Core stack"
+            }
+        }
+    },
+    "profiles": [
+        {
+            "id": "manuel",
+            "labels": {
+                "es": "Manuel Team",
+                "en": "Manuel Team"
+            },
+            "locales": {
+                "es": {
+                    "name": "Manuel Team",
+                    "role": "Consultor & Desarrollador de Software",
+                    "headline": "Dise\u00f1o y creo productos digitales de alto impacto para startups y empresas en crecimiento.",
+                    "location": "Remoto / Espa\u00f1a",
+                    "summary": "Apasionado por construir experiencias fluidas, liderar equipos y acelerar roadmaps con bases s\u00f3lidas.",
+                    "skills": [
+                        "JavaScript",
+                        "TypeScript",
+                        "Node.js",
+                        "React",
+                        "CSS",
+                        "UI/UX",
+                        "Arquitectura",
+                        "APIs",
+                        "Firebase",
+                        "AWS",
+                        "CI/CD",
+                        "Testing"
+                    ],
+                    "timeline": [
+                        {
+                            "title": "Founder & Tech Lead",
+                            "company": "Manuel Team",
+                            "period": "2021 - Actual",
+                            "description": "Lidero proyectos end-to-end, coordino equipos multidisciplinarios y defino arquitecturas escalables."
+                        },
+                        {
+                            "title": "Senior Software Engineer",
+                            "company": "Startups y scaleups",
+                            "period": "2017 - 2021",
+                            "description": "Ownership t\u00e9cnico de features cr\u00edticas, performance tuning y mentoring de equipos frontend y backend."
+                        }
+                    ],
+                    "education": [
+                        {
+                            "title": "Ingenier\u00eda en Sistemas",
+                            "school": "Universidad Tecnol\u00f3gica",
+                            "period": "2011 - 2016",
+                            "description": "Especializaci\u00f3n en desarrollo web, patrones de dise\u00f1o y liderazgo t\u00e9cnico."
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "name": "Plataforma de anal\u00edtica",
+                            "description": "Dashboard en tiempo real con microservicios y data streaming.",
+                            "links": [
+                                {
+                                    "label": "Demo",
+                                    "url": "https://ejemplo.demo"
+                                }
+                            ],
+                            "stack": [
+                                "Node.js",
+                                "React",
+                                "Kafka"
+                            ]
+                        },
+                        {
+                            "name": "E-commerce headless",
+                            "description": "Arquitectura headless con storefront personalizado y checkout optimizado.",
+                            "links": [
+                                {
+                                    "label": "GitHub",
+                                    "url": "https://github.com/manuel-team"
+                                }
+                            ],
+                            "stack": [
+                                "Next.js",
+                                "Stripe",
+                                "Vercel"
+                            ]
+                        }
+                    ],
+                    "services": [
+                        "Discovery y prototipado \u00e1gil",
+                        "Dise\u00f1o y desarrollo de MVPs",
+                        "Modernizaci\u00f3n de stacks y migraciones",
+                        "Automatizaci\u00f3n de procesos y CI/CD",
+                        "Coaching t\u00e9cnico y workshops"
+                    ],
+                    "contact": {
+                        "email": "hello@manuel.team",
+                        "phone": "+34 600 000 000",
+                        "website": "https://manuel.team",
+                        "cta": "Cu\u00e9ntame sobre tu pr\u00f3ximo reto y hag\u00e1moslo realidad juntos."
+                    }
+                },
+                "en": {
+                    "name": "Manuel Team",
+                    "role": "Consultant & Software Developer",
+                    "headline": "I design and ship high-impact digital products for startups and growing companies.",
+                    "location": "Remote / Spain",
+                    "summary": "I love building smooth experiences, leading teams, and accelerating roadmaps with solid foundations.",
+                    "skills": [
+                        "JavaScript",
+                        "TypeScript",
+                        "Node.js",
+                        "React",
+                        "CSS",
+                        "UI/UX",
+                        "Architecture",
+                        "APIs",
+                        "Firebase",
+                        "AWS",
+                        "CI/CD",
+                        "Testing"
+                    ],
+                    "timeline": [
+                        {
+                            "title": "Founder & Tech Lead",
+                            "company": "Manuel Team",
+                            "period": "2021 - Present",
+                            "description": "Lead end-to-end delivery, coordinate multi-disciplinary squads, and craft scalable architectures."
+                        },
+                        {
+                            "title": "Senior Software Engineer",
+                            "company": "Startups & scaleups",
+                            "period": "2017 - 2021",
+                            "description": "Owned critical features, tuned performance, and mentored frontend and backend teams."
+                        }
+                    ],
+                    "education": [
+                        {
+                            "title": "Systems Engineering",
+                            "school": "Tech University",
+                            "period": "2011 - 2016",
+                            "description": "Focused on web development, design patterns, and technical leadership."
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "name": "Analytics platform",
+                            "description": "Real-time dashboard with microservices and data streaming.",
+                            "links": [
+                                {
+                                    "label": "Demo",
+                                    "url": "https://example.demo"
+                                }
+                            ],
+                            "stack": [
+                                "Node.js",
+                                "React",
+                                "Kafka"
+                            ]
+                        },
+                        {
+                            "name": "Headless e-commerce",
+                            "description": "Headless architecture with bespoke storefront and optimized checkout.",
+                            "links": [
+                                {
+                                    "label": "GitHub",
+                                    "url": "https://github.com/manuel-team"
+                                }
+                            ],
+                            "stack": [
+                                "Next.js",
+                                "Stripe",
+                                "Vercel"
+                            ]
+                        }
+                    ],
+                    "services": [
+                        "Discovery and rapid prototyping",
+                        "MVP design and development",
+                        "Stack modernization and migrations",
+                        "Process automation and CI/CD",
+                        "Technical coaching and workshops"
+                    ],
+                    "contact": {
+                        "email": "hello@manuel.team",
+                        "phone": "+34 600 000 000",
+                        "website": "https://manuel.team",
+                        "cta": "Tell me about your next challenge and let\u2019s ship it together."
+                    }
+                }
+            }
+        },
+        {
+            "id": "sofia",
+            "labels": {
+                "es": "Sof\u00eda Rivera",
+                "en": "Sofia Rivera"
+            },
+            "locales": {
+                "es": {
+                    "name": "Sof\u00eda Rivera",
+                    "role": "Product Designer & Frontend",
+                    "headline": "Creo experiencias limpias y accesibles, listas para producci\u00f3n.",
+                    "location": "Remoto / M\u00e9xico",
+                    "summary": "Me enfoco en prototipos r\u00e1pidos, dise\u00f1o centrado en usuario y sistemas de dise\u00f1o escalables.",
+                    "skills": [
+                        "Figma",
+                        "Design Systems",
+                        "UX Research",
+                        "React",
+                        "Next.js",
+                        "CSS",
+                        "Storybook",
+                        "A11y",
+                        "Product Discovery"
+                    ],
+                    "timeline": [
+                        {
+                            "title": "Lead Product Designer",
+                            "company": "Studio Norte",
+                            "period": "2020 - Actual",
+                            "description": "Defin\u00ed design systems, flujos cr\u00edticos y research continuo para productos B2B y B2C."
+                        },
+                        {
+                            "title": "Frontend Engineer",
+                            "company": "Agencia digital",
+                            "period": "2016 - 2020",
+                            "description": "Implementaci\u00f3n pixel-perfect, accesibilidad y performance en landing pages y apps internas."
+                        }
+                    ],
+                    "education": [
+                        {
+                            "title": "Dise\u00f1o Interactivo",
+                            "school": "Universidad Creativa",
+                            "period": "2012 - 2016",
+                            "description": "Investigaci\u00f3n de usuario, prototipado y fundamentos de experiencia digital."
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "name": "Design system fintech",
+                            "description": "Biblioteca unificada con tokens, guidelines y componentes productivos.",
+                            "links": [
+                                {
+                                    "label": "Behance",
+                                    "url": "https://behance.net/sofia"
+                                }
+                            ],
+                            "stack": [
+                                "Figma",
+                                "Storybook",
+                                "React"
+                            ]
+                        },
+                        {
+                            "name": "App de bienestar",
+                            "description": "Experiencia mobile-first con retos diarios y seguimiento de h\u00e1bitos.",
+                            "links": [
+                                {
+                                    "label": "Demo",
+                                    "url": "https://demo.sofia"
+                                }
+                            ],
+                            "stack": [
+                                "Next.js",
+                                "Tailwind",
+                                "Supabase"
+                            ]
+                        }
+                    ],
+                    "services": [
+                        "Investigaci\u00f3n y validaci\u00f3n de producto",
+                        "Dise\u00f1o y prototipado interactivo",
+                        "Sistemas de dise\u00f1o y handoff",
+                        "Auditor\u00edas de usabilidad y accesibilidad",
+                        "Implementaci\u00f3n frontend colaborativa"
+                    ],
+                    "contact": {
+                        "email": "hola@sofiarivera.com",
+                        "phone": "+52 55 0000 0000",
+                        "website": "https://sofiarivera.com",
+                        "cta": "Cu\u00e9ntame tu idea y te ayudo a llevarla a la pantalla."
+                    }
+                },
+                "en": {
+                    "name": "Sofia Rivera",
+                    "role": "Product Designer & Frontend",
+                    "headline": "I craft clean, accessible experiences ready for production.",
+                    "location": "Remote / Mexico",
+                    "summary": "I focus on fast prototypes, user-centered design, and scalable design systems.",
+                    "skills": [
+                        "Figma",
+                        "Design Systems",
+                        "UX Research",
+                        "React",
+                        "Next.js",
+                        "CSS",
+                        "Storybook",
+                        "A11y",
+                        "Product Discovery"
+                    ],
+                    "timeline": [
+                        {
+                            "title": "Lead Product Designer",
+                            "company": "Studio Norte",
+                            "period": "2020 - Present",
+                            "description": "Defined design systems, critical flows, and continuous research for B2B and B2C products."
+                        },
+                        {
+                            "title": "Frontend Engineer",
+                            "company": "Digital agency",
+                            "period": "2016 - 2020",
+                            "description": "Pixel-perfect builds, accessibility, and performance for landing pages and internal apps."
+                        }
+                    ],
+                    "education": [
+                        {
+                            "title": "Interactive Design",
+                            "school": "Creative University",
+                            "period": "2012 - 2016",
+                            "description": "User research, prototyping, and digital experience fundamentals."
+                        }
+                    ],
+                    "projects": [
+                        {
+                            "name": "Fintech design system",
+                            "description": "Unified library with tokens, guidelines, and production-ready components.",
+                            "links": [
+                                {
+                                    "label": "Behance",
+                                    "url": "https://behance.net/sofia"
+                                }
+                            ],
+                            "stack": [
+                                "Figma",
+                                "Storybook",
+                                "React"
+                            ]
+                        },
+                        {
+                            "name": "Wellness app",
+                            "description": "Mobile-first experience with daily challenges and habit tracking.",
+                            "links": [
+                                {
+                                    "label": "Demo",
+                                    "url": "https://demo.sofia"
+                                }
+                            ],
+                            "stack": [
+                                "Next.js",
+                                "Tailwind",
+                                "Supabase"
+                            ]
+                        }
+                    ],
+                    "services": [
+                        "Product research and validation",
+                        "Interactive design and prototyping",
+                        "Design systems and handoff",
+                        "Usability and accessibility audits",
+                        "Collaborative frontend implementation"
+                    ],
+                    "contact": {
+                        "email": "hello@sofiarivera.com",
+                        "phone": "+52 55 0000 0000",
+                        "website": "https://sofiarivera.com",
+                        "cta": "Share your idea and I\u2019ll help bring it to the screen."
+                    }
+                }
+            }
+        }
+    ]
+}
