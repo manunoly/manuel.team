@@ -1,0 +1,59 @@
+{
+  "name": "Manuel Team",
+  "role": "Consultor & Desarrollador de Software",
+  "headline": "Diseño y creo productos digitales de alto impacto para startups y empresas en crecimiento.",
+  "location": "Remoto / España",
+  "summary": "Apasionado por construir experiencias fluidas, liderar equipos y acelerar roadmaps con bases sólidas.",
+  "skills": [
+    "JavaScript", "TypeScript", "Node.js", "React", "CSS", "UI/UX", "Arquitectura", "APIs", "Firebase", "AWS", "CI/CD", "Testing"
+  ],
+  "timeline": [
+    {
+      "title": "Founder & Tech Lead",
+      "company": "Manuel Team",
+      "period": "2021 - Actual",
+      "description": "Lidero proyectos end-to-end, coordino equipos multidisciplinarios y defino arquitecturas escalables."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Startups y scaleups",
+      "period": "2017 - 2021",
+      "description": "Ownership técnico de features críticas, performance tuning y mentoring de equipos frontend y backend."
+    }
+  ],
+  "education": [
+    {
+      "title": "Ingeniería en Sistemas",
+      "school": "Universidad Tecnológica",
+      "period": "2011 - 2016",
+      "description": "Especialización en desarrollo web, patrones de diseño y liderazgo técnico."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Plataforma de analítica",
+      "description": "Dashboard en tiempo real con microservicios y data streaming.",
+      "links": [{ "label": "Demo", "url": "https://ejemplo.demo" }],
+      "stack": ["Node.js", "React", "Kafka"]
+    },
+    {
+      "name": "E-commerce headless",
+      "description": "Arquitectura headless con storefront personalizado y checkout optimizado.",
+      "links": [{ "label": "GitHub", "url": "https://github.com/manuel-team" }],
+      "stack": ["Next.js", "Stripe", "Vercel"]
+    }
+  ],
+  "services": [
+    "Discovery y prototipado ágil",
+    "Diseño y desarrollo de MVPs",
+    "Modernización de stacks y migraciones",
+    "Automatización de procesos y CI/CD",
+    "Coaching técnico y workshops"
+  ],
+  "contact": {
+    "email": "hello@manuel.team",
+    "phone": "+34 600 000 000",
+    "website": "https://manuel.team",
+    "cta": "Cuéntame sobre tu próximo reto y hagámoslo realidad juntos."
+  }
+}

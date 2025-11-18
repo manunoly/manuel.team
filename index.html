@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manuel Team | CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <nav class="sidebar" aria-label="Navegación principal">
+      <div class="brand">
+        <div class="brand__logo">MT</div>
+        <div>
+          <p class="brand__name">Manuel Team</p>
+          <p class="brand__tag">Software Studio</p>
+        </div>
+      </div>
+      <ul id="menu" class="menu"></ul>
+      <div class="contact-cta">
+        <p>¿Listo para colaborar?</p>
+        <a href="#contacto" class="button">Agenda una reunión</a>
+      </div>
+    </nav>
+
+    <main id="app" class="content" tabindex="-1"></main>
+  </div>
+
+  <template id="section-template">
+    <section class="section" aria-live="polite">
+      <div class="section__header">
+        <p class="section__eyebrow"></p>
+        <h2 class="section__title"></h2>
+      </div>
+      <div class="section__body"></div>
+    </section>
+  </template>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
