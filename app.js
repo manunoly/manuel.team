@@ -230,11 +230,17 @@ function renderSkills(container, data, localeStrings) {
   container.appendChild(wrapper);
 }
 
+// Constants for position calculation
+const BASE_RADIUS = 35;
+const RADIUS_VARIANCE_GROUPS = 3;
+const RADIUS_VARIANCE_STEP = 10;
+const CENTER_OFFSET = 50;
+
 function getPosition(index, total) {
   const angle = (index / total) * Math.PI * 2;
-  const radius = 35 + (index % 3) * 10;
-  const x = 50 + Math.cos(angle) * radius;
-  const y = 50 + Math.sin(angle) * radius;
+  const radius = BASE_RADIUS + (index % RADIUS_VARIANCE_GROUPS) * RADIUS_VARIANCE_STEP;
+  const x = CENTER_OFFSET + Math.cos(angle) * radius;
+  const y = CENTER_OFFSET + Math.sin(angle) * radius;
   return { x: `${x}%`, y: `${y}%` };
 }
 
