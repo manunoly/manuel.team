@@ -9,6 +9,7 @@ import Education from "../../components/Education";
 import BlogPreview from "../../components/BlogPreview";
 import Testimonials from "../../components/Testimonials";
 import Contact from "../../components/Contact";
+import Research from "../../components/Research";
 import portfolioData from "../../data/portfolio.json";
 
 const {
@@ -52,6 +53,8 @@ const {
         <Experience client:visible experience={experience} />
 
         <Education client:visible education={education} />
+
+        <Research client:visible data={portfolioData.es.research} />
 
         <BlogPreview client:visible posts={blog} />
 

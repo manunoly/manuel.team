@@ -8,6 +8,7 @@ const navLinks = {
         { name: 'Skills', href: '#skills' },
         { name: 'Projects', href: '#projects' },
         { name: 'Experience', href: '#experience' },
+        { name: 'Research', href: '#research' },
         { name: 'Contact', href: '#contact' },
     ],
     es: [
@@ -15,6 +16,7 @@ const navLinks = {
         { name: 'Habilidades', href: '#skills' },
         { name: 'Proyectos', href: '#projects' },
         { name: 'Experiencia', href: '#experience' },
+        { name: 'Investigación', href: '#research' },
         { name: 'Contacto', href: '#contact' },
     ]
 };

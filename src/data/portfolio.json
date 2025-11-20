@@ -93,6 +93,165 @@
                 "year": "2019"
             }
         ],
+        "research": {
+            "title": "Academic Research",
+            "description": "Former University Professor and Scientific Researcher. My work focuses on Software Engineering, Fuzzy Logic, and Information Systems.",
+            "profileLink": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ",
+            "publications": [
+                {
+                    "title": "Analysis of solar chimneys in different climate zones-case of social housing in Ecuador",
+                    "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Martínez, Javier; Lobato, Andrea; Palme, Massimo",
+                    "publication": "IOP Conference Series: Materials Science and Engineering",
+                    "year": "2017",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC"
+                },
+                {
+                    "title": "Estimating the indoor thermal comfort deficit in the social housing built in Ecuador by integrating Building Information Modelling and Geographical Information Systems",
+                    "authors": "Gallardo, Andre; Villacreses, Geovanna; Almaguer, Manuel; Lobato-Cordero, Andrea; Cordovez, Mart",
+                    "publication": "Building Simulation 2017",
+                    "year": "2017",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC"
+                },
+                {
+                    "title": "Dynamic-physical model to predict the performance of a solar chimney in a warm-humid climate with different absorbent materials",
+                    "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Kastillo, Juan; Martínez, Javier; Lobato-Cordero, Andrea",
+                    "publication": "Building Simulation 2017",
+                    "year": "2017",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC"
+                },
+                {
+                    "title": "Generalización del Método Puntos de Función utilizando lógica difusa",
+                    "authors": "Soria Barreda, Liannis; Almaguer Ochoa, Manuel Ramón; Diaz Vera, Julio Cesar; Arza Perez, Lizandra",
+                    "publication": "Revista Cubana de Ciencias Informáticas",
+                    "year": "2016",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C"
+                },
+                {
+                    "title": "Estrategias para mejorar las condiciones de habitabilidad y el consumo de energía en viviendas",
+                    "authors": "Palme, Massimo; Lobato, Andrea; Gallardo, Andrés; Beltrán, D; Kastillo, Juan; Villacreses, Geovanna; Godoy, F",
+                    "publication": "Descargado de: http://www. iner. gob. ec/biblioteca/. Ecuador",
+                    "year": "2016",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C"
+                },
+                {
+                    "title": "Gestor de dependencias para el sistema de Gestión Integral de Aduanas 1.0",
+                    "authors": "León Ricardo, Yurismara; Almaguer Ochoa, Manuel R; Romero Piñeiro, Yasel Antonio",
+                    "publication": "",
+                    "year": "2015",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Sistema para el control de uso de los medios tecnológicos de los laboratorios docentes de la facultad 3",
+                    "authors": "Morales Pestana, Juan Ignacio; Reyes Pérez, Zénel; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2015",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC"
+                },
+                {
+                    "title": "Desarrollo del instalador para el Sistema de Gestión Integral Aduanera 1.0.",
+                    "authors": "Romero Sieres, Gisel; Cuscó Alemañy, Julio César; Weeden Gamboa, Raymond; Almaguer Ochoa, Manuel; Naranjo García, Adrián",
+                    "publication": "",
+                    "year": "2015",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Decodificador del Estándar de Transferencia de Información Adelantada de Pasajeros",
+                    "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Plasencia Herrera, Randy",
+                    "publication": "DUODÉCIMA EDICIÓN",
+                    "year": "2012",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Sistema para el despacho de Aeronaves en la Aduana de Cuba",
+                    "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Rodríguez Valdés, Gretter Lisbet; Castellanos Cobas, Leydis",
+                    "publication": "DUODÉCIMA EDICIÓN",
+                    "year": "2012",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del componente Historial de Medios de Transporte Internacional para el Sistema Gestión Integral de Aduanas",
+                    "authors": "Castellano Betancourt, Ivian Laobel; Almaguer Ochoa, Manuel Ramón; Romero Piñeiro, Yasel Antonio",
+                    "publication": "Universidad de las Ciencias Informáticas",
+                    "year": "2012",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del subsistema Despacho de Medios de Transporte Internacional Aéreos",
+                    "authors": "Rodríguez Valdés, Gretter Lisbet; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2011",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del módulo despacho de las embarcaciones de recreo para el Sistema de Gestión Integral de la Aduana",
+                    "authors": "Álvarez Rodríguez, Natacha; Almaguer Ochoa, Manuel R",
+                    "publication": "",
+                    "year": "2011",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del Módulo Despacho de los Medios de Transporte Marítimos para el Sistema de Gestión Integral de la Aduana",
+                    "authors": "Vega Mena, Ismail; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2011",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Implementacion de un motor de codificacion y busqueda fonetica para el sistema de Gestion Integral de la Aduana",
+                    "authors": "Romero González, Carlos Manuel; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2010",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Configuracion de Servicios de Red: Analisis y Diseno",
+                    "authors": "Consuegra Roselló, Arley; Guerra Nieves, Luis Miguel; Almaguer Ochoa, Manuel Ramón; Hernández López, Jorge Luis",
+                    "publication": "",
+                    "year": "2009",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Implementacion de las validaciones en JavaScript para la AGR. Adaptacion al Framework ExtJS.",
+                    "authors": "Mayo Leyva, Yandier; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2008",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Sistema de Recursos Humanos. Modulo Evaluacion del Desempeno.",
+                    "authors": "Almaguer Ochoa, Manuel Ramón; Delahanty, Deborah; Díaz Vera, Julio César",
+                    "publication": "",
+                    "year": "2007",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC"
+                },
+                {
+                    "title": "Aplicando lógica difusa para eliminar los límites bruscos en el método Puntos de Función",
+                    "authors": "Barreda, Liannis Soria; Ochoa, Manuel Ramón Almaguer",
+                    "publication": "",
+                    "year": "",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC"
+                }
+            ]
+        },
         "blog": [
             {
                 "title": "Mastering React Hooks",
@@ -220,6 +379,165 @@
                 "year": "2019"
             }
         ],
+        "research": {
+            "title": "Investigación Académica",
+            "description": "Ex Profesor Universitario e Investigador Científico. Mi trabajo se centra en Ingeniería de Software, Lógica Difusa y Sistemas de Información.",
+            "profileLink": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ",
+            "publications": [
+                {
+                    "title": "Analysis of solar chimneys in different climate zones-case of social housing in Ecuador",
+                    "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Martínez, Javier; Lobato, Andrea; Palme, Massimo",
+                    "publication": "IOP Conference Series: Materials Science and Engineering",
+                    "year": "2017",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC"
+                },
+                {
+                    "title": "Estimating the indoor thermal comfort deficit in the social housing built in Ecuador by integrating Building Information Modelling and Geographical Information Systems",
+                    "authors": "Gallardo, Andre; Villacreses, Geovanna; Almaguer, Manuel; Lobato-Cordero, Andrea; Cordovez, Mart",
+                    "publication": "Building Simulation 2017",
+                    "year": "2017",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC"
+                },
+                {
+                    "title": "Dynamic-physical model to predict the performance of a solar chimney in a warm-humid climate with different absorbent materials",
+                    "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Kastillo, Juan; Martínez, Javier; Lobato-Cordero, Andrea",
+                    "publication": "Building Simulation 2017",
+                    "year": "2017",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC"
+                },
+                {
+                    "title": "Generalización del Método Puntos de Función utilizando lógica difusa",
+                    "authors": "Soria Barreda, Liannis; Almaguer Ochoa, Manuel Ramón; Diaz Vera, Julio Cesar; Arza Perez, Lizandra",
+                    "publication": "Revista Cubana de Ciencias Informáticas",
+                    "year": "2016",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C"
+                },
+                {
+                    "title": "Estrategias para mejorar las condiciones de habitabilidad y el consumo de energía en viviendas",
+                    "authors": "Palme, Massimo; Lobato, Andrea; Gallardo, Andrés; Beltrán, D; Kastillo, Juan; Villacreses, Geovanna; Godoy, F",
+                    "publication": "Descargado de: http://www. iner. gob. ec/biblioteca/. Ecuador",
+                    "year": "2016",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C"
+                },
+                {
+                    "title": "Gestor de dependencias para el sistema de Gestión Integral de Aduanas 1.0",
+                    "authors": "León Ricardo, Yurismara; Almaguer Ochoa, Manuel R; Romero Piñeiro, Yasel Antonio",
+                    "publication": "",
+                    "year": "2015",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Sistema para el control de uso de los medios tecnológicos de los laboratorios docentes de la facultad 3",
+                    "authors": "Morales Pestana, Juan Ignacio; Reyes Pérez, Zénel; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2015",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC"
+                },
+                {
+                    "title": "Desarrollo del instalador para el Sistema de Gestión Integral Aduanera 1.0.",
+                    "authors": "Romero Sieres, Gisel; Cuscó Alemañy, Julio César; Weeden Gamboa, Raymond; Almaguer Ochoa, Manuel; Naranjo García, Adrián",
+                    "publication": "",
+                    "year": "2015",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Decodificador del Estándar de Transferencia de Información Adelantada de Pasajeros",
+                    "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Plasencia Herrera, Randy",
+                    "publication": "DUODÉCIMA EDICIÓN",
+                    "year": "2012",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Sistema para el despacho de Aeronaves en la Aduana de Cuba",
+                    "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Rodríguez Valdés, Gretter Lisbet; Castellanos Cobas, Leydis",
+                    "publication": "DUODÉCIMA EDICIÓN",
+                    "year": "2012",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del componente Historial de Medios de Transporte Internacional para el Sistema Gestión Integral de Aduanas",
+                    "authors": "Castellano Betancourt, Ivian Laobel; Almaguer Ochoa, Manuel Ramón; Romero Piñeiro, Yasel Antonio",
+                    "publication": "Universidad de las Ciencias Informáticas",
+                    "year": "2012",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del subsistema Despacho de Medios de Transporte Internacional Aéreos",
+                    "authors": "Rodríguez Valdés, Gretter Lisbet; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2011",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del módulo despacho de las embarcaciones de recreo para el Sistema de Gestión Integral de la Aduana",
+                    "authors": "Álvarez Rodríguez, Natacha; Almaguer Ochoa, Manuel R",
+                    "publication": "",
+                    "year": "2011",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Diseño e implementación del Módulo Despacho de los Medios de Transporte Marítimos para el Sistema de Gestión Integral de la Aduana",
+                    "authors": "Vega Mena, Ismail; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2011",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Implementacion de un motor de codificacion y busqueda fonetica para el sistema de Gestion Integral de la Aduana",
+                    "authors": "Romero González, Carlos Manuel; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2010",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Configuracion de Servicios de Red: Analisis y Diseno",
+                    "authors": "Consuegra Roselló, Arley; Guerra Nieves, Luis Miguel; Almaguer Ochoa, Manuel Ramón; Hernández López, Jorge Luis",
+                    "publication": "",
+                    "year": "2009",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Implementacion de las validaciones en JavaScript para la AGR. Adaptacion al Framework ExtJS.",
+                    "authors": "Mayo Leyva, Yandier; Almaguer Ochoa, Manuel Ramón",
+                    "publication": "",
+                    "year": "2008",
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
+                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                },
+                {
+                    "title": "Sistema de Recursos Humanos. Modulo Evaluacion del Desempeno.",
+                    "authors": "Almaguer Ochoa, Manuel Ramón; Delahanty, Deborah; Díaz Vera, Julio César",
+                    "publication": "",
+                    "year": "2007",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC"
+                },
+                {
+                    "title": "Aplicando lógica difusa para eliminar los límites bruscos en el método Puntos de Función",
+                    "authors": "Barreda, Liannis Soria; Ochoa, Manuel Ramón Almaguer",
+                    "publication": "",
+                    "year": "",
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC",
+                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC"
+                }
+            ]
+        },
         "blog": [
             {
                 "title": "Dominando React Hooks",
