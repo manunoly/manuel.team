@@ -1,0 +1,96 @@
+---
+import "../styles/global.css";
+import Navbar from "../components/Navbar";
+
+const { title, lang = "en" } = Astro.props;
+---
+
+<html lang={lang} class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Manuel Developer Portfolio" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>{title}</title>
+		<script is:inline>
+			// Theme Initialization
+			const theme = (() => {
+				if (
+					typeof localStorage !== "undefined" &&
+					localStorage.getItem("theme")
+				) {
+					return localStorage.getItem("theme");
+				}
+				if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+					return "dark";
+				}
+				return "light";
+			})();
+			if (theme === "light") {
+				document.documentElement.classList.remove("dark");
+			} else {
+				document.documentElement.classList.add("dark");
+			}
+			window.localStorage.setItem("theme", theme);
+		</script>
+	</head>
+	<body
+		class="bg-app-gradient text-app-text antialiased overflow-x-hidden selection:bg-app-accent selection:text-white min-h-screen"
+	>
+		<Navbar client:load lang={lang} />
+		<slot />
+	</body>
+</html>
+<style is:global>
+	:root {
+		/* Light Mode Defaults */
+		--app-bg: #ffffff;
+		--app-surface: #f1f5f9;
+		--app-surface-hover: #e2e8f0;
+		--app-text: #0f172a;
+		--app-text-muted: #64748b;
+		--app-accent: #0ea5e9;
+		--app-gradient: radial-gradient(
+			ellipse at top,
+			#f0f9ff 0%,
+			#ffffff 100%
+		);
+	}
+
+	.dark {
+		/* Dark Mode Overrides */
+		--app-bg: #090a0f;
+		--app-surface: rgba(255, 255, 255, 0.03);
+		--app-surface-hover: rgba(255, 255, 255, 0.08);
+		--app-text: #f8fafc;
+		--app-text-muted: #94a3b8;
+		--app-accent: #38bdf8;
+		--app-gradient: radial-gradient(
+			ellipse at top,
+			#1b2735 0%,
+			#090a0f 100%
+		);
+	}
+
+	html {
+		font-family: "Inter", system-ui, sans-serif;
+		background-color: var(--app-bg);
+		color: var(--app-text);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Outfit", sans-serif;
+	}
+</style>

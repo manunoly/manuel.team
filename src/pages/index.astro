@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Experience from "../components/Experience";
+import Education from "../components/Education";
+import BlogPreview from "../components/BlogPreview";
+import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
+import portfolioData from "../data/portfolio.json";
+
+const {
+	hero,
+	about,
+	skills,
+	projects,
+	experience,
+	education,
+	blog,
+	testimonials,
+	contact,
+} = portfolioData.en;
+---
+
+<Layout title="Manuel | Full Stack Developer" lang="en">
+	<main class="space-y-20 pb-20">
+		<Hero
+			client:load
+			name={hero.name}
+			tagline={hero.tagline}
+			subtext={hero.subtext}
+			resumeLink={hero.resumeLink}
+		/>
+
+		<About
+			client:visible
+			title={about.title}
+			content={about.content}
+			image={about.image}
+		/>
+
+		<Skills client:visible skills={skills} />
+
+		<Projects client:visible projects={projects} />
+
+		<Experience client:visible experience={experience} />
+
+		<Education client:visible education={education} />
+
+		<BlogPreview client:visible posts={blog} />
+
+		<Testimonials client:visible testimonials={testimonials} />
+
+		<Contact
+			client:visible
+			email={contact.email}
+			linkedin={contact.linkedin}
+			github={contact.github}
+			twitter={contact.twitter}
+		/>
+	</main>
+</Layout>

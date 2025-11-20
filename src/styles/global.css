@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+    /* Light Mode Defaults */
+    --app-bg: #ffffff;
+    --app-surface: #f1f5f9;
+    --app-surface-hover: #e2e8f0;
+    --app-text: #0f172a;
+    --app-text-muted: #64748b;
+    --app-accent: #0ea5e9;
+    --app-gradient: radial-gradient(ellipse at top, #f0f9ff 0%, #ffffff 100%);
+}
+
+.dark {
+    /* Dark Mode Overrides */
+    --app-bg: #090A0F;
+    --app-surface: rgba(255, 255, 255, 0.03);
+    --app-surface-hover: rgba(255, 255, 255, 0.08);
+    --app-text: #F8FAFC;
+    --app-text-muted: #94A3B8;
+    --app-accent: #38BDF8;
+    --app-gradient: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%);
+}

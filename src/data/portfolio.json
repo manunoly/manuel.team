@@ -1,0 +1,256 @@
+{
+    "en": {
+        "hero": {
+            "name": "Manuel Almaguer",
+            "tagline": "Building Digital Experiences That Matter",
+            "subtext": "Full Stack Developer specializing in modern web technologies and premium user interfaces.",
+            "resumeLink": "/resume.pdf"
+        },
+        "about": {
+            "title": "About Me",
+            "content": "I'm a passionate software engineer with over 5 years of experience in building scalable web applications. I love solving complex problems and creating intuitive user experiences. When I'm not coding, you can find me exploring new technologies or contributing to open source.",
+            "image": "https://via.placeholder.com/400"
+        },
+        "projects": [
+            {
+                "title": "E-Commerce Platform",
+                "description": "A full-featured online store with real-time inventory and secure payments.",
+                "tags": [
+                    "Next.js",
+                    "Stripe",
+                    "PostgreSQL"
+                ],
+                "link": "#",
+                "github": "#",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Task Management App",
+                "description": "A collaborative tool for teams to organize and track their work efficiently.",
+                "tags": [
+                    "React",
+                    "Firebase",
+                    "Tailwind"
+                ],
+                "link": "#",
+                "github": "#",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "AI Content Generator",
+                "description": "An application leveraging OpenAI's API to help writers create content faster.",
+                "tags": [
+                    "Python",
+                    "FastAPI",
+                    "React"
+                ],
+                "link": "#",
+                "github": "#",
+                "image": "https://via.placeholder.com/600x400"
+            }
+        ],
+        "skills": {
+            "Frontend": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "Framer Motion"
+            ],
+            "Backend": [
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "MongoDB",
+                "GraphQL"
+            ],
+            "Tools": [
+                "Git",
+                "Docker",
+                "AWS",
+                "Vercel",
+                "Figma"
+            ]
+        },
+        "experience": [
+            {
+                "role": "Senior Frontend Engineer",
+                "company": "Tech Corp",
+                "period": "2022 - Present",
+                "description": "Leading the frontend team in rebuilding the core product using Next.js and TypeScript."
+            },
+            {
+                "role": "Full Stack Developer",
+                "company": "StartUp Inc",
+                "period": "2020 - 2022",
+                "description": "Developed and maintained multiple client-facing applications using the MERN stack."
+            }
+        ],
+        "education": [
+            {
+                "degree": "B.S. in Computer Science",
+                "school": "University of Technology",
+                "year": "2019"
+            }
+        ],
+        "blog": [
+            {
+                "title": "Mastering React Hooks",
+                "excerpt": "A deep dive into useEffect, useState, and custom hooks for better state management.",
+                "date": "Oct 12, 2024",
+                "link": "#"
+            },
+            {
+                "title": "Why I Chose Astro",
+                "excerpt": "Exploring the benefits of the Island Architecture for performance-critical sites.",
+                "date": "Sep 28, 2024",
+                "link": "#"
+            }
+        ],
+        "testimonials": [
+            {
+                "name": "Sarah Johnson",
+                "role": "Product Manager",
+                "text": "Manuel is an exceptional developer who consistently delivers high-quality code and innovative solutions."
+            },
+            {
+                "name": "David Lee",
+                "role": "CTO",
+                "text": "Working with Manuel was a pleasure. His attention to detail and technical expertise are top-notch."
+            }
+        ],
+        "contact": {
+            "email": "manunoly@gmail.com",
+            "linkedin": "https://linkedin.com/in/manunoly",
+            "github": "https://github.com/manunoly",
+            "twitter": "https://twitter.com/manunoly"
+        }
+    },
+    "es": {
+        "hero": {
+            "name": "Manuel Almaguer",
+            "tagline": "Creando Experiencias Digitales que Importan",
+            "subtext": "Desarrollador Full Stack especializado en tecnologías web modernas e interfaces de usuario premium.",
+            "resumeLink": "/resume.pdf"
+        },
+        "about": {
+            "title": "Sobre Mí",
+            "content": "Soy un ingeniero de software apasionado con más de 5 años de experiencia en la construcción de aplicaciones web escalables. Me encanta resolver problemas complejos y crear experiencias de usuario intuitivas. Cuando no estoy programando, puedes encontrarme explorando nuevas tecnologías o contribuyendo al código abierto.",
+            "image": "https://via.placeholder.com/400"
+        },
+        "projects": [
+            {
+                "title": "Plataforma E-Commerce",
+                "description": "Una tienda en línea completa con inventario en tiempo real y pagos seguros.",
+                "tags": [
+                    "Next.js",
+                    "Stripe",
+                    "PostgreSQL"
+                ],
+                "link": "#",
+                "github": "#",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "App de Gestión de Tareas",
+                "description": "Una herramienta colaborativa para que los equipos organicen y sigan su trabajo eficientemente.",
+                "tags": [
+                    "React",
+                    "Firebase",
+                    "Tailwind"
+                ],
+                "link": "#",
+                "github": "#",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Generador de Contenido IA",
+                "description": "Una aplicación que aprovecha la API de OpenAI para ayudar a los escritores a crear contenido más rápido.",
+                "tags": [
+                    "Python",
+                    "FastAPI",
+                    "React"
+                ],
+                "link": "#",
+                "github": "#",
+                "image": "https://via.placeholder.com/600x400"
+            }
+        ],
+        "skills": {
+            "Frontend": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "Framer Motion"
+            ],
+            "Backend": [
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "MongoDB",
+                "GraphQL"
+            ],
+            "Tools": [
+                "Git",
+                "Docker",
+                "AWS",
+                "Vercel",
+                "Figma"
+            ]
+        },
+        "experience": [
+            {
+                "role": "Ingeniero Frontend Senior",
+                "company": "Tech Corp",
+                "period": "2022 - Presente",
+                "description": "Liderando el equipo frontend en la reconstrucción del producto principal usando Next.js y TypeScript."
+            },
+            {
+                "role": "Desarrollador Full Stack",
+                "company": "StartUp Inc",
+                "period": "2020 - 2022",
+                "description": "Desarrollé y mantuve múltiples aplicaciones para clientes usando el stack MERN."
+            }
+        ],
+        "education": [
+            {
+                "degree": "Licenciatura en Ciencias de la Computación",
+                "school": "Universidad Tecnológica",
+                "year": "2019"
+            }
+        ],
+        "blog": [
+            {
+                "title": "Dominando React Hooks",
+                "excerpt": "Una inmersión profunda en useEffect, useState y hooks personalizados para una mejor gestión del estado.",
+                "date": "12 Oct, 2024",
+                "link": "#"
+            },
+            {
+                "title": "Por qué elegí Astro",
+                "excerpt": "Explorando los beneficios de la Arquitectura de Islas para sitios de rendimiento crítico.",
+                "date": "28 Sep, 2024",
+                "link": "#"
+            }
+        ],
+        "testimonials": [
+            {
+                "name": "Sarah Johnson",
+                "role": "Gerente de Producto",
+                "text": "Manuel es un desarrollador excepcional que entrega consistentemente código de alta calidad y soluciones innovadoras."
+            },
+            {
+                "name": "David Lee",
+                "role": "CTO",
+                "text": "Trabajar con Manuel fue un placer. Su atención al detalle y experiencia técnica son de primera categoría."
+            }
+        ],
+        "contact": {
+            "email": "manuel@example.com",
+            "linkedin": "https://linkedin.com/in/manuel",
+            "github": "https://github.com/manuel",
+            "twitter": "https://twitter.com/manuel"
+        }
+    }
+}
