@@ -3,13 +3,22 @@
         "hero": {
             "name": "Manuel Almaguer",
             "tagline": "Building Digital Experiences That Matter",
-            "subtext": "Full Stack Developer specializing in modern web technologies and premium user interfaces.",
-            "resumeLink": "/resume.pdf"
+            "subtext": [
+                "Si, tambien utilizo IA a diario, pero aprendí a programar utilizando",
+                "#include <iostream> && window.onload = function() {};",
+                ""
+            ],
+            "resumeLink": "https://github.com/manunoly"
         },
         "about": {
             "title": "About Me",
-            "content": "I'm a passionate software engineer with over 5 years of experience in building scalable web applications. I love solving complex problems and creating intuitive user experiences. When I'm not coding, you can find me exploring new technologies or contributing to open source.",
-            "image": "https://via.placeholder.com/400"
+            "content": [
+                "Soy un Desarrollador Full Stack con más de 15 años de experiencia, especializado en la creación de software empresarial complejo, abarcando todo el ciclo de desarrollo: desde la idea inicial hasta el despliegue en producción.",
+                "Me apasiona diseñar e integrar sistemas robustos, siempre con un enfoque en la seguridad, la capacidad de escalar y la satisfacción de quienes utilizan el producto.",
+                "Disfruto optimizar rendimiento, colaborar en equipo, aprender continuamente y compartir conocimientos. A lo largo de mi trayectoria he trabajado en todas las áreas del desarrollo de software: frontend, backend, administración de servidores Linux y operación en entornos cloud como AWS y Google Cloud, integración de IA para optimizar procesos y desarrollo de productos, liderando proyectos y arquitecturas con una visión práctica y orientada a resultados.",
+                "Mi camino comenzó de forma sencilla y curiosa: desarrollé mi tesis en Ubuntu 7.04 con Fluxbox y Xfce, en una computadora de 512 MB de RAM, programando todo a mano y usando Windows solo para escribir el documento final. Esa experiencia marcó mi estilo: aprender, resolver y construir sin importar las limitaciones."
+            ],
+            "image": "https://avatars.githubusercontent.com/u/636156"
         },
         "projects": [
             {
@@ -289,13 +298,22 @@
         "hero": {
             "name": "Manuel Almaguer",
             "tagline": "Creando Experiencias Digitales que Importan",
-            "subtext": "Desarrollador Full Stack especializado en tecnologías web modernas e interfaces de usuario premium.",
-            "resumeLink": "/resume.pdf"
+            "subtext": [
+                "Si, tambien utilizo IA a diario, pero aprendí a programar utilizando",
+                "#include <iostream> && window.onload = function() {};",
+                ""
+            ],
+            "resumeLink": "https://github.com/manunoly"
         },
         "about": {
             "title": "Sobre Mí",
-            "content": "Soy un ingeniero de software apasionado con más de 5 años de experiencia en la construcción de aplicaciones web escalables. Me encanta resolver problemas complejos y crear experiencias de usuario intuitivas. Cuando no estoy programando, puedes encontrarme explorando nuevas tecnologías o contribuyendo al código abierto.",
-            "image": "https://via.placeholder.com/400"
+            "content": [
+                "Soy un Desarrollador Full Stack con más de 15 años de experiencia, especializado en la creación de software empresarial complejo, abarcando todo el ciclo de desarrollo: desde la idea inicial hasta el despliegue en producción.",
+                "Me apasiona diseñar e integrar sistemas robustos, siempre con un enfoque en la seguridad, la capacidad de escalar y la satisfacción de quienes utilizan el producto.",
+                "Disfruto optimizar rendimiento, colaborar en equipo, aprender continuamente y compartir conocimientos. A lo largo de mi trayectoria he trabajado en todas las áreas del desarrollo de software: frontend, backend, administración de servidores Linux y operación en entornos cloud como AWS y Google Cloud, integración de IA para optimizar procesos y desarrollo de productos, liderando proyectos y arquitecturas con una visión práctica y orientada a resultados.",
+                "Mi camino comenzó de forma sencilla y curiosa: desarrollé mi tesis en Ubuntu 7.04 con Fluxbox y Xfce, en una computadora de 512 MB de RAM, programando todo a mano y usando Windows solo para escribir el documento final. Esa experiencia marcó mi estilo: aprender, resolver y construir sin importar las limitaciones."
+            ],
+            "image": "https://avatars.githubusercontent.com/u/636156"
         },
         "projects": [
             {

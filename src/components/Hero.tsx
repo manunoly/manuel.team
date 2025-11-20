@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 interface HeroProps {
     name: string;
     tagline: string;
-    subtext: string;
+    subtext: string[];
     resumeLink: string;
 }
 
@@ -44,7 +44,15 @@ export default function Hero({ name, tagline, subtext, resumeLink }: HeroProps) 
                 transition={{ delay: 0.5 }}
                 className="text-app-text-muted text-lg md:text-xl max-w-2xl mb-12 leading-relaxed"
             >
-                {subtext}
+                {
+                    Array.isArray(subtext) ? (
+                        subtext.map((paragraph, index) => (
+                            <p key={index}>{paragraph}</p>
+                        ))
+                    ) : (
+                        subtext
+                    )
+                }
             </motion.p>
 
             <motion.div
@@ -54,6 +62,8 @@ export default function Hero({ name, tagline, subtext, resumeLink }: HeroProps) 
             >
                 <a
                     href={resumeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group relative px-8 py-4 bg-transparent border border-app-accent text-app-accent font-medium rounded hover:bg-app-accent/10 transition-colors duration-300"
                 >
                     Download Resume

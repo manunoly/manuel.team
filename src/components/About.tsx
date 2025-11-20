@@ -3,7 +3,7 @@ import SectionContainer from './SectionContainer';
 
 interface AboutProps {
     title: string;
-    content: string;
+    content: string | string[];
     image: string;
 }
 
@@ -22,13 +22,19 @@ export default function About({ title, content, image }: AboutProps) {
                     </div>
                 </div>
             </div>
-            <div className="md:w-1/2">
+            <div className="2xl:w-2/3 w-full">
                 <h2 className="flex items-center text-3xl font-bold text-app-text mb-8">
                     <span className="text-app-accent mr-2">01.</span> {title}
                     <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
                 </h2>
                 <div className="text-app-text-muted text-lg leading-relaxed space-y-4">
-                    <p>{content}</p>
+                    {Array.isArray(content) ? (
+                        content.map((paragraph, index) => (
+                            <p key={index}>{paragraph}</p>
+                        ))
+                    ) : (
+                        <p>{content}</p>
+                    )}
                 </div>
             </div>
         </SectionContainer>
