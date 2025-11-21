@@ -317,84 +317,339 @@
         },
         "projects": [
             {
-                "title": "Plataforma E-Commerce",
-                "description": "Una tienda en línea completa con inventario en tiempo real y pagos seguros.",
+                "title": "Picaboo Yearbooks",
+                "description": "Plataforma de creación y gestión de anuarios escolares para miles de usuarios, incluyendo editor en línea, plantillas y flujo completo de producción.",
                 "tags": [
-                    "Next.js",
-                    "Stripe",
-                    "PostgreSQL"
+                    "Full Stack",
+                    "Yearbooks",
+                    "Alta concurrencia"
                 ],
-                "link": "#",
-                "github": "#",
+                "link": "https://www.picabooyearbooks.com/",
+                "github": "https://www.picabooyearbooks.com/",
+                "image": "https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/c971b91f-9414-45c8-aa10-192ae42067f4/PicabooYB_Dark.png"
+            },
+            {
+                "title": "Entourage Yearbooks",
+                "description": "Ecosistema de herramientas para la gestión de anuarios, pedidos y producción, integrando diferentes plataformas internas y flujos de trabajo.",
+                "tags": [
+                    "Plataforma SaaS",
+                    "Integraciones",
+                    "Arquitectura"
+                ],
+                "link": "https://entourageyearbooks.com/",
+                "github": "https://entourageyearbooks.com/",
+                "image": "https://entourage-web-images.s3.us-east-1.amazonaws.com/LOGO/new_logo_red_stacked.png"
+            },
+            {
+                "title": "EdoNext Platform",
+                "description": "Editor avanzado de anuarios escolares, con secciones, plantillas, manejo de recursos y colaboración en línea para equipos de diseño.",
+                "tags": [
+                    "Editor Online",
+                    "Full Stack",
+                    "Productividad"
+                ],
+                "link": "https://edonext.entourageyearbooks.com/",
+                "github": "",
+                "image": "https://static.helpjuice.com/helpjuice_production/uploads/template/brand_image/20293/27824/Nextlogo-Final.png"
+            },
+            {
+                "title": "Creator Studio Pro",
+                "description": "Plataforma de diseño para la creación de productos impresos y digitales dentro del ecosistema Picaboo / Entourage.",
+                "tags": [
+                    "Diseño",
+                    "Plataforma Creativa",
+                    "Experiencia de Usuario"
+                ],
+                "link": "https://creatorstudio.picabooyearbooks.com/",
+                "github": "https://creatorstudio.picabooyearbooks.com/",
+                "image": "https://images.squarespace-cdn.com/content/v1/62ed2bfe79626d43ceed5c1f/f7b80ff1-c6cb-4dae-bfa8-409005b5a9ad/CreatorStudioPro.png"
+            },
+            {
+                "title": "Edge Creator Studio",
+                "description": "Versión especializada de Creator Studio para la marca Edge, optimizada para flujos de trabajo específicos y experiencias personalizadas.",
+                "tags": [
+                    "Custom Platform",
+                    "Branding",
+                    "Full Stack"
+                ],
+                "link": "https://edge.creatorstudiopro.com/",
+                "github": "",
+                "image": "https://edgeimaging.ca/wp-content/uploads/edge-imaging-300x107.png"
+            },
+            {
+                "title": "Store Shop Yearbooks",
+                "description": "Tienda en línea para la venta de anuarios, con gestión de productos, pedidos y pagos, integrada con el ecosistema Entourage/Picaboo.",
+                "tags": [
+                    "E-commerce",
+                    "Yearbooks",
+                    "Integraciones"
+                ],
+                "link": "https://store.shopyearbook.com/manuel",
+                "github": "",
                 "image": "https://via.placeholder.com/600x400"
             },
             {
-                "title": "App de Gestión de Tareas",
-                "description": "Una herramienta colaborativa para que los equipos organicen y sigan su trabajo eficientemente.",
+                "title": "YouSellWeSend",
+                "description": "Plataforma logística de fulfilment que conecta tiendas online con almacenes y empresas de envío, gestionando pedidos, stock y procesos de preparación.",
                 "tags": [
-                    "React",
-                    "Firebase",
-                    "Tailwind"
+                    "Logística",
+                    "SaaS",
+                    "Fulfilment"
                 ],
-                "link": "#",
-                "github": "#",
+                "link": "https://yousellwesend.de/en/",
+                "github": "",
                 "image": "https://via.placeholder.com/600x400"
             },
             {
-                "title": "Generador de Contenido IA",
-                "description": "Una aplicación que aprovecha la API de OpenAI para ayudar a los escritores a crear contenido más rápido.",
+                "title": "Wemalo – Plataforma de Gestión de Almacenes",
+                "description": "Solución para gestión de inventario, almacenes y logística, integrada con tiendas online y servicios de fulfilment.",
                 "tags": [
-                    "Python",
-                    "FastAPI",
-                    "React"
+                    "Logística",
+                    "Almacenes",
+                    "Integraciones"
                 ],
-                "link": "#",
-                "github": "#",
+                "link": "https://wemalo.com/en/",
+                "github": "",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Shipping Portal",
+                "description": "Portal de envíos para gestionar etiquetas, órdenes y estados de entrega, conectado al ecosistema logístico de TeamQ / 4elements.",
+                "tags": [
+                    "Logística",
+                    "Envíos",
+                    "SaaS"
+                ],
+                "link": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/",
+                "github": "",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Wemalo API – Connect",
+                "description": "API para conectar diferentes plataformas de e-commerce y sistemas externos con la infraestructura logística de Wemalo.",
+                "tags": [
+                    "API",
+                    "Integraciones",
+                    "Logística"
+                ],
+                "link": "https://connect-api.wemalo.com/",
+                "github": "",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "DORFZAUN",
+                "description": "Plataforma digital para la venta y gestión de cercas y componentes relacionados, con catálogo de productos e integración logística.",
+                "tags": [
+                    "E-commerce",
+                    "Catálogo",
+                    "Logística"
+                ],
+                "link": "https://kdorfzaun.com/",
+                "github": "",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Läderach – Plataforma de Soporte Digital",
+                "description": "Soluciones de software de soporte para la marca de chocolates Läderach, integrando procesos internos y experiencia digital.",
+                "tags": [
+                    "Retail",
+                    "Soporte",
+                    "Integraciones"
+                ],
+                "link": "https://laderach.com/",
+                "github": "",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Givbux",
+                "description": "Aplicación móvil y plataforma en línea con sistema de recompensas y marketplace, integrando pagos, usuarios y comercios.",
+                "tags": [
+                    "Fintech",
+                    "Mobile",
+                    "Rewards"
+                ],
+                "link": "https://givbux.com/",
+                "github": "https://play.google.com/store/apps/details?id=com.bearbull.givbux",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Insotec – App y Portal Financiero",
+                "description": "Aplicación móvil y portal web para una entidad financiera, permitiendo a los usuarios gestionar productos, solicitudes y consultas.",
+                "tags": [
+                    "Finanzas",
+                    "Full Stack",
+                    "Mobile + Web"
+                ],
+                "link": "https://insotectuamigo.web.app/",
+                "github": "https://github.com/manunoly/insotec-colaborador-app",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Bemte – Plataforma Educativa",
+                "description": "Suite de aplicaciones (estudiante, profesor, admin y backend) para gestión académica, clases, calificaciones y comunicación.",
+                "tags": [
+                    "Educación",
+                    "Multi-app",
+                    "Full Stack"
+                ],
+                "link": "https://github.com/manunoly/pulpo-bemte-backend",
+                "github": "https://github.com/manunoly/pulpo-bemte-backend",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Ecuador Travel Guide (ETG)",
+                "description": "Guía de viaje interactiva con información de destinos, rutas y servicios turísticos, pensada para usuarios móviles.",
+                "tags": [
+                    "Turismo",
+                    "Mobile",
+                    "Experiencia de Usuario"
+                ],
+                "link": "https://github.com/manunoly/pulpo-etg",
+                "github": "https://github.com/manunoly/pulpo-etg",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Pide Un Taxi",
+                "description": "Aplicación para solicitud de taxis, seguimiento de viajes y conexión entre pasajeros y conductores.",
+                "tags": [
+                    "Transporte",
+                    "Mobile",
+                    "Tiempo real"
+                ],
+                "link": "https://pideuntaxicom.firebaseapp.com/",
+                "github": "https://youtu.be/QCf674owfzM",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "SIE Ecuador – Benchmarking Energético",
+                "description": "Plataforma de consulta y análisis de información energética de Ecuador, con visualización y comparación de datos.",
+                "tags": [
+                    "Energía",
+                    "Data Viz",
+                    "Web App"
+                ],
+                "link": "https://sie3-ecuador.web.app/",
+                "github": "https://github.com/manunoly/sqlArconel",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Solar Chimney Simulator y TMY Generator",
+                "description": "Conjunto de herramientas científicas para simular chimeneas solares y generar años meteorológicos típicos (TMY) para análisis energético.",
+                "tags": [
+                    "Ciencia",
+                    "Simulación",
+                    "Energía"
+                ],
+                "link": "https://iner-tmy.shinyapps.io/iner-tmy/",
+                "github": "https://github.com/manunoly/ChimeneaSolar",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "INER Congreso – Plataforma de Eventos",
+                "description": "Aplicación web y móvil para gestionar un congreso internacional, incluyendo registro, agenda, participantes y contenido.",
+                "tags": [
+                    "Eventos",
+                    "Full Stack",
+                    "Web + App"
+                ],
+                "link": "https://congreso-iner.firebaseapp.com/",
+                "github": "https://github.com/manunoly/iner-congreso",
+                "image": "https://via.placeholder.com/600x400"
+            },
+            {
+                "title": "Juego de Eficiencia Energética",
+                "description": "Juego interactivo diseñado para enseñar conceptos de eficiencia energética de forma práctica y entretenida.",
+                "tags": [
+                    "Educación",
+                    "Gamificación",
+                    "Energía"
+                ],
+                "link": "https://github.com/manunoly/juegoSimuladorMateriales",
+                "github": "https://github.com/manunoly/juegoSimuladorMateriales",
                 "image": "https://via.placeholder.com/600x400"
             }
         ],
         "skills": {
             "Frontend": [
-                "React",
-                "Next.js",
-                "TypeScript",
-                "Tailwind CSS",
-                "Framer Motion"
+                "JavaScript - TypeScript",
+                "React.js - Angular - Next.js",
+                "HTML - CSS - jQuery - Responsive Design",
+                "Tailwind CSS - Bootstrap - Flexbox",
+                "Promises - Async-Await RxJS - Observables",
+                "Zustand - Redux",
+                "Ionic - React Native"
             ],
             "Backend": [
-                "Node.js",
-                "Express",
-                "PostgreSQL",
-                "MongoDB",
-                "GraphQL"
+                "Diseño y arquitectura de software (capas, servicios, monolitos modulares, microservicios)",
+                "OOP - Encapsulation - Inheritance - Polymorphism",
+                "Clean Coding - SOLID Principles - DRY - KISS",
+                "Problem Solving - Debugging - Testing - Version Control",
+                "Node.js - Express - Koa - Apollo",
+                "PHP - Laravel - Symfony - Yii - CodeIgniter",
+                "Python - Django - FastAPI",
+                ".NET Core - C# - C++",
+                "Diseño y consumo de APIs REST - SOAP - GraphQL",
+                "Socket.io - Pusher.js",
+                "Firebase (Auth, Realtime) - Firestore",
+                "Advanced SQL",
+                "Modelado y optimización de bases de datos Relacionales y No Relacionales",
+                "Oracle - MySQL - MariaDB - PostgreSQL - SQL Server - MongoDB - Redis",
+                "Pruebas automatizadas (unitarias, integración, e2e)",
+                "Integración con pasarelas de pago (Stripe, Dwolla, PayPal)",
+                "IA integrada en el desarrollo, OpenAI - Anthropic - Claude - Gemini"
             ],
-            "Tools": [
-                "Git",
-                "Docker",
-                "AWS",
-                "Vercel",
-                "Figma"
+            "Herramientas y Tecnologías": [
+                "AWS (EC2, S3, RDS, Lambda, Amplify, VPC, ECS)",
+                "Google Cloud Platform (GCP)",
+                "Docker - Kubernetes",
+                "Vercel - Railway - Typesense",
+                "Nginx - Apache",
+                "CI/CD pipelines (CloudFormation, GitHub, GitLab, Bitbucket, Jenkins)",
+                "Linux Server Install - Administration - Bash",
+                "Ciberseguridad (OWASP, ISO 27001)",
+                "Postman - Swagger - OpenAPI - JMeter",
+                "Scrum - Jira - XP - RUP",
+                "npm - yarn - pnpm - bun - webpack - vite",
+                "Pentaho BI - ETL - Kettle"
             ]
         },
         "experience": [
             {
-                "role": "Ingeniero Frontend Senior",
-                "company": "Tech Corp",
+                "role": "Software Architect && Full Stack Developer",
+                "company": "Entourage Yearbooks | Picaboo Yearbooks - Estados Unidos",
                 "period": "2022 - Presente",
-                "description": "Liderando el equipo frontend en la reconstrucción del producto principal usando Next.js y TypeScript."
+                "description": "Liderando arquitectura y desarrollo de múltiples plataformas web de alto tráfico como Picaboo Yearbooks, Entourage Yearbooks, EdoNext, Edge Creator Studio y Creator Studio."
             },
             {
-                "role": "Desarrollador Full Stack",
-                "company": "StartUp Inc",
+                "role": "Mobile Developer & Software Architect && Desarrollador Stack Stack",
+                "company": "Freelancer – Ecuador / Estados Unidos / Canada",
+                "period": "2018 - Presente",
+                "description": "Construcción de aplicaciones móviles y web para banca, educación y turismo, incluyendo Givbux, Insotec, Bemte y Ecuador Travel Guide, abarcando desde el diseño hasta el despliegue."
+            },
+            {
+                "role": "Full Stack Developer",
+                "company": "TeamQ / 4elements / .thesynergygroup – Alemania",
                 "period": "2020 - 2022",
-                "description": "Desarrollé y mantuve múltiples aplicaciones para clientes usando el stack MERN."
+                "description": "Desarrollo de plataformas SaaS y sistemas logísticos como YouSellWeSend, integraciones Shopify para Wemalo, Shipping Portal y APIs empresariales para gestión de inventario y envíos."
+            },
+            {
+                "role": "Analista de Tecnología && Desarrollador Full Stack",
+                "company": "Instituto Nacional de Eficiencia Energética – Ecuador",
+                "period": "2015 - 2018",
+                "description": "Desarrollo de sistemas de análisis energético, data marts, simuladores científicos, ETLs y aplicaciones para eventos y congresos internacionales."
+            },
+            {
+                "role": "Profesor & Desarrollador Full Stack - Cuba",
+                "company": "Universidad de Ciencias Informáticas / Aduanas de Cuba",
+                "period": "2007 - 2014",
+                "description": "Profesor de sistemas de bases de datos, BI, asesor en seguridad informática y migración a software libre, administrador de servidores GNU/Linux y desarrollador de software para la Aduana de Cuba."
             }
         ],
         "education": [
             {
-                "degree": "Licenciatura en Ciencias de la Computación",
-                "school": "Universidad Tecnológica",
-                "year": "2019"
+                "degree": "Ingeniería en Ciencias Informáticas",
+                "school": "Universidad de Ciencias Informáticas (UCI), Cuba",
+                "year": "2007"
             }
         ],
         "research": {
@@ -583,10 +838,10 @@
             }
         ],
         "contact": {
-            "email": "manuel@example.com",
-            "linkedin": "https://linkedin.com/in/manuel",
-            "github": "https://github.com/manuel",
-            "twitter": "https://twitter.com/manuel"
+            "email": "manunoly@gmail.com",
+            "linkedin": "https://linkedin.com/in/manunoly",
+            "github": "https://github.com/manunoly",
+            "twitter": "https://twitter.com/manunoly"
         }
     }
 }
