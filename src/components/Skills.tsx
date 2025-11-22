@@ -5,13 +5,15 @@ interface SkillsProps {
     skills: {
         [category: string]: string[];
     };
+    lang?: string;
 }
 
-export default function Skills({ skills }: SkillsProps) {
+export default function Skills({ skills, lang = 'en' }: SkillsProps) {
     return (
         <SectionContainer id="skills">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">02.</span> Skills & Technologies
+                <span className="text-app-accent mr-2">02.</span>
+                {lang === 'en' ? 'Skills & Technologies' : 'Habilidades & Tecnologías'}
                 <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>
 

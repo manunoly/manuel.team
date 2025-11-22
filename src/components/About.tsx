@@ -18,6 +18,7 @@ export default function About({ title, content, image }: AboutProps) {
                             src={image}
                             alt="Profile"
                             className="object-cover w-full h-full filter grayscale hover:grayscale-0 transition-all duration-500"
+                            onError={(e) => { e.currentTarget.src = '/NoPreview.png'; }}
                         />
                     </div>
                 </div>

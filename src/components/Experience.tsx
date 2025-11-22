@@ -10,13 +10,15 @@ interface Job {
 
 interface ExperienceProps {
     experience: Job[];
+    lang?: string;
 }
 
-export default function Experience({ experience }: ExperienceProps) {
+export default function Experience({ experience, lang = 'en' }: ExperienceProps) {
     return (
         <SectionContainer id="experience">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">04.</span> Where I've Worked
+                <span className="text-app-accent mr-2">04.</span>
+                {lang === 'en' ? 'Where I\'ve Worked' : 'Donde He Trabajado'}
                 <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>
 

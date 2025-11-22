@@ -41,9 +41,10 @@ export default function Projects({ projects, lang = 'en' }: ProjectsProps) {
                         <div className="relative h-48 overflow-hidden">
                             <div className="absolute inset-0 bg-app-accent/20 group-hover:bg-transparent transition-colors duration-300 z-10"></div>
                             <img
-                                src={project.image}
+                                src={project.image || 'NoPreview.png'}
                                 alt={project.title}
                                 className="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-transform duration-500"
+                                onError={(e) => { e.currentTarget.src = 'NoPreview.png'; }}
                             />
                         </div>
 

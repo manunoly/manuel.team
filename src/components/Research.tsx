@@ -18,9 +18,10 @@ interface ResearchProps {
         profileLink: string;
         publications: Publication[];
     };
+    lang?: string;
 }
 
-export default function Research({ data }: ResearchProps) {
+export default function Research({ data, lang = 'en' }: ResearchProps) {
     const [showAll, setShowAll] = useState(false);
 
     if (!data) return null;
@@ -36,7 +37,7 @@ export default function Research({ data }: ResearchProps) {
                 >
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-app-accent/10 text-app-accent mb-6">
                         <GraduationCap size={20} />
-                        <span className="text-sm font-medium">Academic Background</span>
+                        <span className="text-sm font-medium">{lang === 'en' ? 'Academic Background' : 'Antecedentes Académicos'}</span>
                     </div>
                     <h2 className="text-3xl md:text-4xl font-bold text-app-text mb-6">
                         {data.title}

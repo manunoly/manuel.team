@@ -9,13 +9,15 @@ interface Testimonial {
 
 interface TestimonialsProps {
     testimonials: Testimonial[];
+    lang?: string;
 }
 
-export default function Testimonials({ testimonials }: TestimonialsProps) {
+export default function Testimonials({ testimonials, lang = 'en' }: TestimonialsProps) {
     return (
         <SectionContainer id="testimonials">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">07.</span> What People Say
+                <span className="text-app-accent mr-2">07.</span>
+                {lang === 'en' ? 'What People Say' : 'Qué Dice la gente'}
                 <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>
 

@@ -9,13 +9,15 @@ interface Degree {
 
 interface EducationProps {
     education: Degree[];
+    lang?: string;
 }
 
-export default function Education({ education }: EducationProps) {
+export default function Education({ education, lang = 'en' }: EducationProps) {
     return (
         <SectionContainer id="education">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">05.</span> Education
+                <span className="text-app-accent mr-2">05.</span>
+                {lang === 'en' ? 'Education' : 'Educación'}
                 <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>
 
