@@ -14,7 +14,7 @@ export default function Contact({ email, linkedin, github, twitter }: ContactPro
             <p className="text-app-accent font-mono mb-4">08. What's Next?</p>
             <h2 className="text-4xl md:text-5xl font-bold text-app-text mb-6">Get In Touch</h2>
             <p className="text-app-text-muted text-lg mb-12">
-                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                I'm always open to new challenges and opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             </p>
 
             <a
