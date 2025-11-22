@@ -296,6 +296,18 @@
                 "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png"
             },
             {
+                "title": "Lithostratigraphic Code Search",
+                "description": "Web application to search and visualize lithostratigraphic codes in a database.",
+                "tags": [
+                    "Ionic - Angular - TypeScript",
+                    "Firebase",
+                    "Google Cloud"
+                ],
+                "link": "https://buscadorcodigos.web.app",
+                "github": "https://github.com/manunoly/iige-buscaror-de-codigos",
+                "image": "logo-buscador-codigos.svg"
+            },
+            {
                 "title": "INER Congress – Event Platform",
                 "description": "Web and mobile application for managing an international congress, including registration, agenda, attendees and content.",
                 "tags": [
@@ -932,6 +944,18 @@
                 "link": "https://iner-tmy.shinyapps.io/iner-tmy/",
                 "github": "https://github.com/manunoly/ChimeneaSolar",
                 "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png"
+            },
+            {
+                "title": "Buscador de Códigos Litoestratigráficos",
+                "description": "Aplicación web para buscar y visualizar códigos litoestratigráficos en una base de datos.",
+                "tags": [
+                    "Ionic - Angular - TypeScript",
+                    "Firebase",
+                    "Google Cloud"
+                ],
+                "link": "https://buscadorcodigos.web.app",
+                "github": "https://github.com/manunoly/iige-buscaror-de-codigos",
+                "image": "logo-buscador-codigos.svg"
             },
             {
                 "title": "INER Congreso – Plataforma de Eventos",
