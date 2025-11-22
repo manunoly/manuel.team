@@ -4,8 +4,8 @@
             "name": "Manuel Almaguer",
             "tagline": "Building Digital Experiences That Matter",
             "subtext": [
-                "Si, tambien utilizo IA a diario, pero aprendí a programar utilizando",
-                "#include <iostream> && window.onload = function() {};",
+                "Yes, I use AI daily, but I learned to code using",
+                "#include <iostream> & window.onload = function() {};",
                 ""
             ],
             "resumeLink": "https://github.com/manunoly"
@@ -32,53 +32,64 @@
                 "link": "#",
                 "github": "#",
                 "image": "https://via.placeholder.com/600x400"
-            },
-            {
-                "title": "Task Management App",
-                "description": "A collaborative tool for teams to organize and track their work efficiently.",
-                "tags": [
-                    "React",
-                    "Firebase",
-                    "Tailwind"
-                ],
-                "link": "#",
-                "github": "#",
-                "image": "https://via.placeholder.com/600x400"
-            },
-            {
-                "title": "AI Content Generator",
-                "description": "An application leveraging OpenAI's API to help writers create content faster.",
-                "tags": [
-                    "Python",
-                    "FastAPI",
-                    "React"
-                ],
-                "link": "#",
-                "github": "#",
-                "image": "https://via.placeholder.com/600x400"
             }
         ],
         "skills": {
             "Frontend": [
-                "React",
-                "Next.js",
+                "JavaScript",
                 "TypeScript",
+                "React.js",
+                "Angular",
+                "Next.js",
+                "HTML",
+                "CSS",
+                "jQuery",
+                "Responsive Design",
                 "Tailwind CSS",
-                "Framer Motion"
+                "Bootstrap",
+                "Flexbox",
+                "Promises",
+                "Async-Await",
+                "RxJS",
+                "Observables",
+                "Zustand",
+                "Redux",
+                "Astro",
+                "Ionic",
+                "React Native"
             ],
             "Backend": [
-                "Node.js",
-                "Express",
-                "PostgreSQL",
-                "MongoDB",
-                "GraphQL"
+                "Diseño y arquitectura de software (capas, servicios, monolitos modulares, microservicios)",
+                "OOP - Encapsulation - Inheritance - Polymorphism",
+                "Clean Coding - SOLID Principles - DRY - KISS",
+                "Problem Solving - Debugging - Testing - Version Control",
+                "Node.js - Express - Koa - Apollo",
+                "PHP - Laravel - Symfony - Yii - CodeIgniter",
+                "Python - Django - FastAPI",
+                ".NET Core - C# - C++",
+                "Diseño y consumo de APIs REST - SOAP - GraphQL",
+                "Socket.io - Pusher.js",
+                "Firebase (Auth, Realtime) - Firestore",
+                "Advanced SQL",
+                "Modelado y optimización de bases de datos Relacionales y No Relacionales",
+                "Oracle - MySQL - MariaDB - PostgreSQL - SQL Server - MongoDB - Redis",
+                "Pruebas automatizadas (unitarias, integración, e2e)",
+                "Integración con pasarelas de pago (Stripe, Dwolla, PayPal)",
+                "IA integrada en el desarrollo, OpenAI - Anthropic - Claude - Gemini"
             ],
-            "Tools": [
-                "Git",
-                "Docker",
-                "AWS",
-                "Vercel",
-                "Figma"
+            "Herramientas y Tecnologías": [
+                "AWS (EC2, S3, RDS, Lambda, Amplify, VPC, ECS)",
+                "Google Cloud Platform (GCP)",
+                "Docker - Kubernetes",
+                "Vercel - Railway - Typesense",
+                "Nginx - Apache",
+                "CI/CD pipelines (CloudFormation, GitHub, GitLab, Bitbucket, Jenkins)",
+                "Linux Server Install - Administration - Bash",
+                "Ciberseguridad (OWASP, ISO 27001)",
+                "Postman - Swagger - OpenAPI - JMeter",
+                "Scrum - Jira - XP - RUP",
+                "npm - yarn - pnpm - bun - webpack - vite",
+                "Pentaho BI - ETL - Kettle"
             ]
         },
         "experience": [
@@ -300,13 +311,13 @@
             "tagline": "Creando Experiencias Digitales que Importan",
             "subtext": [
                 "Si, tambien utilizo IA a diario, pero aprendí a programar utilizando",
-                "#include <iostream> && window.onload = function() {};",
+                "#include <iostream> & window.onload = function() {};",
                 ""
             ],
             "resumeLink": "https://github.com/manunoly"
         },
         "about": {
-            "title": "Sobre Mí",
+            "title": "About Me",
             "content": [
                 "Soy un Desarrollador Full Stack con más de 15 años de experiencia, especializado en la creación de software empresarial complejo, abarcando todo el ciclo de desarrollo: desde la idea inicial hasta el despliegue en producción.",
                 "Me apasiona diseñar e integrar sistemas robustos, siempre con un enfoque en la seguridad, la capacidad de escalar y la satisfacción de quienes utilizan el producto.",
@@ -386,7 +397,7 @@
                 ],
                 "link": "https://store.shopyearbook.com/manuel",
                 "github": "",
-                "image": "https://store.shopyearbook.com/ShopYearbook_Logo.png"
+                "image": "ShopYearbook_Logo.png"
             },
             {
                 "title": "YouSellWeSend",
@@ -398,7 +409,7 @@
                 ],
                 "link": "https://yousellwesend.de/en/",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://yousellwesend.de/wp-content/uploads/2023/05/logo_medium_transparent_einzeilig.png.webp"
             },
             {
                 "title": "Wemalo – Plataforma de Gestión de Almacenes",
@@ -410,7 +421,7 @@
                 ],
                 "link": "https://wemalo.com/en/",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://wemalo.com/wp-content/uploads/Wemalo-Logo--e1743598490864.webp"
             },
             {
                 "title": "Shipping Portal",
@@ -422,7 +433,7 @@
                 ],
                 "link": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/img/logo/logo-2.png"
             },
             {
                 "title": "Wemalo API – Connect",
@@ -434,7 +445,7 @@
                 ],
                 "link": "https://connect-api.wemalo.com/",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://connect-api.wemalo.com/img/wemalo.png"
             },
             {
                 "title": "DORFZAUN",
@@ -446,7 +457,7 @@
                 ],
                 "link": "https://kdorfzaun.com/",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png"
             },
             {
                 "title": "Läderach – Plataforma de Soporte Digital",
@@ -458,7 +469,7 @@
                 ],
                 "link": "https://laderach.com/",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://laderach.com/static/version1763356219/frontend/Laederach/Hyva/en_CA/images/logo.svg"
             },
             {
                 "title": "Givbux",
@@ -469,8 +480,8 @@
                     "Rewards"
                 ],
                 "link": "https://givbux.com/",
-                "github": "https://play.google.com/store/apps/details?id=com.bearbull.givbux",
-                "image": "https://via.placeholder.com/600x400"
+                "github": "",
+                "image": "dark-Givbux.png"
             },
             {
                 "title": "Insotec – App y Portal Financiero",
@@ -482,7 +493,7 @@
                 ],
                 "link": "https://insotectuamigo.web.app/",
                 "github": "https://github.com/manunoly/insotec-colaborador-app",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "insotec.png"
             },
             {
                 "title": "Bemte – Plataforma Educativa",
@@ -494,7 +505,7 @@
                 ],
                 "link": "https://github.com/manunoly/pulpo-bemte-backend",
                 "github": "https://github.com/manunoly/pulpo-bemte-backend",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://raw.githubusercontent.com/manunoly/pulpo-bemte/refs/heads/master/resources/android/splash/drawable-land-hdpi-screen.png"
             },
             {
                 "title": "Ecuador Travel Guide (ETG)",
@@ -506,7 +517,7 @@
                 ],
                 "link": "https://github.com/manunoly/pulpo-etg",
                 "github": "https://github.com/manunoly/pulpo-etg",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://raw.githubusercontent.com/manunoly/pulpo-etg/refs/heads/master/src/assets/img/logotipo.png"
             },
             {
                 "title": "Pide Un Taxi",
@@ -518,7 +529,7 @@
                 ],
                 "link": "https://pideuntaxicom.firebaseapp.com/",
                 "github": "https://youtu.be/QCf674owfzM",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://pideuntaxicom.firebaseapp.com/assets/icon/favicon.png"
             },
             {
                 "title": "SIE Ecuador – Benchmarking Energético",
@@ -530,7 +541,7 @@
                 ],
                 "link": "https://sie3-ecuador.web.app/",
                 "github": "https://github.com/manunoly/sqlArconel",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://sie3-ecuador.web.app/assets/imgs/movil-logosie.png"
             },
             {
                 "title": "Solar Chimney Simulator y TMY Generator",
@@ -542,7 +553,7 @@
                 ],
                 "link": "https://iner-tmy.shinyapps.io/iner-tmy/",
                 "github": "https://github.com/manunoly/ChimeneaSolar",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png"
             },
             {
                 "title": "INER Congreso – Plataforma de Eventos",
@@ -554,7 +565,7 @@
                 ],
                 "link": "https://congreso-iner.firebaseapp.com/",
                 "github": "https://github.com/manunoly/iner-congreso",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://congreso-iner.firebaseapp.com/assets/img/portadilla_horizontal.jpg"
             },
             {
                 "title": "Juego de Eficiencia Energética",
@@ -566,18 +577,52 @@
                 ],
                 "link": "https://github.com/manunoly/juegoSimuladorMateriales",
                 "github": "https://github.com/manunoly/juegoSimuladorMateriales",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/juego/casa.png"
+            },
+            {
+                "title": "Sistemas Aduanales con Propiedad Intelectual y Patentes",
+                "description": "Conjunto de sistemas especializados desarrollados para la Aduana de Cuba, orientados al análisis de datos, control operativo, seguridad, procesamiento de pasajeros y soporte a la toma de decisiones. Estos proyectos incluyen propiedad intelectual registrada y patentes derivadas del software creado.",
+                "tags": [
+                    "Gobierno",
+                    "Big Data",
+                    "Análisis",
+                    "Propiedad Intelectual"
+                ],
+                "link": "https://www.aduana.gob.cu/",
+                "github": "",
+                "image": "https://opapeleo.com/wp-content/uploads/Aduana-de-Cuba-logo.webp",
+                "subprojects": [
+                    "Data Mart for the Decision-Making Process – Cuba Customs",
+                    "Phonetic Search Engine – Cuba Customs",
+                    "Performance Evaluation System – Cuba Customs",
+                    "International Transport Means System – Cuba Customs",
+                    "Advance Passenger Information System – Cuba Customs"
+                ]
             }
         ],
         "skills": {
             "Frontend": [
-                "JavaScript - TypeScript",
-                "React.js - Angular - Next.js",
-                "HTML - CSS - jQuery - Responsive Design",
-                "Tailwind CSS - Bootstrap - Flexbox",
-                "Promises - Async-Await RxJS - Observables",
-                "Zustand - Redux",
-                "Ionic - React Native"
+                "JavaScript",
+                "TypeScript",
+                "React.js",
+                "Angular",
+                "Next.js",
+                "HTML",
+                "CSS",
+                "jQuery",
+                "Responsive Design",
+                "Tailwind CSS",
+                "Bootstrap",
+                "Flexbox",
+                "Promises",
+                "Async-Await",
+                "RxJS",
+                "Observables",
+                "Zustand",
+                "Redux",
+                "Astro",
+                "Ionic",
+                "React Native"
             ],
             "Backend": [
                 "Diseño y arquitectura de software (capas, servicios, monolitos modulares, microservicios)",
@@ -615,13 +660,13 @@
         },
         "experience": [
             {
-                "role": "Software Architect && Full Stack Developer",
+                "role": "Software Architect & Full Stack Developer",
                 "company": "Entourage Yearbooks | Picaboo Yearbooks - Estados Unidos",
                 "period": "2022 - Presente",
                 "description": "Liderando arquitectura y desarrollo de múltiples plataformas web de alto tráfico como Picaboo Yearbooks, Entourage Yearbooks, EdoNext, Edge Creator Studio y Creator Studio."
             },
             {
-                "role": "Mobile Developer & Software Architect && Desarrollador Stack Stack",
+                "role": "Mobile Developer & Software Architect & Desarrollador Stack Stack",
                 "company": "Freelancer – Ecuador / Estados Unidos / Canada",
                 "period": "2018 - Presente",
                 "description": "Construcción de aplicaciones móviles y web para banca, educación y turismo, incluyendo Givbux, Insotec, Bemte y Ecuador Travel Guide, abarcando desde el diseño hasta el despliegue."
@@ -633,7 +678,7 @@
                 "description": "Desarrollo de plataformas SaaS y sistemas logísticos como YouSellWeSend, integraciones Shopify para Wemalo, Shipping Portal y APIs empresariales para gestión de inventario y envíos."
             },
             {
-                "role": "Analista de Tecnología && Desarrollador Full Stack",
+                "role": "Analista de Tecnología & Desarrollador Full Stack",
                 "company": "Instituto Nacional de Eficiencia Energética – Ecuador",
                 "period": "2015 - 2018",
                 "description": "Desarrollo de sistemas de análisis energético, data marts, simuladores científicos, ETLs y aplicaciones para eventos y congresos internacionales."
