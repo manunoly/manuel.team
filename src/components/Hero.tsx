@@ -6,9 +6,10 @@ interface HeroProps {
     tagline: string;
     subtext: string[];
     resumeLink: string;
+    lang?: string;
 }
 
-export default function Hero({ name, tagline, subtext, resumeLink }: HeroProps) {
+export default function Hero({ name, tagline, subtext, resumeLink, lang }: HeroProps) {
     return (
         <div className="min-h-screen flex flex-col justify-center items-start px-4 md:px-20 max-w-7xl mx-auto pt-20">
             <motion.span
@@ -17,7 +18,9 @@ export default function Hero({ name, tagline, subtext, resumeLink }: HeroProps) 
                 transition={{ delay: 0.2 }}
                 className="text-app-accent font-semibold tracking-wider mb-4"
             >
-                Hi, my name is
+                {
+                    lang === 'es' ? 'Hola, mi nombre es' : 'Hi, my name is'
+                }
             </motion.span>
 
             <motion.h1

@@ -5,9 +5,10 @@ interface AboutProps {
     title: string;
     content: string | string[];
     image: string;
+    lang?: string;
 }
 
-export default function About({ title, content, image }: AboutProps) {
+export default function About({ title, content, image, lang = 'en' }: AboutProps) {
     return (
         <SectionContainer id="about" className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
