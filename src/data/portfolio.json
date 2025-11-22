@@ -626,8 +626,8 @@
                 "link": "#"
             },
             {
-                "title": "Why I Chose Astro",
-                "excerpt": "Exploring the benefits of the Islands Architecture for performance-critical sites.",
+                "title": "Why I chose Astro to build this page",
+                "excerpt": "Discover the advantages of Astro, such as its island architecture for exceptional performance and a smooth development experience. This very page is proudly built with Astro!",
                 "date": "Sep 28, 2024",
                 "link": "#"
             }
@@ -1276,9 +1276,9 @@
                 "link": "#"
             },
             {
-                "title": "Por qué elegí Astro",
-                "excerpt": "Explorando los beneficios de la Arquitectura de Islas para sitios de rendimiento crítico.",
-                "date": "28 Sep, 2024",
+                "title": "Por qué elegí Astro para construir esta página",
+                "excerpt": "Descubre las ventajas de Astro, como su arquitectura de islas para un rendimiento excepcional y una experiencia de desarrollo fluida. ¡Esta misma página está orgullosamente construida con Astro!",
+                "date": "Sep 28, 2024",
                 "link": "#"
             }
         ],
