@@ -45,12 +45,7 @@ const canonicalURL = new URL(
 		<meta property="twitter:image" content={new URL(image, Astro.url)} />
 
 		<!-- Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
-			rel="stylesheet"
-		/>
+		<!-- Google Sans Code is loaded via global.css -->
 		<script is:inline>
 			// Theme Initialization
 			const theme = (() => {
@@ -74,7 +69,7 @@ const canonicalURL = new URL(
 		</script>
 	</head>
 	<body
-		class="bg-app-gradient text-app-text antialiased overflow-x-hidden selection:bg-app-accent selection:text-white min-h-screen"
+		class="bg-app-gradient text-app-text antialiased overflow-x-hidden selection:bg-app-accent selection:text-white min-h-screen font-sans"
 	>
 		<Navbar client:load lang={lang} />
 		<slot />
@@ -112,7 +107,7 @@ const canonicalURL = new URL(
 	}
 
 	html {
-		font-family: "Inter", system-ui, sans-serif;
+		font-family: "Google Sans Code", system-ui, sans-serif;
 		background-color: var(--app-bg);
 		color: var(--app-text);
 	}
@@ -123,6 +118,6 @@ const canonicalURL = new URL(
 	h4,
 	h5,
 	h6 {
-		font-family: "Outfit", sans-serif;
+		font-family: "Google Sans Code", sans-serif;
 	}
 </style>

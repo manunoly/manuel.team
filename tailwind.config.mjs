@@ -20,8 +20,9 @@ export default {
                 'glass': 'linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%)',
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                heading: ['Outfit', 'sans-serif'],
+                sans: ['Google Sans Code', 'Inter', 'sans-serif'],
+                heading: ['Google Sans Code', 'Outfit', 'sans-serif'],
+                mono: ['Google Sans Code', 'monospace'],
             },
             animation: {
                 'fade-in': 'fadeIn 0.8s ease-out',

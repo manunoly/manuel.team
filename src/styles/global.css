@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Google Sans Code';
+  src: url('/fonts/GoogleSansCode-VF.ttf') format('truetype');
+  font-weight: 300 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Google Sans Code';
+  src: url('/fonts/GoogleSansCode-Italic-VF.ttf') format('truetype');
+  font-weight: 300 800;
+  font-style: italic;
+}
+
 :root {
     /* Light Mode Defaults */
     --app-bg: #ffffff;
