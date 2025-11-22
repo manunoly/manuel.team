@@ -325,7 +325,7 @@
                     "Alta concurrencia"
                 ],
                 "link": "https://www.picabooyearbooks.com/",
-                "github": "https://www.picabooyearbooks.com/",
+                "github": "",
                 "image": "https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/c971b91f-9414-45c8-aa10-192ae42067f4/PicabooYB_Dark.png"
             },
             {
@@ -337,7 +337,7 @@
                     "Arquitectura"
                 ],
                 "link": "https://entourageyearbooks.com/",
-                "github": "https://entourageyearbooks.com/",
+                "github": "",
                 "image": "https://entourage-web-images.s3.us-east-1.amazonaws.com/LOGO/new_logo_red_stacked.png"
             },
             {
@@ -361,7 +361,7 @@
                     "Experiencia de Usuario"
                 ],
                 "link": "https://creatorstudio.picabooyearbooks.com/",
-                "github": "https://creatorstudio.picabooyearbooks.com/",
+                "github": "",
                 "image": "https://images.squarespace-cdn.com/content/v1/62ed2bfe79626d43ceed5c1f/f7b80ff1-c6cb-4dae-bfa8-409005b5a9ad/CreatorStudioPro.png"
             },
             {
@@ -386,7 +386,7 @@
                 ],
                 "link": "https://store.shopyearbook.com/manuel",
                 "github": "",
-                "image": "https://via.placeholder.com/600x400"
+                "image": "https://store.shopyearbook.com/ShopYearbook_Logo.png"
             },
             {
                 "title": "YouSellWeSend",
