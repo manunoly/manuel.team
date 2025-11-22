@@ -310,7 +310,7 @@
             "name": "Manuel Almaguer",
             "tagline": "Creando Experiencias Digitales que Importan",
             "subtext": [
-                "Si, tambien utilizo IA a diario, pero aprendí a programar utilizando",
+                "Si, utilizo IA a diario, pero aprendí a programar utilizando",
                 "#include <iostream> & window.onload = function() {};",
                 ""
             ],
@@ -331,9 +331,12 @@
                 "title": "Picaboo Yearbooks",
                 "description": "Plataforma de creación y gestión de anuarios escolares para miles de usuarios, incluyendo editor en línea, plantillas y flujo completo de producción.",
                 "tags": [
-                    "Full Stack",
-                    "Yearbooks",
-                    "Alta concurrencia"
+                    "ReactJS - JavaScript - Redux",
+                    "NodeJs - NextJS",
+                    "PHP - Yii",
+                    "MSSQL - MySQL - Memcached - Redis",
+                    "AWS - Lambda - EC2 - Amplify",
+                    "Ubuntu - Docker - Git - Bitbucket"
                 ],
                 "link": "https://www.picabooyearbooks.com/",
                 "github": "",
@@ -343,9 +346,12 @@
                 "title": "Entourage Yearbooks",
                 "description": "Ecosistema de herramientas para la gestión de anuarios, pedidos y producción, integrando diferentes plataformas internas y flujos de trabajo.",
                 "tags": [
-                    "Plataforma SaaS",
-                    "Integraciones",
-                    "Arquitectura"
+                    "JavaScript - jQuery",
+                    "ASP - C#",
+                    "MSSQL",
+                    "AWS - Lambda - EC2 - Amplify",
+                    "S3 - API Gateway - Route53",
+                    "Ubuntu - Docker - Git - GitHub"
                 ],
                 "link": "https://entourageyearbooks.com/",
                 "github": "",
@@ -355,9 +361,14 @@
                 "title": "EdoNext Platform",
                 "description": "Editor avanzado de anuarios escolares, con secciones, plantillas, manejo de recursos y colaboración en línea para equipos de diseño.",
                 "tags": [
-                    "Editor Online",
-                    "Full Stack",
-                    "Productividad"
+                    "ReactJS - NextJS - TypeScript",
+                    "Zustand",
+                    "TailwindCSS",
+                    "NodeJs - Express - Pusher",
+                    "PHP - Laravel",
+                    "MSSQL - MySQL - DynamoDB - Redis",
+                    "AWS - Lambda - EC2 - Amplify",
+                    "Ubuntu - Docker - GitHub"
                 ],
                 "link": "https://edonext.entourageyearbooks.com/",
                 "github": "",
@@ -367,9 +378,12 @@
                 "title": "Creator Studio Pro",
                 "description": "Plataforma de diseño para la creación de productos impresos y digitales dentro del ecosistema Picaboo / Entourage.",
                 "tags": [
-                    "Diseño",
-                    "Plataforma Creativa",
-                    "Experiencia de Usuario"
+                    "ReactJS - JavaScript - Redux",
+                    "NodeJs - NextJS",
+                    "PHP - Yii",
+                    "MSSQL - MySQL - Memcached - Redis",
+                    "AWS - Lambda - EC2 - Amplify",
+                    "Ubuntu - Docker - Git - Bitbucket"
                 ],
                 "link": "https://creatorstudio.picabooyearbooks.com/",
                 "github": "",
@@ -379,9 +393,12 @@
                 "title": "Edge Creator Studio",
                 "description": "Versión especializada de Creator Studio para la marca Edge, optimizada para flujos de trabajo específicos y experiencias personalizadas.",
                 "tags": [
-                    "Custom Platform",
-                    "Branding",
-                    "Full Stack"
+                    "ReactJS - JavaScript - Redux",
+                    "NodeJs - NextJS",
+                    "PHP - Yii",
+                    "MSSQL - MySQL - Memcached - Redis",
+                    "AWS - Lambda - EC2 - Amplify",
+                    "Ubuntu - Docker - Git - Bitbucket"
                 ],
                 "link": "https://edge.creatorstudiopro.com/",
                 "github": "",
@@ -391,9 +408,12 @@
                 "title": "Store Shop Yearbooks",
                 "description": "Tienda en línea para la venta de anuarios, con gestión de productos, pedidos y pagos, integrada con el ecosistema Entourage/Picaboo.",
                 "tags": [
-                    "E-commerce",
-                    "Yearbooks",
-                    "Integraciones"
+                    "ReactJS - JavaScript - Redux",
+                    "NodeJs - NextJS",
+                    "PHP - Yii",
+                    "MSSQL - MySQL - Memcached - Redis",
+                    "AWS - Lambda - EC2 - Amplify",
+                    "Ubuntu - Docker - Git - Bitbucket"
                 ],
                 "link": "https://store.shopyearbook.com/manuel",
                 "github": "",
@@ -403,9 +423,12 @@
                 "title": "YouSellWeSend",
                 "description": "Plataforma logística de fulfilment que conecta tiendas online con almacenes y empresas de envío, gestionando pedidos, stock y procesos de preparación.",
                 "tags": [
-                    "Logística",
-                    "SaaS",
-                    "Fulfilment"
+                    "JavaScript - jQuery",
+                    "PHP - Laravel",
+                    "Blade Templates",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "Ubuntu - Docker - Git - Bitbucket"
                 ],
                 "link": "https://yousellwesend.de/en/",
                 "github": "",
@@ -415,9 +438,10 @@
                 "title": "Wemalo – Plataforma de Gestión de Almacenes",
                 "description": "Solución para gestión de inventario, almacenes y logística, integrada con tiendas online y servicios de fulfilment.",
                 "tags": [
-                    "Logística",
-                    "Almacenes",
-                    "Integraciones"
+                    "Java - jQuery",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "API"
                 ],
                 "link": "https://wemalo.com/en/",
                 "github": "",
@@ -427,9 +451,12 @@
                 "title": "Shipping Portal",
                 "description": "Portal de envíos para gestionar etiquetas, órdenes y estados de entrega, conectado al ecosistema logístico de TeamQ / 4elements.",
                 "tags": [
-                    "Logística",
-                    "Envíos",
-                    "SaaS"
+                    "Livewire",
+                    "Laravel",
+                    "Blade Templates",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "API"
                 ],
                 "link": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/",
                 "github": "",
@@ -439,9 +466,11 @@
                 "title": "Wemalo API – Connect",
                 "description": "API para conectar diferentes plataformas de e-commerce y sistemas externos con la infraestructura logística de Wemalo.",
                 "tags": [
-                    "API",
-                    "Integraciones",
-                    "Logística"
+                    "ReactJS - Koa - Apollo",
+                    "NodeJS - TypeScript",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "Shopify - WooCommerce"
                 ],
                 "link": "https://connect-api.wemalo.com/",
                 "github": "",
@@ -451,9 +480,10 @@
                 "title": "DORFZAUN",
                 "description": "Plataforma digital para la venta y gestión de cercas y componentes relacionados, con catálogo de productos e integración logística.",
                 "tags": [
-                    "E-commerce",
-                    "Catálogo",
-                    "Logística"
+                    "VueJS - TypeScript",
+                    "PHP - Laravel",
+                    "MySQL - Redis",
+                    "Wordpress WooCommerce"
                 ],
                 "link": "https://kdorfzaun.com/",
                 "github": "",
@@ -463,9 +493,10 @@
                 "title": "Läderach – Plataforma de Soporte Digital",
                 "description": "Soluciones de software de soporte para la marca de chocolates Läderach, integrando procesos internos y experiencia digital.",
                 "tags": [
-                    "Retail",
-                    "Soporte",
-                    "Integraciones"
+                    "Magento",
+                    "PHP - Laravel",
+                    "MySQL - Redis",
+                    "Google Cloud"
                 ],
                 "link": "https://laderach.com/",
                 "github": "",
@@ -475,9 +506,13 @@
                 "title": "Givbux",
                 "description": "Aplicación móvil y plataforma en línea con sistema de recompensas y marketplace, integrando pagos, usuarios y comercios.",
                 "tags": [
-                    "Fintech",
-                    "Mobile",
-                    "Rewards"
+                    "Ionic",
+                    "ReactJS",
+                    "PHP - Laravel",
+                    "MySQL - Redis",
+                    "NodeJS",
+                    "MongoDB",
+                    "AWS"
                 ],
                 "link": "https://givbux.com/",
                 "github": "",
@@ -487,9 +522,12 @@
                 "title": "Insotec – App y Portal Financiero",
                 "description": "Aplicación móvil y portal web para una entidad financiera, permitiendo a los usuarios gestionar productos, solicitudes y consultas.",
                 "tags": [
-                    "Finanzas",
-                    "Full Stack",
-                    "Mobile + Web"
+                    "Angular",
+                    "PHP - Laravel",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "Firebase",
+                    "Ionic"
                 ],
                 "link": "https://insotectuamigo.web.app/",
                 "github": "https://github.com/manunoly/insotec-colaborador-app",
@@ -499,9 +537,11 @@
                 "title": "Bemte – Plataforma Educativa",
                 "description": "Suite de aplicaciones (estudiante, profesor, admin y backend) para gestión académica, clases, calificaciones y comunicación.",
                 "tags": [
-                    "Educación",
-                    "Multi-app",
-                    "Full Stack"
+                    "Angular - Ionic",
+                    "PHP - Laravel",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "Firebase"
                 ],
                 "link": "https://github.com/manunoly/pulpo-bemte-backend",
                 "github": "https://github.com/manunoly/pulpo-bemte-backend",
@@ -511,9 +551,11 @@
                 "title": "Ecuador Travel Guide (ETG)",
                 "description": "Guía de viaje interactiva con información de destinos, rutas y servicios turísticos, pensada para usuarios móviles.",
                 "tags": [
-                    "Turismo",
-                    "Mobile",
-                    "Experiencia de Usuario"
+                    "Ionic - Angular",
+                    "Google Maps, Leaflet",
+                    "MySQL - Redis",
+                    "Google Cloud",
+                    "Firebase"
                 ],
                 "link": "https://github.com/manunoly/pulpo-etg",
                 "github": "https://github.com/manunoly/pulpo-etg",
@@ -523,9 +565,10 @@
                 "title": "Pide Un Taxi",
                 "description": "Aplicación para solicitud de taxis, seguimiento de viajes y conexión entre pasajeros y conductores.",
                 "tags": [
-                    "Transporte",
-                    "Mobile",
-                    "Tiempo real"
+                    "Ionic - Angular",
+                    "Firebase",
+                    "Google Cloud",
+                    "Firebase"
                 ],
                 "link": "https://pideuntaxicom.firebaseapp.com/",
                 "github": "https://youtu.be/QCf674owfzM",
@@ -535,9 +578,9 @@
                 "title": "SIE Ecuador – Benchmarking Energético",
                 "description": "Plataforma de consulta y análisis de información energética de Ecuador, con visualización y comparación de datos.",
                 "tags": [
-                    "Energía",
-                    "Data Viz",
-                    "Web App"
+                    "Ionic - Angular - TypeScript",
+                    "Google Cloud",
+                    "Firebase"
                 ],
                 "link": "https://sie3-ecuador.web.app/",
                 "github": "https://github.com/manunoly/sqlArconel",
@@ -547,9 +590,9 @@
                 "title": "Solar Chimney Simulator y TMY Generator",
                 "description": "Conjunto de herramientas científicas para simular chimeneas solares y generar años meteorológicos típicos (TMY) para análisis energético.",
                 "tags": [
-                    "Ciencia",
-                    "Simulación",
-                    "Energía"
+                    "R",
+                    "Python",
+                    "Shiny"
                 ],
                 "link": "https://iner-tmy.shinyapps.io/iner-tmy/",
                 "github": "https://github.com/manunoly/ChimeneaSolar",
@@ -559,9 +602,9 @@
                 "title": "INER Congreso – Plataforma de Eventos",
                 "description": "Aplicación web y móvil para gestionar un congreso internacional, incluyendo registro, agenda, participantes y contenido.",
                 "tags": [
-                    "Eventos",
-                    "Full Stack",
-                    "Web + App"
+                    "Ionic - Angular - TypeScript",
+                    "Firebase",
+                    "Google Cloud"
                 ],
                 "link": "https://congreso-iner.firebaseapp.com/",
                 "github": "https://github.com/manunoly/iner-congreso",
@@ -571,9 +614,10 @@
                 "title": "Juego de Eficiencia Energética",
                 "description": "Juego interactivo diseñado para enseñar conceptos de eficiencia energética de forma práctica y entretenida.",
                 "tags": [
-                    "Educación",
-                    "Gamificación",
-                    "Energía"
+                    "Angular - Ionic",
+                    "Firebase",
+                    "PHP",
+                    "Google Cloud"
                 ],
                 "link": "https://github.com/manunoly/juegoSimuladorMateriales",
                 "github": "https://github.com/manunoly/juegoSimuladorMateriales",
@@ -583,10 +627,14 @@
                 "title": "Sistemas Aduanales con Propiedad Intelectual y Patentes",
                 "description": "Conjunto de sistemas especializados desarrollados para la Aduana de Cuba, orientados al análisis de datos, control operativo, seguridad, procesamiento de pasajeros y soporte a la toma de decisiones. Estos proyectos incluyen propiedad intelectual registrada y patentes derivadas del software creado.",
                 "tags": [
-                    "Gobierno",
-                    "Big Data",
-                    "Análisis",
-                    "Propiedad Intelectual"
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Oracle - PL/SQL",
+                    "PHP - Symfony",
+                    "Linux",
+                    "MySQL",
+                    "Subversion"
                 ],
                 "link": "https://www.aduana.gob.cu/",
                 "github": "",
