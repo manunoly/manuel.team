@@ -6,15 +6,21 @@ interface ContactProps {
     linkedin: string;
     github: string;
     twitter: string;
+    lang?: string;
 }
 
-export default function Contact({ email, linkedin, github, twitter }: ContactProps) {
+export default function Contact({ email, linkedin, github, twitter, lang = 'en' }: ContactProps) {
     return (
         <SectionContainer id="contact" className="text-center max-w-2xl">
             <p className="text-app-accent font-mono mb-4">08. What's Next?</p>
             <h2 className="text-4xl md:text-5xl font-bold text-app-text mb-6">Get In Touch</h2>
             <p className="text-app-text-muted text-lg mb-12">
-                I'm always open to new challenges and opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                {
+                    lang === 'en' ?
+                        "I'm always open to new challenges and opportunities. Whether you have a question or just want to say hi, I'll get back to you for sure!"
+                        :
+                        "Siempre abiertos a nuevos desafíos y oportunidades. Consultorias, Ideas, Emprendimiento, Escribe para saludar y yo te responderé con gusto!"
+                }
             </p>
 
             <a
