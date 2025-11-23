@@ -258,7 +258,7 @@
             },
             {
                 "title": "Pide Un Taxi",
-                "description": "Application for requesting taxis, tracking rides and connecting passengers with drivers in real time.",
+                "description": "Application for requesting taxis, tracking rides, and connecting passengers with drivers in real time.",
                 "tags": [
                     "Ionic - Angular",
                     "GeoFireX - GeoFire",
