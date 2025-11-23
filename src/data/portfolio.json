@@ -211,7 +211,7 @@
                 ],
                 "link": "https://givbux.com/",
                 "github": "",
-                "image": "dark-Givbux.png"
+                "image": "/dark-Givbux.png"
             },
             {
                 "title": "Insotec – Financial App and Portal",
@@ -764,7 +764,7 @@
                 ],
                 "link": "https://store.shopyearbook.com/manuel",
                 "github": "",
-                "image": "ShopYearbook_Logo.png"
+                "image": "/ShopYearbook_Logo.png"
             },
             {
                 "title": "YouSellWeSend",
@@ -863,7 +863,7 @@
                 ],
                 "link": "https://givbux.com/",
                 "github": "",
-                "image": "dark-Givbux.png"
+                "image": "/dark-Givbux.png"
             },
             {
                 "title": "Insotec – App y Portal Financiero",
@@ -878,7 +878,7 @@
                 ],
                 "link": "https://insotectuamigo.web.app/",
                 "github": "https://github.com/manunoly/insotec-colaborador-app",
-                "image": "insotec.png"
+                "image": "/insotec.png"
             },
             {
                 "title": "Bemte – Plataforma Educativa",
@@ -955,7 +955,7 @@
                 ],
                 "link": "https://buscadorcodigos.web.app",
                 "github": "https://github.com/manunoly/iige-buscaror-de-codigos",
-                "image": "logo-buscador-codigos.svg"
+                "image": "/logo-buscador-codigos.svg"
             },
             {
                 "title": "INER Congreso – Plataforma de Eventos",
