@@ -26,7 +26,7 @@ export default function About({ title, content, image, lang = 'en' }: AboutProps
             </div>
             <div className="2xl:w-2/3 w-full">
                 <h2 className="flex items-center text-3xl font-bold text-app-text mb-8">
-                    <span className="text-app-accent mr-2">01.</span> {title}
+                    <span className="text-app-accent mr-2"> {title} </span>
                     <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
                 </h2>
                 <div className="text-app-text-muted text-lg leading-relaxed space-y-4">

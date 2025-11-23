@@ -11,10 +11,8 @@ interface SkillsProps {
 export default function Skills({ skills, lang = 'en' }: SkillsProps) {
     return (
         <SectionContainer id="skills">
-            <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">02.</span>
+            <h2 className="flex items-center text-3xl font-bold text-app-text mb-5">
                 {lang === 'en' ? 'Skills & Technologies' : 'Habilidades & Tecnologías'}
-                <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

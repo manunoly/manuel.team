@@ -16,8 +16,7 @@ interface BlogPreviewProps {
 export default function BlogPreview({ posts, lang = 'en' }: BlogPreviewProps) {
     return (
         <SectionContainer id="blog">
-            <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">06.</span>
+            <h2 className="flex items-center text-3xl font-bold text-app-text mb-5">
                 {lang === 'en' ? 'Latest Articles' : 'Últimos Artículos'}
                 <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>

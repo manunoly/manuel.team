@@ -19,8 +19,7 @@ interface ProjectsProps {
 export default function Projects({ projects, lang = 'en' }: ProjectsProps) {
     return (
         <SectionContainer id="projects">
-            <h2 className="flex items-center text-3xl font-bold text-app-text mb-12">
-                <span className="text-app-accent mr-2">03.</span>
+            <h2 className="flex items-center text-3xl font-bold text-app-text mb-5">
                 {
                     lang === 'en' ? (
                         <span>Some Projects I've Built or Collaborated On</span>
@@ -43,7 +42,7 @@ export default function Projects({ projects, lang = 'en' }: ProjectsProps) {
                             <img
                                 src={project.image || 'NoPreview.png'}
                                 alt={project.title}
-                                className="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-transform duration-500"
+                                className="w-full h-full object-contain filter md:grayscale group-hover:grayscale-0 transition-transform duration-500"
                                 onError={(e) => { e.currentTarget.src = 'NoPreview.png'; }}
                             />
                         </div>
