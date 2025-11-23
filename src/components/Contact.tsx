@@ -12,8 +12,21 @@ interface ContactProps {
 export default function Contact({ email, linkedin, github, twitter, lang = 'en' }: ContactProps) {
     return (
         <SectionContainer id="contact" className="text-center max-w-2xl">
-            <p className="text-app-accent font-mono mb-4">08. What's Next?</p>
-            <h2 className="text-4xl md:text-5xl font-bold text-app-text mb-6">Get In Touch</h2>
+            <p className="text-app-accent font-mono mb-4">
+                {
+                    lang === 'en' ?
+                        (
+                            "What's Next?"
+                        )
+                        :
+                        (
+                            "¿Qué sigue?"
+                        )
+                }
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bold text-app-text mb-6">
+                {lang === 'en' ? 'Get In Touch' : 'Contáctame'}
+            </h2>
             <p className="text-app-text-muted text-lg mb-12">
                 {
                     lang === 'en' ?

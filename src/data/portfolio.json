@@ -185,8 +185,8 @@
                 "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png"
             },
             {
-                "title": "Läderach – Digital Support Platform",
-                "description": "Software solutions supporting the Läderach chocolate brand, integrating internal processes and digital experiences.",
+                "title": "Läderach – E-commerce Platform",
+                "description": "E-commerce platform for the Läderach chocolate brand, integrating internal processes and digital experiences.",
                 "tags": [
                     "Magento",
                     "PHP - Laravel",
@@ -195,7 +195,7 @@
                 ],
                 "link": "https://laderach.com/",
                 "github": "",
-                "image": "https://laderach.com/static/version1763356219/frontend/Laederach/Hyva/en_CA/images/logo.svg"
+                "image": "https://svc.swiss/sites/default/files/styles/partner_logo_fulll/public/2020-03/logo_chocolaiterie_suisse.png"
             },
             {
                 "title": "Givbux",
@@ -634,14 +634,14 @@
         ],
         "testimonials": [
             {
-                "name": "Sarah Johnson",
-                "role": "Product Manager",
-                "text": "Manuel is an exceptional developer who consistently delivers high-quality code and innovative solutions."
+                "name": "Christoph Roessner",
+                "role": "TeamQ CEO",
+                "text": "Manuel played a pivotal role in developing and enhancing internal systems and successfully collaborated with international teams in Germany. Always with great professionalism, dedication and team work."
             },
             {
-                "name": "David Lee",
-                "role": "CTO",
-                "text": "Working with Manuel was a pleasure. His attention to detail and technical expertise are truly top-notch."
+                "name": "Mohammad Oslani",
+                "role": "Team Lead",
+                "text": "Manuel is an exceptional developer, his code is consistently clean and easy to integrate. I have reviewed a lot of code over the years, and his really stands out."
             }
         ],
         "contact": {
@@ -837,8 +837,8 @@
                 "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png"
             },
             {
-                "title": "Läderach – Plataforma de Soporte Digital",
-                "description": "Soluciones de software de soporte para la marca de chocolates Läderach, integrando procesos internos y experiencia digital.",
+                "title": "Läderach – Platforma E-commerce",
+                "description": "Plataforma e-commerce para la marca de chocolates Läderach, integrando procesos internos y experiencia digital.",
                 "tags": [
                     "Magento",
                     "PHP - Laravel",
@@ -847,7 +847,7 @@
                 ],
                 "link": "https://laderach.com/",
                 "github": "",
-                "image": "https://laderach.com/static/version1763356219/frontend/Laederach/Hyva/en_CA/images/logo.svg"
+                "image": "https://svc.swiss/sites/default/files/styles/partner_logo_fulll/public/2020-03/logo_chocolaiterie_suisse.png"
             },
             {
                 "title": "Givbux",
@@ -1284,14 +1284,14 @@
         ],
         "testimonials": [
             {
-                "name": "Sarah Johnson",
-                "role": "Gerente de Producto",
-                "text": "Manuel es un desarrollador excepcional que entrega consistentemente código de alta calidad y soluciones innovadoras."
+                "name": "Christoph Roessner",
+                "role": "TeamQ CEO",
+                "text": "Manuel jugó un papel fundamental en el desarrollo y mejora de los sistemas internos y colaboró exitosamente con equipos internacionales en Alemania. Siempre con gran profesionalismo, dedicación y trabajo en equipo."
             },
             {
-                "name": "David Lee",
-                "role": "CTO",
-                "text": "Trabajar con Manuel fue un placer. Su atención al detalle y experiencia técnica son de primera categoría."
+                "name": "Mohammad Oslani",
+                "role": "Team Lead",
+                "text": "Manuel es un desarrollador excepcional, su código es consistentemente muy limpio y fácil de integrar. He revisado mucho código a lo largo de los años, y el suyo realmente destaca."
             }
         ],
         "contact": {
