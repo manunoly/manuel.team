@@ -140,7 +140,7 @@
                 ],
                 "link": "https://wemalo.com/en/",
                 "github": "",
-                "image": "https://wemalo.com/wp-content/uploads/Wemalo-Logo--e1743598490864.webp"
+                "image": "/wemalo.png"
             },
             {
                 "title": "Shipping Portal",
@@ -169,7 +169,7 @@
                 ],
                 "link": "https://connect-api.wemalo.com/",
                 "github": "",
-                "image": "https://connect-api.wemalo.com/img/wemalo.png"
+                "image": "/wemalo.png"
             },
             {
                 "title": "DORFZAUN",
@@ -792,7 +792,7 @@
                 ],
                 "link": "https://wemalo.com/en/",
                 "github": "",
-                "image": "https://wemalo.com/wp-content/uploads/Wemalo-Logo--e1743598490864.webp"
+                "image": "/wemalo.png"
             },
             {
                 "title": "Shipping Portal",
@@ -821,7 +821,7 @@
                 ],
                 "link": "https://connect-api.wemalo.com/",
                 "github": "",
-                "image": "https://connect-api.wemalo.com/img/wemalo.png"
+                "image": "/wemalo.png"
             },
             {
                 "title": "DORFZAUN",
