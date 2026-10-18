@@ -12,7 +12,7 @@ export default function Skills({ skills, lang = 'en' }: SkillsProps) {
     return (
         <SectionContainer id="skills">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-5">
-                {lang === 'en' ? 'Skills & Technologies' : 'Habilidades & Tecnologías'}
+                {lang === 'en' ? 'Skills & technologies' : 'Habilidades y tecnologías'}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -7,8 +7,8 @@ Este proyecto es un portafolio personal para un desarrollador Full Stack, diseñ
 
 ### 2.1. Navegación Responsiva (Navbar)
 - **Diseño Adaptativo**: Barra de navegación fija en la parte superior para escritorio, que se transforma en un menú de hamburguesa en dispositivos móviles.
-- **Efectos Visuales**: Fondo translúcido (`backdrop-blur`) que se activa al hacer scroll o abrir el menú móvil.
-- **Interacción**: Animaciones suaves al abrir/cerrar el menú utilizando `framer-motion`.
+- **Efectos Visuales**: Fondo translúcido fijo para mantener legible la navegación.
+- **Interacción**: Menú móvil accesible con estado expandido y cierre con Escape.
 
 ### 2.2. Internacionalización (i18n)
 - **Soporte Multi-idioma**: El sitio está disponible en Inglés (predeterminado) y Español.
@@ -26,10 +26,10 @@ Este proyecto es un portafolio personal para un desarrollador Full Stack, diseñ
 ## 3. Arquitectura y Tecnologías
 
 ### 3.1. Stack Tecnológico
-- **Framework Principal**: [Astro](https://astro.build/) (v5). Elegido por su rendimiento ("Islands Architecture") y capacidad de generar HTML estático.
+- **Framework Principal**: [Astro](https://astro.build/) (v7.4). Elegido por su rendimiento ("Islands Architecture") y capacidad de generar HTML estático.
 - **UI Framework**: [React](https://react.dev/) (v19). Utilizado para componentes interactivos como la `Navbar`.
-- **Estilos**: [Tailwind CSS](https://tailwindcss.com/) (v4 beta/Vite). Utilizado para un diseño rápido, mantenible y responsivo.
-- **Animaciones**: [Framer Motion](https://www.framer.com/motion/). Para animaciones complejas de UI (menú móvil, transiciones).
+- **Estilos**: [Tailwind CSS](https://tailwindcss.com/) (v4/Vite). Utilizado para un diseño rápido, mantenible y responsivo.
+- **Interacción**: CSS y desplegables HTML nativos; se respeta la preferencia de movimiento reducido.
 - **Iconos**: [Lucide React](https://lucide.dev/). Iconos ligeros y consistentes.
 
 ### 3.2. Estructura del Proyecto
@@ -60,10 +60,12 @@ Este proyecto es un portafolio personal para un desarrollador Full Stack, diseñ
 
 ### 4.1. Rendimiento (Performance)
 - **Islands Architecture**: La mayor parte del sitio es HTML estático generado por Astro. Solo la `Navbar` se hidrata en el cliente (`client:load`) porque requiere interactividad inmediata.
-- **Carga de Fuentes**: Uso de `font-display: swap` (implícito en Google Fonts) y pre-conexión a servidores de fuentes.
+- **Fuentes del sistema**: No se descargan fuentes externas; el texto aparece sin esperar archivos de tipografía.
+- **Contenido estático**: Solo la navegación se hidrata con React. Proyectos y publicaciones usan desplegables HTML nativos, y el contenido informativo es visible desde el primer renderizado.
+- **Imágenes**: Carga diferida y dimensiones explícitas para las imágenes del portafolio.
 
 ### 4.2. Mantenibilidad
-- **Variables CSS**: Uso de variables CSS (`--app-bg`, `--app-text`) para definir el tema. Esto facilita cambiar la paleta de colores globalmente desde un solo lugar (`Layout.astro`).
+- **Variables CSS**: Uso de variables CSS (`--app-bg`, `--app-text`) para definir el tema. Esto facilita cambiar la paleta de colores globalmente desde un solo lugar (`src/styles/global.css`).
 - **Componentes Reutilizables**: La UI se divide en componentes pequeños y enfocados.
 - **Centralización de Contenido**: Todo el texto está en un archivo JSON, lo que facilita la traducción y actualización sin tocar el código.
 
@@ -74,10 +76,15 @@ Este proyecto es un portafolio personal para un desarrollador Full Stack, diseñ
 
 ## 5. Guía de Desarrollo
 
+### Requisitos y gestor de paquetes
+- Node 22.23.3 LTS (mínimo 22.22.0) y pnpm 10.32.1.
+- `pnpm-lock.yaml` es el lockfile del proyecto; la instalación reproducible usa `pnpm install --frozen-lockfile`.
+
 ### Comandos Principales
 - `pnpm dev`: Inicia el servidor de desarrollo local.
 - `pnpm build`: Construye el sitio para producción.
 - `pnpm preview`: Vista previa de la build de producción.
+- `pnpm test`: Compila y comprueba metadatos públicos, idiomas, enlaces locales, CV, contenido estático y estilos generados.
 
 ### Cómo agregar un nuevo idioma
 1. Agregar una nueva clave (ej. `fr`) en `src/data/portfolio.json`.

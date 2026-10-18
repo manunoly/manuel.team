@@ -1,37 +1,57 @@
 @import "tailwindcss";
-
-@font-face {
-  font-family: 'Google Sans Code';
-  src: url('/fonts/GoogleSansCode-VF.ttf') format('truetype');
-  font-weight: 300 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Google Sans Code';
-  src: url('/fonts/GoogleSansCode-Italic-VF.ttf') format('truetype');
-  font-weight: 300 800;
-  font-style: italic;
-}
+@config "../../tailwind.config.mjs";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-    /* Light Mode Defaults */
+    color-scheme: light;
     --app-bg: #ffffff;
     --app-surface: #f1f5f9;
     --app-surface-hover: #e2e8f0;
     --app-text: #0f172a;
-    --app-text-muted: #64748b;
-    --app-accent: #0ea5e9;
+    --app-text-muted: #475569;
+    --app-accent: #0369a1;
     --app-gradient: radial-gradient(ellipse at top, #f0f9ff 0%, #ffffff 100%);
 }
 
 .dark {
-    /* Dark Mode Overrides */
-    --app-bg: #090A0F;
-    --app-surface: rgba(255, 255, 255, 0.03);
-    --app-surface-hover: rgba(255, 255, 255, 0.08);
-    --app-text: #F8FAFC;
-    --app-text-muted: #94A3B8;
-    --app-accent: #38BDF8;
-    --app-gradient: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%);
+    color-scheme: dark;
+    --app-bg: #090a0f;
+    --app-surface: #151b25;
+    --app-surface-hover: #202a38;
+    --app-text: #f8fafc;
+    --app-text-muted: #94a3b8;
+    --app-accent: #38bdf8;
+    --app-gradient: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+}
+
+html {
+    background: var(--app-bg);
+    scroll-padding-top: 6rem;
+}
+
+section[id] {
+    scroll-margin-top: 1rem;
+}
+
+:where(a, button, summary):focus-visible {
+    outline: 2px solid var(--app-accent);
+    outline-offset: 5px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+h1, h2, h3 {
+    text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+    }
 }

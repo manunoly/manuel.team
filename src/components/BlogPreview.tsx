@@ -14,6 +14,9 @@ interface BlogPreviewProps {
 }
 
 export default function BlogPreview({ posts, lang = 'en' }: BlogPreviewProps) {
+    const publishedPosts = posts.filter((post) => post.link.trim() && post.link !== '#');
+    if (publishedPosts.length === 0) return null;
+
     return (
         <SectionContainer id="blog">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-5">
@@ -22,7 +25,7 @@ export default function BlogPreview({ posts, lang = 'en' }: BlogPreviewProps) {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {posts.map((post, index) => (
+                {publishedPosts.map((post, index) => (
                     <a
                         key={index}
                         href={post.link}

@@ -1,23 +1,22 @@
 {
     "en": {
+        "seo": {
+            "title": "Manuel Almaguer | Software Architect & Full-Stack Developer",
+            "description": "Manuel Almaguer, software architect and full-stack developer with 15+ years building enterprise web and mobile applications."
+        },
         "hero": {
             "name": "Manuel Almaguer",
-            "tagline": "Building Digital Experiences that Matter",
+            "tagline": "Software Architect & Full-Stack Developer",
             "subtext": [
-                "Over 15 years of experience in enterprise software development",
-                "Yes, I use AI every day, but I learned to code using",
-                "#include <iostream> & window.onload = function() {};",
-                ""
+                "15+ years building enterprise software, from architecture to production."
             ],
-            "resumeLink": "Manuel-Almaguer-Senior-Software-Engineer-Full-Stack.docx.pdf"
+            "resumeLink": "/Manuel-Almaguer-Senior-Software-Engineer-Full-Stack.docx.pdf"
         },
         "about": {
-            "title": "About Me",
+            "title": "About me",
             "content": [
-                "I am a Full Stack Developer with more than 15 years of experience, specialized in building complex enterprise software, covering the entire development lifecycle: from the initial idea to deployment in production.",
-                "I am passionate about designing and integrating robust systems, always focusing on security, scalability, and the satisfaction of the people who use the product.",
-                "I enjoy optimizing performance, collaborating with teams, continuously learning and sharing knowledge. Throughout my career I have worked across all areas of software development: frontend, backend, Linux server administration and cloud operations in AWS and Google Cloud, as well as integrating AI to optimize processes and products, leading projects and architectures with a practical, results-oriented mindset.",
-                "My journey started in a simple and curious way: I developed my thesis on Ubuntu 7.04 with Fluxbox and Xfce on a computer with 512 MB of RAM, coding everything by hand and using Windows only to write the final document. That experience shaped my style: learn, solve and build regardless of limitations."
+                "I’m a software architect and full-stack developer with more than 15 years of experience building enterprise web and mobile applications. I work across the lifecycle, from system design to production, with experience in AWS, Google Cloud and Linux. I value secure, maintainable systems and close collaboration.",
+                "My first projects included a thesis built on Ubuntu with 512 MB of RAM. That experience shaped how I work: understand the problem, learn what is needed and build within real constraints. Today, I also use AI to support development and improve products."
             ],
             "image": "https://avatars.githubusercontent.com/u/636156"
         },
@@ -26,16 +25,16 @@
                 "title": "Picaboo Yearbooks",
                 "description": "Yearbook creation and management platform for thousands of users, including an online editor, templates and a complete production workflow.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJS - NextJS",
-                    "PHP - Yii",
-                    "MSSQL - MySQL - Memcached - Redis",
-                    "AWS - Lambda - EC2 - Amplify",
-                    "Ubuntu - Docker - Git - Bitbucket"
+                    "React",
+                    "Node.js",
+                    "PHP",
+                    "MySQL",
+                    "AWS"
                 ],
                 "link": "https://www.picabooyearbooks.com/",
                 "github": "",
-                "image": "https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/c971b91f-9414-45c8-aa10-192ae42067f4/PicabooYB_Dark.png"
+                "image": "https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/c971b91f-9414-45c8-aa10-192ae42067f4/PicabooYB_Dark.png",
+                "featured": true
             },
             {
                 "title": "Entourage Yearbooks",
@@ -50,31 +49,30 @@
                 ],
                 "link": "https://entourageyearbooks.com/",
                 "github": "",
-                "image": "https://entourage-web-images.s3.us-east-1.amazonaws.com/LOGO/new_logo_red_stacked.png"
+                "image": "https://entourage-web-images.s3.us-east-1.amazonaws.com/LOGO/new_logo_red_stacked.png",
+                "featured": false
             },
             {
                 "title": "EdoNext Platform",
                 "description": "Advanced yearbook editor with sections, templates, asset management and online collaboration for design teams.",
                 "tags": [
-                    "ReactJS - NextJS - TypeScript",
-                    "Zustand",
-                    "TailwindCSS",
-                    "NodeJS - Express - Pusher",
-                    "PHP - Laravel",
-                    "MSSQL - MySQL - DynamoDB - Redis",
-                    "AWS - Lambda - EC2 - Amplify",
-                    "Ubuntu - Docker - GitHub"
+                    "Next.js",
+                    "TypeScript",
+                    "Laravel",
+                    "Redis",
+                    "AWS"
                 ],
                 "link": "https://edonext.entourageyearbooks.com/",
                 "github": "",
-                "image": "https://static.helpjuice.com/helpjuice_production/uploads/template/brand_image/20293/27824/Nextlogo-Final.png"
+                "image": "https://static.helpjuice.com/helpjuice_production/uploads/template/brand_image/20293/27824/Nextlogo-Final.png",
+                "featured": true
             },
             {
                 "title": "Creator Studio Pro",
                 "description": "Design platform for creating printed and digital products within the Picaboo / Entourage ecosystem.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJS - NextJS",
+                    "React - JavaScript - Redux",
+                    "Node.js - Next.js",
                     "PHP - Yii",
                     "MSSQL - MySQL - Memcached - Redis",
                     "AWS - Lambda - EC2 - Amplify",
@@ -82,14 +80,15 @@
                 ],
                 "link": "https://creatorstudio.picabooyearbooks.com/",
                 "github": "",
-                "image": "https://images.squarespace-cdn.com/content/v1/62ed2bfe79626d43ceed5c1f/f7b80ff1-c6cb-4dae-bfa8-409005b5a9ad/CreatorStudioPro.png"
+                "image": "https://images.squarespace-cdn.com/content/v1/62ed2bfe79626d43ceed5c1f/f7b80ff1-c6cb-4dae-bfa8-409005b5a9ad/CreatorStudioPro.png",
+                "featured": false
             },
             {
                 "title": "Edge Creator Studio",
                 "description": "Specialized version of Creator Studio for the Edge brand, optimized for specific workflows and tailored experiences.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJS - NextJS",
+                    "React - JavaScript - Redux",
+                    "Node.js - Next.js",
                     "PHP - Yii",
                     "MSSQL - MySQL - Memcached - Redis",
                     "AWS - Lambda - EC2 - Amplify",
@@ -97,14 +96,15 @@
                 ],
                 "link": "https://edge.creatorstudiopro.com/",
                 "github": "",
-                "image": "https://edgeimaging.ca/wp-content/uploads/edge-imaging-300x107.png"
+                "image": "https://edgeimaging.ca/wp-content/uploads/edge-imaging-300x107.png",
+                "featured": false
             },
             {
                 "title": "Store Shop Yearbooks",
                 "description": "Online store for selling yearbooks, with product, order and payment management, fully integrated with the Entourage/Picaboo ecosystem.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJS - NextJS",
+                    "React - JavaScript - Redux",
+                    "Node.js - Next.js",
                     "PHP - Yii",
                     "MSSQL - MySQL - Memcached - Redis",
                     "AWS - Lambda - EC2 - Amplify",
@@ -112,22 +112,22 @@
                 ],
                 "link": "https://store.shopyearbook.com/manuel",
                 "github": "",
-                "image": "ShopYearbook_Logo.png"
+                "image": "/ShopYearbook_Logo.png",
+                "featured": false
             },
             {
                 "title": "YouSellWeSend",
                 "description": "Fulfilment logistics platform that connects online shops with warehouses and shipping providers, managing orders, stock and preparation workflows.",
                 "tags": [
-                    "JavaScript - jQuery",
-                    "PHP - Laravel",
-                    "Blade Templates",
-                    "MySQL - Redis",
-                    "Google Cloud",
-                    "Ubuntu - Docker - Git - Bitbucket"
+                    "Laravel",
+                    "MySQL",
+                    "Redis",
+                    "Google Cloud"
                 ],
                 "link": "https://yousellwesend.de/en/",
                 "github": "",
-                "image": "https://yousellwesend.de/wp-content/uploads/2023/05/logo_medium_transparent_einzeilig.png.webp"
+                "image": "https://yousellwesend.de/wp-content/uploads/2023/05/logo_medium_transparent_einzeilig.png.webp",
+                "featured": true
             },
             {
                 "title": "Wemalo – Warehouse Management Platform",
@@ -140,7 +140,8 @@
                 ],
                 "link": "https://wemalo.com/en/",
                 "github": "",
-                "image": "https://wemalo.com/wp-content/uploads/Wemalo-Logo--e1743598490864.webp"
+                "image": "/wemalo.png",
+                "featured": false
             },
             {
                 "title": "Shipping Portal",
@@ -155,21 +156,23 @@
                 ],
                 "link": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/",
                 "github": "",
-                "image": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/img/logo/logo-2.png"
+                "image": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/img/logo/logo-2.png",
+                "featured": false
             },
             {
                 "title": "Wemalo API – Connect",
                 "description": "API for connecting various e-commerce platforms and external systems with Wemalo's logistics infrastructure.",
                 "tags": [
-                    "ReactJS - Koa - Apollo",
-                    "NodeJS - TypeScript",
+                    "React - Koa - Apollo",
+                    "Node.js - TypeScript",
                     "MySQL - Redis",
                     "Google Cloud",
                     "Shopify - WooCommerce"
                 ],
                 "link": "https://connect-api.wemalo.com/",
                 "github": "",
-                "image": "https://connect-api.wemalo.com/img/wemalo.png"
+                "image": "/wemalo.png",
+                "featured": false
             },
             {
                 "title": "DORFZAUN",
@@ -182,7 +185,8 @@
                 ],
                 "link": "https://kdorfzaun.com/",
                 "github": "",
-                "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png"
+                "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png",
+                "featured": false
             },
             {
                 "title": "Läderach – E-commerce Platform",
@@ -195,38 +199,36 @@
                 ],
                 "link": "https://laderach.com/",
                 "github": "",
-                "image": "https://svc.swiss/sites/default/files/styles/partner_logo_fulll/public/2020-03/logo_chocolaiterie_suisse.png"
+                "image": "https://svc.swiss/sites/default/files/styles/partner_logo_fulll/public/2020-03/logo_chocolaiterie_suisse.png",
+                "featured": false
             },
             {
                 "title": "Givbux",
                 "description": "Mobile app and online platform with a rewards system and marketplace, integrating payments, users and merchants.",
                 "tags": [
                     "Ionic",
-                    "ReactJS",
-                    "PHP - Laravel",
-                    "MySQL - Redis",
-                    "NodeJS",
-                    "MongoDB",
+                    "React",
+                    "Laravel",
                     "AWS"
                 ],
                 "link": "https://givbux.com/",
                 "github": "",
-                "image": "/dark-Givbux.png"
+                "image": "/dark-Givbux.png",
+                "featured": true
             },
             {
                 "title": "Insotec – Financial App and Portal",
                 "description": "Mobile app and web portal for a financial institution, allowing users to manage products, applications and inquiries.",
                 "tags": [
                     "Angular",
-                    "PHP - Laravel",
-                    "MySQL - Redis",
-                    "Google Cloud",
-                    "Firebase",
-                    "Ionic"
+                    "Ionic",
+                    "Laravel",
+                    "Firebase"
                 ],
                 "link": "https://insotectuamigo.web.app/",
                 "github": "https://github.com/manunoly/insotec-colaborador-app",
-                "image": "insotec.png"
+                "image": "/insotec.png",
+                "featured": true
             },
             {
                 "title": "Bemte – Education Platform",
@@ -240,7 +242,8 @@
                 ],
                 "link": "https://github.com/manunoly/pulpo-bemte-backend",
                 "github": "https://github.com/manunoly/pulpo-bemte-backend",
-                "image": "https://raw.githubusercontent.com/manunoly/pulpo-bemte/refs/heads/master/resources/android/splash/drawable-land-hdpi-screen.png"
+                "image": "https://raw.githubusercontent.com/manunoly/pulpo-bemte/refs/heads/master/resources/android/splash/drawable-land-hdpi-screen.png",
+                "featured": false
             },
             {
                 "title": "Ecuador Travel Guide (ETG)",
@@ -254,7 +257,8 @@
                 ],
                 "link": "https://github.com/manunoly/pulpo-etg",
                 "github": "https://github.com/manunoly/pulpo-etg",
-                "image": "https://raw.githubusercontent.com/manunoly/pulpo-etg/refs/heads/master/src/assets/img/logotipo.png"
+                "image": "https://raw.githubusercontent.com/manunoly/pulpo-etg/refs/heads/master/src/assets/img/logotipo.png",
+                "featured": false
             },
             {
                 "title": "Pide Un Taxi",
@@ -264,12 +268,12 @@
                     "GeoFireX - GeoFire",
                     "Google Maps",
                     "Firebase",
-                    "Google Cloud",
-                    "Firebase"
+                    "Google Cloud"
                 ],
                 "link": "https://pideuntaxicom.firebaseapp.com/",
                 "github": "https://youtu.be/QCf674owfzM",
-                "image": "https://pideuntaxicom.firebaseapp.com/assets/icon/favicon.png"
+                "image": "https://pideuntaxicom.firebaseapp.com/assets/icon/favicon.png",
+                "featured": false
             },
             {
                 "title": "SIE Ecuador – Energy Benchmarking",
@@ -281,7 +285,8 @@
                 ],
                 "link": "https://sie3-ecuador.web.app/",
                 "github": "https://github.com/manunoly/sqlArconel",
-                "image": "https://sie3-ecuador.web.app/assets/imgs/movil-logosie.png"
+                "image": "https://sie3-ecuador.web.app/assets/imgs/movil-logosie.png",
+                "featured": false
             },
             {
                 "title": "Solar Chimney Simulator & TMY Generator",
@@ -293,7 +298,8 @@
                 ],
                 "link": "https://iner-tmy.shinyapps.io/iner-tmy/",
                 "github": "https://github.com/manunoly/ChimeneaSolar",
-                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png"
+                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png",
+                "featured": true
             },
             {
                 "title": "Lithostratigraphic Code Search",
@@ -305,7 +311,8 @@
                 ],
                 "link": "https://buscadorcodigos.web.app",
                 "github": "https://github.com/manunoly/iige-buscaror-de-codigos",
-                "image": "logo-buscador-codigos.svg"
+                "image": "/logo-buscador-codigos.svg",
+                "featured": false
             },
             {
                 "title": "INER Congress – Event Platform",
@@ -317,7 +324,8 @@
                 ],
                 "link": "https://congreso-iner.firebaseapp.com/",
                 "github": "https://github.com/manunoly/iner-congreso",
-                "image": "https://congreso-iner.firebaseapp.com/assets/img/portadilla_horizontal.jpg"
+                "image": "https://congreso-iner.firebaseapp.com/assets/img/portadilla_horizontal.jpg",
+                "featured": false
             },
             {
                 "title": "Energy Efficiency Game",
@@ -330,7 +338,8 @@
                 ],
                 "link": "https://github.com/manunoly/juegoSimuladorMateriales",
                 "github": "https://github.com/manunoly/juegoSimuladorMateriales",
-                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/juego/casa.png"
+                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/juego/casa.png",
+                "featured": false
             },
             {
                 "title": "Customs Systems with Intellectual Property & Patents",
@@ -354,65 +363,38 @@
                     "Performance Evaluation System – Cuba Customs",
                     "International Transport Means System – Cuba Customs",
                     "Advance Passenger Information System – Cuba Customs"
-                ]
+                ],
+                "featured": false
             }
         ],
         "skills": {
             "Frontend": [
-                "JavaScript",
-                "TypeScript",
-                "React.js",
-                "Angular",
-                "Next.js",
-                "HTML",
-                "CSS",
-                "jQuery",
-                "Responsive Design",
-                "Tailwind CSS",
-                "Bootstrap",
-                "Flexbox",
-                "Promises",
-                "Async-Await",
-                "RxJS",
-                "Observables",
-                "Zustand",
-                "Redux",
-                "Astro",
-                "Ionic",
-                "React Native"
+                "JavaScript & TypeScript",
+                "React, Next.js & Astro",
+                "Angular, RxJS & Ionic",
+                "React Native",
+                "HTML, CSS & responsive design",
+                "Tailwind CSS & Bootstrap",
+                "Redux & Zustand"
             ],
             "Backend": [
-                "Software design and architecture (layers, services, modular monoliths, microservices)",
-                "OOP - Encapsulation - Inheritance - Polymorphism",
-                "Clean Coding - SOLID Principles - DRY - KISS",
-                "Problem Solving - Debugging - Testing - Version Control",
-                "Node.js - Express - Koa - Apollo",
-                "PHP - Laravel - Symfony - Yii - CodeIgniter",
-                "Python - Django - FastAPI",
-                ".NET Core - C# - C++",
-                "Design and consumption of REST - SOAP - GraphQL APIs",
-                "Socket.io - Pusher.js",
-                "Firebase (Auth, Realtime) - Firestore",
-                "Advanced SQL",
-                "Relational & NoSQL database modeling and optimization",
-                "Oracle - MySQL - MariaDB - PostgreSQL - SQL Server - MongoDB - Redis",
-                "Automated testing (unit, integration, e2e)",
-                "Integrated AI in development (OpenAI - Anthropic - Claude - Gemini)",
-                "Payment gateway integrations (Stripe, Dwolla, PayPal)"
+                "Node.js (Express, Koa, Apollo)",
+                "PHP (Laravel, Symfony, Yii)",
+                "Python (Django, FastAPI)",
+                "C#, .NET Core & C++",
+                "REST, GraphQL & real-time APIs",
+                "SQL & NoSQL databases",
+                "Automated testing & payment integrations",
+                "Software architecture, security & AI integrations"
             ],
-            "Herramientas y Tecnologías": [
-                "AWS (EC2, S3, RDS, Lambda, Amplify, VPC, ECS)",
-                "Google Cloud Platform (GCP)",
-                "Docker - Kubernetes",
-                "Vercel - Railway - Typesense",
-                "Nginx - Apache",
-                "CI/CD pipelines (CloudFormation, GitHub, GitLab, Bitbucket, Jenkins)",
-                "Linux Server Install - Administration - Bash",
-                "Cybersecurity (OWASP, ISO 27001)",
-                "Postman - Swagger - OpenAPI - JMeter",
-                "Scrum - Jira - XP - RUP",
-                "npm - yarn - pnpm - bun - webpack - vite",
-                "Pentaho BI - ETL - Kettle"
+            "Cloud & tools": [
+                "AWS & Google Cloud",
+                "Docker & Kubernetes",
+                "Linux, Nginx & Apache",
+                "CI/CD: GitHub, GitLab, Bitbucket & Jenkins",
+                "Git, npm, pnpm, yarn & bun",
+                "Postman, Swagger, OpenAPI & JMeter",
+                "ETL & business intelligence"
             ]
         },
         "experience": [
@@ -454,14 +436,14 @@
                 "year": "2007"
             },
             {
-                "degree": "Completed several postgraduate programs in software engineering, systems architecture, databases and project management, including topics such as intelligent systems, SOA architecture, quality assurance, agile methodologies, software testing and process modeling. This advanced training strengthened my ability to design robust solutions and lead technology projects with a solid and structured technical vision.",
+                "degree": "Postgraduate coursework in software engineering, systems architecture, databases and project management, including agile methods, software quality and testing.",
                 "school": "Postgraduate Studies in Computer Science",
                 "year": "2007 - 2014"
             }
         ],
         "research": {
-            "title": "Academic Research",
-            "description": "Former University Professor and Scientific Researcher. My work focuses on Software Engineering, Fuzzy Logic and Information Systems.",
+            "title": "Academic research",
+            "description": "I previously worked as a university professor and researcher. My publications cover software engineering, fuzzy logic, information systems and energy analysis.",
             "profileLink": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ",
             "publications": [
                 {
@@ -469,152 +451,133 @@
                     "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Martínez, Javier; Lobato, Andrea; Palme, Massimo",
                     "publication": "IOP Conference Series: Materials Science and Engineering",
                     "year": "2017",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC"
                 },
                 {
                     "title": "Estimating the indoor thermal comfort deficit in the social housing built in Ecuador by integrating Building Information Modelling and Geographical Information Systems",
                     "authors": "Gallardo, Andre; Villacreses, Geovanna; Almaguer, Manuel; Lobato-Cordero, Andrea; Cordovez, Mart",
                     "publication": "Building Simulation 2017",
                     "year": "2017",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC"
                 },
                 {
                     "title": "Dynamic-physical model to predict the performance of a solar chimney in a warm-humid climate with different absorbent materials",
                     "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Kastillo, Juan; Martínez, Javier; Lobato-Cordero, Andrea",
                     "publication": "Building Simulation 2017",
                     "year": "2017",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC"
                 },
                 {
                     "title": "Generalization of the Function Point Method using Fuzzy Logic",
                     "authors": "Soria Barreda, Liannis; Almaguer Ochoa, Manuel Ramón; Diaz Vera, Julio Cesar; Arza Perez, Lizandra",
                     "publication": "Revista Cubana de Ciencias Informáticas",
                     "year": "2016",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C"
                 },
                 {
                     "title": "Strategies to improve living conditions and energy consumption in housing",
                     "authors": "Palme, Massimo; Lobato, Andrea; Gallardo, Andrés; Beltrán, D; Kastillo, Juan; Villacreses, Geovanna; Godoy, F",
                     "publication": "Downloaded from: http://www.iner.gob.ec/biblioteca/. Ecuador",
                     "year": "2016",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C"
                 },
                 {
                     "title": "Dependency manager for the Integrated Customs Management System 1.0",
                     "authors": "León Ricardo, Yurismara; Almaguer Ochoa, Manuel R; Romero Piñeiro, Yasel Antonio",
                     "publication": "",
                     "year": "2015",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "System to control the use of technological equipment in the teaching labs of Faculty 3",
                     "authors": "Morales Pestana, Juan Ignacio; Reyes Pérez, Zénel; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2015",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC"
                 },
                 {
                     "title": "Development of the installer for the Integrated Customs Management System 1.0",
                     "authors": "Romero Sieres, Gisel; Cuscó Alemañy, Julio César; Weeden Gamboa, Raymond; Almaguer Ochoa, Manuel; Naranjo García, Adrián",
                     "publication": "",
                     "year": "2015",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Decoder for the Advance Passenger Information Transfer Standard",
                     "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Plasencia Herrera, Randy",
                     "publication": "12th Edition",
                     "year": "2012",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "System for Aircraft Clearance at Cuba Customs",
                     "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Rodríguez Valdés, Gretter Lisbet; Castellanos Cobas, Leydis",
                     "publication": "12th Edition",
                     "year": "2012",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Design and implementation of the International Transport Means History component for the Integrated Customs Management System",
                     "authors": "Castellano Betancourt, Ivian Laobel; Almaguer Ochoa, Manuel Ramón; Romero Piñeiro, Yasel Antonio",
                     "publication": "University of Informatics Sciences",
                     "year": "2012",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Design and implementation of the Air International Transport Dispatch subsystem",
                     "authors": "Rodríguez Valdés, Gretter Lisbet; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2011",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Design and implementation of the recreational vessels dispatch module for the Integrated Customs Management System",
                     "authors": "Álvarez Rodríguez, Natacha; Almaguer Ochoa, Manuel R",
                     "publication": "",
                     "year": "2011",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Design and implementation of the maritime transport dispatch module for the Integrated Customs Management System",
                     "authors": "Vega Mena, Ismail; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2011",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Implementation of a phonetic encoding and search engine for the Integrated Customs Management System",
                     "authors": "Romero González, Carlos Manuel; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2010",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Configuration of Network Services: Analysis and Design",
                     "authors": "Consuegra Roselló, Arley; Guerra Nieves, Luis Miguel; Almaguer Ochoa, Manuel Ramón; Hernández López, Jorge Luis",
                     "publication": "",
                     "year": "2009",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Implementation of JavaScript validations for AGR. Adaptation to the ExtJS framework.",
                     "authors": "Mayo Leyva, Yandier; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2008",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Human Resources System. Performance Evaluation Module.",
                     "authors": "Almaguer Ochoa, Manuel Ramón; Delahanty, Deborah; Díaz Vera, Julio César",
                     "publication": "",
                     "year": "2007",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC"
                 },
                 {
                     "title": "Applying Fuzzy Logic to Remove Hard Boundaries in the Function Point Method",
                     "authors": "Barreda, Liannis Soria; Ochoa, Manuel Ramón Almaguer",
                     "publication": "",
                     "year": "",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC"
                 }
             ]
         },
@@ -652,24 +615,23 @@
         }
     },
     "es": {
+        "seo": {
+            "title": "Manuel Almaguer | Arquitecto de software y desarrollador full stack",
+            "description": "Manuel Almaguer, arquitecto de software y desarrollador full stack con más de 15 años creando aplicaciones empresariales para web y móvil."
+        },
         "hero": {
             "name": "Manuel Almaguer",
-            "tagline": "Creando Experiencias Digitales que Importan",
+            "tagline": "Arquitecto de software y desarrollador full stack",
             "subtext": [
-                "Mas de 15 años de experiencia en desarrollo de software empresarial",
-                "Si, utilizo IA a diario, pero aprendí a programar utilizando",
-                "#include <iostream> & window.onload = function() {};",
-                ""
+                "Más de 15 años creando software empresarial, desde la arquitectura hasta su puesta en producción."
             ],
-            "resumeLink": "Manuel-Almaguer-Senior-Software-Engineer-Full-Stack.docx.pdf"
+            "resumeLink": "/Manuel-Almaguer-Senior-Software-Engineer-Full-Stack.docx.pdf"
         },
         "about": {
-            "title": "About Me",
+            "title": "Sobre mí",
             "content": [
-                "Soy un Desarrollador Full Stack con más de 15 años de experiencia, especializado en la creación de software empresarial complejo, abarcando todo el ciclo de desarrollo: desde la idea inicial hasta el despliegue en producción.",
-                "Me apasiona diseñar e integrar sistemas robustos, siempre con un enfoque en la seguridad, la capacidad de escalar y la satisfacción de quienes utilizan el producto.",
-                "Disfruto optimizar rendimiento, colaborar en equipo, aprender continuamente y compartir conocimientos. A lo largo de mi trayectoria he trabajado en todas las áreas del desarrollo de software: frontend, backend, administración de servidores Linux y operación en entornos cloud como AWS y Google Cloud, integración de IA para optimizar procesos y desarrollo de productos, liderando proyectos y arquitecturas con una visión práctica y orientada a resultados.",
-                "Mi camino comenzó de forma sencilla y curiosa: desarrollé mi tesis en Ubuntu 7.04 con Fluxbox y Xfce, en una computadora de 512 MB de RAM, programando todo a mano y usando Windows solo para escribir el documento final. Esa experiencia marcó mi estilo: aprender, resolver y construir sin importar las limitaciones."
+                "Soy arquitecto de software y desarrollador full stack con más de 15 años creando aplicaciones empresariales para web y móvil. Trabajo en todo el ciclo, del diseño de sistemas a la puesta en producción, con experiencia en AWS, Google Cloud y Linux. Valoro los sistemas seguros y mantenibles y la colaboración cercana.",
+                "Mis primeros proyectos incluyeron una tesis desarrollada en Ubuntu con 512 MB de RAM. Esa experiencia marcó mi forma de trabajar: entender el problema, aprender lo necesario y construir con los recursos disponibles. Hoy también utilizo IA para apoyar el desarrollo y mejorar productos."
             ],
             "image": "https://avatars.githubusercontent.com/u/636156"
         },
@@ -678,16 +640,16 @@
                 "title": "Picaboo Yearbooks",
                 "description": "Plataforma de creación y gestión de anuarios escolares para miles de usuarios, incluyendo editor en línea, plantillas y flujo completo de producción.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJs - NextJS",
-                    "PHP - Yii",
-                    "MSSQL - MySQL - Memcached - Redis",
-                    "AWS - Lambda - EC2 - Amplify",
-                    "Ubuntu - Docker - Git - Bitbucket"
+                    "React",
+                    "Node.js",
+                    "PHP",
+                    "MySQL",
+                    "AWS"
                 ],
                 "link": "https://www.picabooyearbooks.com/",
                 "github": "",
-                "image": "https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/c971b91f-9414-45c8-aa10-192ae42067f4/PicabooYB_Dark.png"
+                "image": "https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/c971b91f-9414-45c8-aa10-192ae42067f4/PicabooYB_Dark.png",
+                "featured": true
             },
             {
                 "title": "Entourage Yearbooks",
@@ -702,31 +664,30 @@
                 ],
                 "link": "https://entourageyearbooks.com/",
                 "github": "",
-                "image": "https://entourage-web-images.s3.us-east-1.amazonaws.com/LOGO/new_logo_red_stacked.png"
+                "image": "https://entourage-web-images.s3.us-east-1.amazonaws.com/LOGO/new_logo_red_stacked.png",
+                "featured": false
             },
             {
                 "title": "EdoNext Platform",
                 "description": "Editor avanzado de anuarios escolares, con secciones, plantillas, manejo de recursos y colaboración en línea para equipos de diseño.",
                 "tags": [
-                    "ReactJS - NextJS - TypeScript",
-                    "Zustand",
-                    "TailwindCSS",
-                    "NodeJs - Express - Pusher",
-                    "PHP - Laravel",
-                    "MSSQL - MySQL - DynamoDB - Redis",
-                    "AWS - Lambda - EC2 - Amplify",
-                    "Ubuntu - Docker - GitHub"
+                    "Next.js",
+                    "TypeScript",
+                    "Laravel",
+                    "Redis",
+                    "AWS"
                 ],
                 "link": "https://edonext.entourageyearbooks.com/",
                 "github": "",
-                "image": "https://static.helpjuice.com/helpjuice_production/uploads/template/brand_image/20293/27824/Nextlogo-Final.png"
+                "image": "https://static.helpjuice.com/helpjuice_production/uploads/template/brand_image/20293/27824/Nextlogo-Final.png",
+                "featured": true
             },
             {
                 "title": "Creator Studio Pro",
                 "description": "Plataforma de diseño para la creación de productos impresos y digitales dentro del ecosistema Picaboo / Entourage.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJs - NextJS",
+                    "React - JavaScript - Redux",
+                    "Node.js - Next.js",
                     "PHP - Yii",
                     "MSSQL - MySQL - Memcached - Redis",
                     "AWS - Lambda - EC2 - Amplify",
@@ -734,14 +695,15 @@
                 ],
                 "link": "https://creatorstudio.picabooyearbooks.com/",
                 "github": "",
-                "image": "https://images.squarespace-cdn.com/content/v1/62ed2bfe79626d43ceed5c1f/f7b80ff1-c6cb-4dae-bfa8-409005b5a9ad/CreatorStudioPro.png"
+                "image": "https://images.squarespace-cdn.com/content/v1/62ed2bfe79626d43ceed5c1f/f7b80ff1-c6cb-4dae-bfa8-409005b5a9ad/CreatorStudioPro.png",
+                "featured": false
             },
             {
                 "title": "Edge Creator Studio",
                 "description": "Versión especializada de Creator Studio para la marca Edge, optimizada para flujos de trabajo específicos y experiencias personalizadas.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJs - NextJS",
+                    "React - JavaScript - Redux",
+                    "Node.js - Next.js",
                     "PHP - Yii",
                     "MSSQL - MySQL - Memcached - Redis",
                     "AWS - Lambda - EC2 - Amplify",
@@ -749,14 +711,15 @@
                 ],
                 "link": "https://edge.creatorstudiopro.com/",
                 "github": "",
-                "image": "https://edgeimaging.ca/wp-content/uploads/edge-imaging-300x107.png"
+                "image": "https://edgeimaging.ca/wp-content/uploads/edge-imaging-300x107.png",
+                "featured": false
             },
             {
                 "title": "Store Shop Yearbooks",
                 "description": "Tienda en línea para la venta de anuarios, con gestión de productos, pedidos y pagos, integrada con el ecosistema Entourage/Picaboo.",
                 "tags": [
-                    "ReactJS - JavaScript - Redux",
-                    "NodeJs - NextJS",
+                    "React - JavaScript - Redux",
+                    "Node.js - Next.js",
                     "PHP - Yii",
                     "MSSQL - MySQL - Memcached - Redis",
                     "AWS - Lambda - EC2 - Amplify",
@@ -764,22 +727,22 @@
                 ],
                 "link": "https://store.shopyearbook.com/manuel",
                 "github": "",
-                "image": "/ShopYearbook_Logo.png"
+                "image": "/ShopYearbook_Logo.png",
+                "featured": false
             },
             {
                 "title": "YouSellWeSend",
                 "description": "Plataforma logística de fulfilment que conecta tiendas online con almacenes y empresas de envío, gestionando pedidos, stock y procesos de preparación.",
                 "tags": [
-                    "JavaScript - jQuery",
-                    "PHP - Laravel",
-                    "Blade Templates",
-                    "MySQL - Redis",
-                    "Google Cloud",
-                    "Ubuntu - Docker - Git - Bitbucket"
+                    "Laravel",
+                    "MySQL",
+                    "Redis",
+                    "Google Cloud"
                 ],
                 "link": "https://yousellwesend.de/en/",
                 "github": "",
-                "image": "https://yousellwesend.de/wp-content/uploads/2023/05/logo_medium_transparent_einzeilig.png.webp"
+                "image": "https://yousellwesend.de/wp-content/uploads/2023/05/logo_medium_transparent_einzeilig.png.webp",
+                "featured": true
             },
             {
                 "title": "Wemalo – Plataforma de Gestión de Almacenes",
@@ -792,7 +755,8 @@
                 ],
                 "link": "https://wemalo.com/en/",
                 "github": "",
-                "image": "https://wemalo.com/wp-content/uploads/Wemalo-Logo--e1743598490864.webp"
+                "image": "/wemalo.png",
+                "featured": false
             },
             {
                 "title": "Shipping Portal",
@@ -807,21 +771,23 @@
                 ],
                 "link": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/",
                 "github": "",
-                "image": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/img/logo/logo-2.png"
+                "image": "https://shipping-portal-dot-testarea-4es-playground.ey.r.appspot.com/img/logo/logo-2.png",
+                "featured": false
             },
             {
                 "title": "Wemalo API – Connect",
                 "description": "API para conectar diferentes plataformas de e-commerce y sistemas externos con la infraestructura logística de Wemalo.",
                 "tags": [
-                    "ReactJS - Koa - Apollo",
-                    "NodeJS - TypeScript",
+                    "React - Koa - Apollo",
+                    "Node.js - TypeScript",
                     "MySQL - Redis",
                     "Google Cloud",
                     "Shopify - WooCommerce"
                 ],
                 "link": "https://connect-api.wemalo.com/",
                 "github": "",
-                "image": "https://connect-api.wemalo.com/img/wemalo.png"
+                "image": "/wemalo.png",
+                "featured": false
             },
             {
                 "title": "DORFZAUN",
@@ -830,14 +796,15 @@
                     "VueJS - TypeScript",
                     "PHP - Laravel",
                     "MySQL - Redis",
-                    "Wordpress WooCommerce"
+                    "WordPress WooCommerce"
                 ],
                 "link": "https://kdorfzaun.com/",
                 "github": "",
-                "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png"
+                "image": "https://kdorfzaun.b-cdn.net/wp-content/uploads/logo-dorfzaun.png",
+                "featured": false
             },
             {
-                "title": "Läderach – Platforma E-commerce",
+                "title": "Läderach – Plataforma E-commerce",
                 "description": "Plataforma e-commerce para la marca de chocolates Läderach, integrando procesos internos y experiencia digital.",
                 "tags": [
                     "Magento",
@@ -847,38 +814,36 @@
                 ],
                 "link": "https://laderach.com/",
                 "github": "",
-                "image": "https://svc.swiss/sites/default/files/styles/partner_logo_fulll/public/2020-03/logo_chocolaiterie_suisse.png"
+                "image": "https://svc.swiss/sites/default/files/styles/partner_logo_fulll/public/2020-03/logo_chocolaiterie_suisse.png",
+                "featured": false
             },
             {
                 "title": "Givbux",
                 "description": "Aplicación móvil y plataforma en línea con sistema de recompensas y marketplace, integrando pagos, usuarios y comercios.",
                 "tags": [
                     "Ionic",
-                    "ReactJS",
-                    "PHP - Laravel",
-                    "MySQL - Redis",
-                    "NodeJS",
-                    "MongoDB",
+                    "React",
+                    "Laravel",
                     "AWS"
                 ],
                 "link": "https://givbux.com/",
                 "github": "",
-                "image": "/dark-Givbux.png"
+                "image": "/dark-Givbux.png",
+                "featured": true
             },
             {
                 "title": "Insotec – App y Portal Financiero",
                 "description": "Aplicación móvil y portal web para una entidad financiera, permitiendo a los usuarios gestionar productos, solicitudes y consultas.",
                 "tags": [
                     "Angular",
-                    "PHP - Laravel",
-                    "MySQL - Redis",
-                    "Google Cloud",
-                    "Firebase",
-                    "Ionic"
+                    "Ionic",
+                    "Laravel",
+                    "Firebase"
                 ],
                 "link": "https://insotectuamigo.web.app/",
                 "github": "https://github.com/manunoly/insotec-colaborador-app",
-                "image": "/insotec.png"
+                "image": "/insotec.png",
+                "featured": true
             },
             {
                 "title": "Bemte – Plataforma Educativa",
@@ -892,7 +857,8 @@
                 ],
                 "link": "https://github.com/manunoly/pulpo-bemte-backend",
                 "github": "https://github.com/manunoly/pulpo-bemte-backend",
-                "image": "https://raw.githubusercontent.com/manunoly/pulpo-bemte/refs/heads/master/resources/android/splash/drawable-land-hdpi-screen.png"
+                "image": "https://raw.githubusercontent.com/manunoly/pulpo-bemte/refs/heads/master/resources/android/splash/drawable-land-hdpi-screen.png",
+                "featured": false
             },
             {
                 "title": "Ecuador Travel Guide (ETG)",
@@ -906,7 +872,8 @@
                 ],
                 "link": "https://github.com/manunoly/pulpo-etg",
                 "github": "https://github.com/manunoly/pulpo-etg",
-                "image": "https://raw.githubusercontent.com/manunoly/pulpo-etg/refs/heads/master/src/assets/img/logotipo.png"
+                "image": "https://raw.githubusercontent.com/manunoly/pulpo-etg/refs/heads/master/src/assets/img/logotipo.png",
+                "featured": false
             },
             {
                 "title": "Pide Un Taxi",
@@ -914,12 +881,12 @@
                 "tags": [
                     "Ionic - Angular",
                     "Firebase",
-                    "Google Cloud",
-                    "Firebase"
+                    "Google Cloud"
                 ],
                 "link": "https://pideuntaxicom.firebaseapp.com/",
                 "github": "https://youtu.be/QCf674owfzM",
-                "image": "https://pideuntaxicom.firebaseapp.com/assets/icon/favicon.png"
+                "image": "https://pideuntaxicom.firebaseapp.com/assets/icon/favicon.png",
+                "featured": false
             },
             {
                 "title": "SIE Ecuador – Benchmarking Energético",
@@ -931,7 +898,8 @@
                 ],
                 "link": "https://sie3-ecuador.web.app/",
                 "github": "https://github.com/manunoly/sqlArconel",
-                "image": "https://sie3-ecuador.web.app/assets/imgs/movil-logosie.png"
+                "image": "https://sie3-ecuador.web.app/assets/imgs/movil-logosie.png",
+                "featured": false
             },
             {
                 "title": "Solar Chimney Simulator y TMY Generator",
@@ -943,7 +911,8 @@
                 ],
                 "link": "https://iner-tmy.shinyapps.io/iner-tmy/",
                 "github": "https://github.com/manunoly/ChimeneaSolar",
-                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png"
+                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/tmy.png",
+                "featured": true
             },
             {
                 "title": "Buscador de Códigos Litoestratigráficos",
@@ -955,7 +924,8 @@
                 ],
                 "link": "https://buscadorcodigos.web.app",
                 "github": "https://github.com/manunoly/iige-buscaror-de-codigos",
-                "image": "/logo-buscador-codigos.svg"
+                "image": "/logo-buscador-codigos.svg",
+                "featured": false
             },
             {
                 "title": "INER Congreso – Plataforma de Eventos",
@@ -967,7 +937,8 @@
                 ],
                 "link": "https://congreso-iner.firebaseapp.com/",
                 "github": "https://github.com/manunoly/iner-congreso",
-                "image": "https://congreso-iner.firebaseapp.com/assets/img/portadilla_horizontal.jpg"
+                "image": "https://congreso-iner.firebaseapp.com/assets/img/portadilla_horizontal.jpg",
+                "featured": false
             },
             {
                 "title": "Juego de Eficiencia Energética",
@@ -980,7 +951,8 @@
                 ],
                 "link": "https://github.com/manunoly/juegoSimuladorMateriales",
                 "github": "https://github.com/manunoly/juegoSimuladorMateriales",
-                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/juego/casa.png"
+                "image": "https://raw.githubusercontent.com/manunoly/juegoSimuladorMateriales/refs/heads/master/img/juego/casa.png",
+                "featured": false
             },
             {
                 "title": "Sistemas Aduanales con Propiedad Intelectual y Patentes",
@@ -1004,94 +976,67 @@
                     "Performance Evaluation System – Cuba Customs",
                     "International Transport Means System – Cuba Customs",
                     "Advance Passenger Information System – Cuba Customs"
-                ]
+                ],
+                "featured": false
             }
         ],
         "skills": {
             "Frontend": [
-                "JavaScript",
-                "TypeScript",
-                "React.js",
-                "Angular",
-                "Next.js",
-                "HTML",
-                "CSS",
-                "jQuery",
-                "Responsive Design",
-                "Tailwind CSS",
-                "Bootstrap",
-                "Flexbox",
-                "Promises",
-                "Async-Await",
-                "RxJS",
-                "Observables",
-                "Zustand",
-                "Redux",
-                "Astro",
-                "Ionic",
-                "React Native"
+                "JavaScript y TypeScript",
+                "React, Next.js y Astro",
+                "Angular, RxJS e Ionic",
+                "React Native",
+                "HTML, CSS y diseño adaptable",
+                "Tailwind CSS y Bootstrap",
+                "Redux y Zustand"
             ],
             "Backend": [
-                "Diseño y arquitectura de software (capas, servicios, monolitos modulares, microservicios)",
-                "OOP - Encapsulation - Inheritance - Polymorphism",
-                "Clean Coding - SOLID Principles - DRY - KISS",
-                "Problem Solving - Debugging - Testing - Version Control",
-                "Node.js - Express - Koa - Apollo",
-                "PHP - Laravel - Symfony - Yii - CodeIgniter",
-                "Python - Django - FastAPI",
-                ".NET Core - C# - C++",
-                "Diseño y consumo de APIs REST - SOAP - GraphQL",
-                "Socket.io - Pusher.js",
-                "Firebase (Auth, Realtime) - Firestore",
-                "Advanced SQL",
-                "Modelado y optimización de bases de datos Relacionales y No Relacionales",
-                "Oracle - MySQL - MariaDB - PostgreSQL - SQL Server - MongoDB - Redis",
-                "Pruebas automatizadas (unitarias, integración, e2e)",
-                "Integración con pasarelas de pago (Stripe, Dwolla, PayPal)",
-                "IA integrada en el desarrollo, OpenAI - Anthropic - Claude - Gemini"
+                "Node.js (Express, Koa, Apollo)",
+                "PHP (Laravel, Symfony, Yii)",
+                "Python (Django, FastAPI)",
+                "C#, .NET Core y C++",
+                "APIs REST, GraphQL y comunicación en tiempo real",
+                "Bases de datos SQL y NoSQL",
+                "Pruebas automatizadas e integración de pagos",
+                "Arquitectura de software, seguridad e integración de IA"
             ],
-            "Herramientas y Tecnologías": [
-                "AWS (EC2, S3, RDS, Lambda, Amplify, VPC, ECS)",
-                "Google Cloud Platform (GCP)",
-                "Docker - Kubernetes",
-                "Vercel - Railway - Typesense",
-                "Nginx - Apache",
-                "CI/CD pipelines (CloudFormation, GitHub, GitLab, Bitbucket, Jenkins)",
-                "Linux Server Install - Administration - Bash",
-                "Ciberseguridad (OWASP, ISO 27001)",
-                "Postman - Swagger - OpenAPI - JMeter",
-                "Scrum - Jira - XP - RUP",
-                "npm - yarn - pnpm - bun - webpack - vite",
-                "Pentaho BI - ETL - Kettle"
+            "Cloud y herramientas": [
+                "AWS y Google Cloud",
+                "Docker y Kubernetes",
+                "Linux, Nginx y Apache",
+                "CI/CD: GitHub, GitLab, Bitbucket y Jenkins",
+                "Git, npm, pnpm, yarn y bun",
+                "Postman, Swagger, OpenAPI y JMeter",
+                "ETL e inteligencia de negocios"
             ]
         },
         "experience": [
             {
-                "role": "Software Architect & Full Stack Developer",
+                "role": "Arquitecto de software y desarrollador full stack",
                 "company": "Entourage Yearbooks | Picaboo Yearbooks - Estados Unidos",
                 "period": "2022 - Presente",
                 "description": "Liderando arquitectura y desarrollo de múltiples plataformas web de alto tráfico como Picaboo Yearbooks, Entourage Yearbooks, EdoNext, Edge Creator Studio y Creator Studio."
             },
             {
-                "role": "Mobile Developer & Software Architect & Desarrollador Stack Stack",
-                "company": "Freelancer – Ecuador / Estados Unidos / Canada",
+                "role": "Desarrollador móvil, arquitecto de software y desarrollador full stack",
+                "company": "Freelancer – Ecuador / Estados Unidos / Canadá",
                 "period": "2018 - Presente",
                 "description": "Construcción de aplicaciones móviles y web para banca, educación y turismo, incluyendo Givbux, Insotec, Bemte y Ecuador Travel Guide, abarcando desde el diseño hasta el despliegue."
             },
             {
-                "role": "Full Stack Developer",
+                "role": "Desarrollador full stack",
                 "company": "TeamQ / 4elements / .thesynergygroup – Alemania",
                 "period": "2020 - 2022",
                 "description": "Desarrollo de plataformas SaaS y sistemas logísticos como YouSellWeSend, integraciones Shopify para Wemalo, Shipping Portal y APIs empresariales para gestión de inventario y envíos."
             },
             {
-                "role": "Analista de Tecnología & Desarrollador Full Stack",
+                "role": "Analista de tecnología y desarrollador full stack",
                 "company": "Instituto Nacional de Eficiencia Energética – Ecuador",
                 "period": "2015 - 2018",
                 "description": "Desarrollo de sistemas de análisis energético, data marts, simuladores científicos, ETLs y aplicaciones para eventos y congresos internacionales."
             },
             {
-                "role": "Profesor & Desarrollador Full Stack - Cuba",
+                "role": "Profesor y desarrollador full stack",
                 "company": "Universidad de Ciencias Informáticas / Aduanas de Cuba",
                 "period": "2007 - 2014",
                 "description": "Profesor de sistemas de bases de datos, BI, asesor en seguridad informática y migración a software libre, administrador de servidores GNU/Linux y desarrollador de software para la Aduana de Cuba."
@@ -1104,14 +1049,14 @@
                 "year": "2007"
             },
             {
-                "degree": "Completé diversos postgrados especializados en ingeniería de software, arquitectura de sistemas, bases de datos y gestión de proyectos, incluyendo áreas como sistemas inteligentes, arquitectura SOA, aseguramiento de la calidad, metodologías ágiles, pruebas de software y modelado de procesos. Esta formación avanzada fortaleció mi capacidad para diseñar soluciones robustas y liderar proyectos tecnológicos con una visión técnica sólida y estructurada.",
+                "degree": "Estudios de posgrado en ingeniería de software, arquitectura de sistemas, bases de datos y gestión de proyectos, con formación en metodologías ágiles, calidad y pruebas de software.",
                 "school": "Postgrados en Ciencias Informáticas",
                 "year": "2007 - 2014"
             }
         ],
         "research": {
-            "title": "Investigación Académica",
-            "description": "Ex Profesor Universitario e Investigador Científico. Mi trabajo se centra en Ingeniería de Software, Lógica Difusa y Sistemas de Información.",
+            "title": "Investigación académica",
+            "description": "Fui profesor universitario e investigador. Mis publicaciones abarcan ingeniería de software, lógica difusa, sistemas de información y análisis energético.",
             "profileLink": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ",
             "publications": [
                 {
@@ -1119,152 +1064,133 @@
                     "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Martínez, Javier; Lobato, Andrea; Palme, Massimo",
                     "publication": "IOP Conference Series: Materials Science and Engineering",
                     "year": "2017",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:LkGwnXOMwfcC"
                 },
                 {
                     "title": "Estimating the indoor thermal comfort deficit in the social housing built in Ecuador by integrating Building Information Modelling and Geographical Information Systems",
                     "authors": "Gallardo, Andre; Villacreses, Geovanna; Almaguer, Manuel; Lobato-Cordero, Andrea; Cordovez, Mart",
                     "publication": "Building Simulation 2017",
                     "year": "2017",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:roLk4NBRz8UC"
                 },
                 {
                     "title": "Dynamic-physical model to predict the performance of a solar chimney in a warm-humid climate with different absorbent materials",
                     "authors": "Godoy-Vaca, Luis; Almaguer, Manuel; Kastillo, Juan; Martínez, Javier; Lobato-Cordero, Andrea",
                     "publication": "Building Simulation 2017",
                     "year": "2017",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:Se3iqnhoufwC"
                 },
                 {
                     "title": "Generalización del Método Puntos de Función utilizando lógica difusa",
                     "authors": "Soria Barreda, Liannis; Almaguer Ochoa, Manuel Ramón; Diaz Vera, Julio Cesar; Arza Perez, Lizandra",
                     "publication": "Revista Cubana de Ciencias Informáticas",
                     "year": "2016",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:u5HHmVD_uO8C"
                 },
                 {
                     "title": "Estrategias para mejorar las condiciones de habitabilidad y el consumo de energía en viviendas",
                     "authors": "Palme, Massimo; Lobato, Andrea; Gallardo, Andrés; Beltrán, D; Kastillo, Juan; Villacreses, Geovanna; Godoy, F",
                     "publication": "Descargado de: http://www. iner. gob. ec/biblioteca/. Ecuador",
                     "year": "2016",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:UebtZRa9Y70C"
                 },
                 {
                     "title": "Gestor de dependencias para el sistema de Gestión Integral de Aduanas 1.0",
                     "authors": "León Ricardo, Yurismara; Almaguer Ochoa, Manuel R; Romero Piñeiro, Yasel Antonio",
                     "publication": "",
                     "year": "2015",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Sistema para el control de uso de los medios tecnológicos de los laboratorios docentes de la facultad 3",
                     "authors": "Morales Pestana, Juan Ignacio; Reyes Pérez, Zénel; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2015",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:8k81kl-MbHgC"
                 },
                 {
                     "title": "Desarrollo del instalador para el Sistema de Gestión Integral Aduanera 1.0.",
                     "authors": "Romero Sieres, Gisel; Cuscó Alemañy, Julio César; Weeden Gamboa, Raymond; Almaguer Ochoa, Manuel; Naranjo García, Adrián",
                     "publication": "",
                     "year": "2015",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Decodificador del Estándar de Transferencia de Información Adelantada de Pasajeros",
                     "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Plasencia Herrera, Randy",
                     "publication": "DUODÉCIMA EDICIÓN",
                     "year": "2012",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Sistema para el despacho de Aeronaves en la Aduana de Cuba",
                     "authors": "Almaguer Ochoa, Manuel Ramón; Soria Barreda, Liannis; Rodríguez Valdés, Gretter Lisbet; Castellanos Cobas, Leydis",
                     "publication": "DUODÉCIMA EDICIÓN",
                     "year": "2012",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Diseño e implementación del componente Historial de Medios de Transporte Internacional para el Sistema Gestión Integral de Aduanas",
                     "authors": "Castellano Betancourt, Ivian Laobel; Almaguer Ochoa, Manuel Ramón; Romero Piñeiro, Yasel Antonio",
                     "publication": "Universidad de las Ciencias Informáticas",
                     "year": "2012",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Diseño e implementación del subsistema Despacho de Medios de Transporte Internacional Aéreos",
                     "authors": "Rodríguez Valdés, Gretter Lisbet; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2011",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Diseño e implementación del módulo despacho de las embarcaciones de recreo para el Sistema de Gestión Integral de la Aduana",
                     "authors": "Álvarez Rodríguez, Natacha; Almaguer Ochoa, Manuel R",
                     "publication": "",
                     "year": "2011",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Diseño e implementación del Módulo Despacho de los Medios de Transporte Marítimos para el Sistema de Gestión Integral de la Aduana",
                     "authors": "Vega Mena, Ismail; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2011",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Implementacion de un motor de codificacion y busqueda fonetica para el sistema de Gestion Integral de la Aduana",
                     "authors": "Romero González, Carlos Manuel; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2010",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Configuracion de Servicios de Red: Analisis y Diseno",
                     "authors": "Consuegra Roselló, Arley; Guerra Nieves, Luis Miguel; Almaguer Ochoa, Manuel Ramón; Hernández López, Jorge Luis",
                     "publication": "",
                     "year": "2009",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Implementacion de las validaciones en JavaScript para la AGR. Adaptacion al Framework ExtJS.",
                     "authors": "Mayo Leyva, Yandier; Almaguer Ochoa, Manuel Ramón",
                     "publication": "",
                     "year": "2008",
-                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en",
-                    "code": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
+                    "link": "https://scholar.google.com/citations?user=6PBWvXEAAAAJ&hl=en"
                 },
                 {
                     "title": "Sistema de Recursos Humanos. Modulo Evaluacion del Desempeno.",
                     "authors": "Almaguer Ochoa, Manuel Ramón; Delahanty, Deborah; Díaz Vera, Julio César",
                     "publication": "",
                     "year": "2007",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:KlAtU1dfN6UC"
                 },
                 {
                     "title": "Aplicando lógica difusa para eliminar los límites bruscos en el método Puntos de Función",
                     "authors": "Barreda, Liannis Soria; Ochoa, Manuel Ramón Almaguer",
                     "publication": "",
                     "year": "",
-                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC",
-                    "code": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC"
+                    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6PBWvXEAAAAJ&citation_for_view=6PBWvXEAAAAJ:ufrVoPGSRksC"
                 }
             ]
         },
