@@ -36,8 +36,9 @@ Si la red usa certificados del almacén del sistema, Node puede utilizarlos con
 | `pnpm preview` | Vista previa local de `dist/` |
 
 Las pruebas comprueban metadatos, idiomas, CV, enlaces locales, HTML estático,
-desplegables y estilos. La revisión de navegador cubre además menú, temas,
-teclado y tamaños de pantalla.
+perfiles y acciones de la portada, visibilidad y orden de proyectos,
+publicaciones desplegables y estilos.
+La revisión de navegador cubre además menú, temas, teclado y tamaños de pantalla.
 
 ## Contenido y publicación
 

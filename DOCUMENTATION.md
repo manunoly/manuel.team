@@ -5,6 +5,12 @@ Este proyecto es un portafolio personal para un desarrollador Full Stack, diseñ
 
 ## 2. Funcionalidades Principales
 
+### Presentación y perfiles
+- La portada muestra GitHub, LinkedIn, X/Twitter y Google Scholar junto al nombre y cargo, con los mismos enlaces en Contacto.
+- El correo se abre directamente desde la portada; también hay acceso al CV y a todos los proyectos.
+- La tipografía fluida, los márgenes alineados y las listas de habilidades en una, dos o tres columnas priorizan la lectura. La foto se muestra en color.
+- Los perfiles proceden de los datos existentes y se renderizan como HTML estático mediante `SocialLinks.tsx`.
+
 ### 2.1. Navegación Responsiva (Navbar)
 - **Diseño Adaptativo**: Barra de navegación fija en la parte superior para escritorio, que se transforma en un menú de hamburguesa en dispositivos móviles.
 - **Efectos Visuales**: Fondo translúcido fijo para mantener legible la navegación.
@@ -61,7 +67,7 @@ Este proyecto es un portafolio personal para un desarrollador Full Stack, diseñ
 ### 4.1. Rendimiento (Performance)
 - **Islands Architecture**: La mayor parte del sitio es HTML estático generado por Astro. Solo la `Navbar` se hidrata en el cliente (`client:load`) porque requiere interactividad inmediata.
 - **Fuentes del sistema**: No se descargan fuentes externas; el texto aparece sin esperar archivos de tipografía.
-- **Contenido estático**: Solo la navegación se hidrata con React. Proyectos y publicaciones usan desplegables HTML nativos, y el contenido informativo es visible desde el primer renderizado.
+- **Contenido estático**: Solo la navegación se hidrata con React. Todos los proyectos se muestran en una cuadrícula, y las publicaciones adicionales usan un desplegable HTML nativo. El contenido informativo es visible desde el primer renderizado.
 - **Imágenes**: Carga diferida y dimensiones explícitas para las imágenes del portafolio.
 
 ### 4.2. Mantenibilidad

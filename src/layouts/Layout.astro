@@ -60,7 +60,7 @@ const imageURL = new URL(image, canonicalURL);
             document.querySelector('meta[name="theme-color"]').setAttribute("content", theme === "dark" ? "#090a0f" : "#ffffff");
         </script>
     </head>
-    <body class="bg-app-gradient text-app-text antialiased selection:bg-app-accent selection:text-app-bg min-h-screen font-sans">
+    <body class="bg-app-bg text-app-text antialiased selection:bg-app-accent selection:text-app-bg min-h-screen font-sans">
         <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:rounded focus:bg-app-bg focus:p-4 focus:text-app-text">
             {lang === "es" ? "Saltar al contenido" : "Skip to content"}
         </a>

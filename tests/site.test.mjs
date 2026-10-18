@@ -4,6 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 
 const origin = 'https://manuel.team';
+const portfolio = JSON.parse(fs.readFileSync('src/data/portfolio.json', 'utf8'));
 const pages = [
     { lang: 'en', route: '/', file: 'dist/index.html' },
     { lang: 'es', route: '/es/', file: 'dist/es/index.html' },
@@ -82,11 +83,59 @@ for (const page of pages) {
         }
     });
 
-    test(page.lang + ': disclosures preserve projects and publications without duplicate actions', () => {
-        assert.equal(tags(html, 'details').length, 2);
-        assert.match(html, /<details[\s\S]*?<summary[\s\S]*?<article/);
+    test(page.lang + ': introduction exposes professional profiles and direct actions before hydration', () => {
+        const hero = html.match(/<header\b[^>]*>([\s\S]*?)<\/header>/)?.[1];
+        const contact = html.match(/<section id="contact"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+        assert.ok(hero && contact);
+        const data = portfolio[page.lang];
+        const profiles = [data.contact.github, data.contact.linkedin, data.contact.twitter, data.research.profileLink];
+        for (const section of [hero, contact]) {
+            const social = section.match(/<nav\b[^>]*>([\s\S]*?)<\/nav>/)?.[1];
+            assert.ok(social, 'Professional profiles have a named navigation region');
+            assert.ok(tags(section, 'nav')[0]['aria-label'], 'Social navigation has an accessible name');
+            const socialLinks = tags(social, 'a');
+            assert.equal(socialLinks.length, profiles.length);
+            for (const destination of profiles) {
+                const link = socialLinks.find((tag) => tag.href === destination.replaceAll('&', '&amp;'));
+                assert.ok(link, 'Profile is available in the introduction and contact: ' + destination);
+                assert.equal(link.target, '_blank');
+                assert.match(link.rel, /\bnoopener\b/);
+                assert.match(link.rel, /\bnoreferrer\b/);
+            }
+        }
+        const actions = tags(hero, 'a');
+        assert.ok(actions.some((tag) => tag.href === 'mailto:' + data.contact.email), 'Email opens directly');
+        assert.ok(actions.some((tag) => tag.href === '#projects'), 'Projects are reachable from the introduction');
+        assert.ok(actions.some((tag) => tag.href === data.hero.resumeLink), 'The CV remains available');
+    });
+
+    test(page.lang + ': all projects are visible with the requested priority and spacing', () => {
+        const projects = html.match(/<section id="projects"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+        assert.ok(projects);
+        assert.equal(tags(projects, 'details').length, 0, 'Projects must not require opening a disclosure');
+        const titles = [...projects.matchAll(/<h3\b[^>]*>([\s\S]*?)<\/h3>/g)].map((match) => match[1]);
+        assert.equal(titles.length, 23, 'All 23 projects are rendered');
+        assert.equal(new Set(titles).size, 23, 'Projects are not duplicated');
+        const entourage = titles.indexOf('Entourage Yearbooks');
+        assert.ok(entourage >= 0 && entourage < 3, 'Current employment is among the first three projects');
+        const picaboo = titles.indexOf('Picaboo Yearbooks');
+        const creator = titles.indexOf('Creator Studio Pro');
+        const edge = titles.indexOf('Edge Creator Studio');
+        assert.ok([picaboo, creator, edge].every((index) => index >= 0));
+        for (const columns of [1, 2, 3]) {
+            for (const [a, b] of [[creator, edge], [creator, picaboo], [edge, picaboo]]) {
+                const distance = Math.abs(Math.floor(a / columns) - Math.floor(b / columns))
+                    + Math.abs(a % columns - b % columns);
+                assert.ok(distance > 1, 'Studio projects stay separate from each other and Picaboo at ' + columns + ' columns');
+            }
+        }
+    });
+
+    test(page.lang + ': publication disclosures preserve distinct actions and valid assets', () => {
         const research = html.match(/<section id="research"[^>]*>([\s\S]*?)<\/section>/)?.[1];
         assert.ok(research);
+        assert.equal(tags(research, 'details').length, 1);
+        assert.match(research, /<details[\s\S]*?<summary[\s\S]*?<article/);
         for (const [article] of research.matchAll(/<article\b[\s\S]*?<\/article>/g)) {
             const destinations = tags(article, 'a').map((tag) => tag.href);
             assert.equal(new Set(destinations).size, destinations.length, 'Publication actions have distinct destinations');

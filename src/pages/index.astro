@@ -24,6 +24,13 @@ const {
 	testimonials,
 	contact,
 } = portfolioData.en;
+
+const profiles = {
+    github: contact.github,
+    linkedin: contact.linkedin,
+    twitter: contact.twitter,
+    scholar: portfolioData.en.research.profileLink,
+};
 ---
 
 <Layout
@@ -37,6 +44,8 @@ const {
 			tagline={hero.tagline}
 			subtext={hero.subtext}
 			resumeLink={hero.resumeLink}
+			email={contact.email}
+			profiles={profiles}
 			lang="en"
 		/>
 
@@ -63,9 +72,7 @@ const {
 
 		<Contact
 			email={contact.email}
-			linkedin={contact.linkedin}
-			github={contact.github}
-			twitter={contact.twitter}
+			profiles={profiles}
 			lang="en"
 		/>
 	</main>
