@@ -61,7 +61,7 @@ export default function Navbar({ lang }: NavbarProps) {
 
     return (
         <nav aria-label={lang === 'es' ? 'Navegación principal' : 'Main navigation'} className="fixed top-0 left-0 right-0 z-50 bg-app-bg/95 backdrop-blur-md border-b border-app-surface">
-            <div className="max-w-7xl mx-auto px-4 md:px-6 h-20 flex items-center justify-between gap-4">
+            <div className="max-w-7xl mx-auto px-4 md:px-8 h-20 flex items-center justify-between gap-4">
                 <a href={lang === 'en' ? '/' : '/es/'} className="text-xl md:text-2xl font-bold tracking-tight shrink-0" translate="no">
                     Manuel<span className="text-app-accent">.team</span>
                 </a>

@@ -8,7 +8,6 @@ interface Project {
     link: string;
     github: string;
     image: string;
-    featured?: boolean;
 }
 
 interface ProjectsProps {
@@ -22,7 +21,7 @@ function ProjectCard({ project, lang }: { project: Project; lang: string }) {
         : (lang === 'es' ? 'Visitar proyecto' : 'Visit project');
 
     return (
-        <article className="group bg-app-surface rounded-xl overflow-hidden border border-app-surface-hover flex flex-col">
+        <article className="bg-app-surface rounded-xl overflow-hidden border border-app-surface-hover hover:border-app-accent/50 focus-within:border-app-accent transition-colors flex flex-col">
             <div className="h-40 bg-white p-6">
                 <img src={project.image || '/NoPreview.png'} alt="" width={400} height={160} loading="lazy" decoding="async" className="w-full h-full object-contain" />
             </div>
@@ -50,29 +49,15 @@ function ProjectCard({ project, lang }: { project: Project; lang: string }) {
 }
 
 export default function Projects({ projects, lang }: ProjectsProps) {
-    const featured = projects.filter((project) => project.featured);
-    const more = projects.filter((project) => !project.featured);
-
     return (
         <SectionContainer id="projects">
-            <h2 className="text-3xl font-bold mb-4">{lang === 'es' ? 'Proyectos destacados' : 'Selected projects'}</h2>
+            <h2 className="text-3xl font-bold mb-4">{lang === 'es' ? 'Proyectos' : 'Projects'}</h2>
             <p className="text-app-text-muted mb-8 max-w-2xl">
-                {lang === 'es' ? 'Una selección de productos que he desarrollado o en los que he colaborado.' : 'A selection of products I’ve built or contributed to.'}
+                {lang === 'es' ? 'Proyectos que he desarrollado o en los que he colaborado.' : 'Projects I’ve built or contributed to.'}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {featured.map((project) => <ProjectCard key={project.title} project={project} lang={lang} />)}
+                {projects.map((project) => <ProjectCard key={project.title} project={project} lang={lang} />)}
             </div>
-            {more.length > 0 && (
-                <details className="group mt-8">
-                    <summary className="w-fit rounded border border-app-accent/30 px-5 py-3 text-app-accent hover:bg-app-accent/10">
-                        <span className="group-open:hidden">{lang === 'es' ? 'Ver más proyectos' : 'More projects'} ({more.length})</span>
-                        <span className="hidden group-open:inline">{lang === 'es' ? 'Ver menos proyectos' : 'Fewer projects'}</span>
-                    </summary>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-                        {more.map((project) => <ProjectCard key={project.title} project={project} lang={lang} />)}
-                    </div>
-                </details>
-            )}
         </SectionContainer>
     );
 }
