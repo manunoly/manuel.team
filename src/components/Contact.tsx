@@ -1,4 +1,4 @@
-import React from 'react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import SectionContainer from './SectionContainer';
 
 interface ContactProps {
@@ -12,58 +12,22 @@ interface ContactProps {
 export default function Contact({ email, linkedin, github, twitter, lang = 'en' }: ContactProps) {
     return (
         <SectionContainer id="contact" className="text-center max-w-2xl">
-            <p className="text-app-accent font-mono mb-4">
-                {
-                    lang === 'en' ?
-                        (
-                            "What's Next?"
-                        )
-                        :
-                        (
-                            "¿Qué sigue?"
-                        )
-                }
+            <h2 className="text-4xl font-bold mb-6">{lang === 'es' ? 'Hablemos' : 'Let’s talk'}</h2>
+            <p className="text-app-text-muted text-lg mb-8">
+                {lang === 'es' ? '¿Tienes un proyecto o una consulta? Escríbeme.' : 'Have a project or a question? Email me.'}
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-app-text mb-6">
-                {lang === 'en' ? 'Get In Touch' : 'Contáctame'}
-            </h2>
-            <p className="text-app-text-muted text-lg mb-12">
-                {
-                    lang === 'en' ?
-                        "I'm always open to new challenges and opportunities. Whether you have a question or just want to say hi, I'll get back to you for sure!"
-                        :
-                        "Siempre abiertos a nuevos desafíos y oportunidades. Consultorias, Ideas, Emprendimiento, Escribe para saludar y yo te responderé con gusto!"
-                }
-            </p>
-
-            <a
-                href={'https://mail.google.com/mail/?view=cm&fs=1&to=manunoly@gmail.com&su=Hello%20Manuel.team&body=Lets%20Chat'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-8 py-4 bg-transparent border border-app-accent text-app-accent font-medium rounded hover:bg-app-accent/10 transition-colors duration-300"
-            >
-                Write by Gmail
+            <a href={`mailto:${email}`} className="inline-flex items-center gap-2 px-6 py-3 bg-app-accent text-app-bg font-semibold rounded hover:opacity-90 transition-opacity">
+                <Mail size={20} aria-hidden="true" />{lang === 'es' ? 'Escríbeme' : 'Email me'}
             </a>
-            <a
-                href={`mailto:${email}`}
-                className="inline-block px-8 py-4 bg-transparent border border-app-accent text-app-accent font-medium rounded hover:bg-app-accent/10 transition-colors duration-300"
-            >
-                Say Hello
-            </a>
-
-            <div className="mt-20 flex justify-center space-x-8">
-                <a href={github} target="_blank" rel="noopener noreferrer" className="text-app-text-muted hover:text-app-accent transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <p className="mt-4 text-sm text-app-text-muted break-all">{email}</p>
+            <div className="mt-10 flex flex-wrap justify-center gap-6 text-app-text-muted">
+                <a href={github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 py-2 hover:text-app-accent">
+                    <Github size={20} aria-hidden="true" />GitHub
                 </a>
-                <a href={linkedin} target="_blank" rel="noopener noreferrer" className="text-app-text-muted hover:text-app-accent transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <a href={linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 py-2 hover:text-app-accent">
+                    <Linkedin size={20} aria-hidden="true" />LinkedIn
                 </a>
-                <a href={twitter} target="_blank" rel="noopener noreferrer" className="text-app-text-muted hover:text-app-accent transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-                </a>
-                <a href={'https://mail.google.com/mail/?view=cm&fs=1&to=manunoly@gmail.com&su=Hello%20Manuel.team&body=Lets%20Chat'} target="_blank" rel="noopener noreferrer" className="text-app-text-muted hover:text-app-accent transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                </a>
+                <a href={twitter} target="_blank" rel="noopener noreferrer" className="py-2 hover:text-app-accent">X / Twitter</a>
             </div>
         </SectionContainer>
     );

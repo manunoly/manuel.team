@@ -13,6 +13,7 @@ import Research from "../../components/Research";
 import portfolioData from "../../data/portfolio.json";
 
 const {
+    seo,
     hero,
     about,
     skills,
@@ -26,13 +27,12 @@ const {
 ---
 
 <Layout
-    title="Manuel Almaguer | Arquitecto de Software | Desarrollador Full Stack"
+    title={seo.title}
     lang="es"
-    description={hero.subtext}
+    description={seo.description}
 >
-    <main class="space-y-20 pb-20">
+    <main id="main-content" tabindex="-1" class="pb-16">
         <Hero
-            client:load
             name={hero.name}
             tagline={hero.tagline}
             subtext={hero.subtext}
@@ -41,29 +41,27 @@ const {
         />
 
         <About
-            client:visible
             title={about.title}
             content={about.content}
             image={about.image}
             lang="es"
         />
 
-        <Skills client:visible skills={skills} lang="es" />
+        <Skills skills={skills} lang="es" />
 
-        <Projects client:visible projects={projects} lang="es" />
+        <Projects projects={projects} lang="es" />
 
-        <Experience client:visible experience={experience} lang="es" />
+        <Experience experience={experience} lang="es" />
 
-        <Education client:visible education={education} lang="es" />
+        <Education education={education} lang="es" />
 
-        <Research client:visible data={portfolioData.es.research} lang="es" />
+        <Research data={portfolioData.es.research} lang="es" />
 
-        <BlogPreview client:visible posts={blog} lang="es" />
+        <BlogPreview posts={blog} lang="es" />
 
-        <Testimonials client:visible testimonials={testimonials} lang="es" />
+        <Testimonials testimonials={testimonials} lang="es" />
 
         <Contact
-            client:visible
             email={contact.email}
             linkedin={contact.linkedin}
             github={contact.github}

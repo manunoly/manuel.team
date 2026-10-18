@@ -1,6 +1,3 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-
 interface HeroProps {
     name: string;
     tagline: string;
@@ -9,70 +6,28 @@ interface HeroProps {
     lang?: string;
 }
 
-export default function Hero({ name, tagline, subtext, resumeLink, lang }: HeroProps) {
+export default function Hero({ name, tagline, subtext, resumeLink, lang = 'en' }: HeroProps) {
     return (
-        <div className="min-h-screen flex flex-col justify-center items-start px-4 md:px-20 max-w-7xl mx-auto pt-20">
-            <motion.span
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="text-app-accent font-semibold tracking-wider mb-4"
-            >
-                {
-                    lang === 'es' ? 'Hola, mi nombre es' : 'Hi, my name is'
-                }
-            </motion.span>
-
-            <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                className="text-4xl md:text-6xl font-bold text-app-text mb-4 leading-tight"
-            >
-                {name}.
-            </motion.h1>
-
-            <motion.h2
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.4 }}
-                className="text-3xl md:text-5xl font-bold text-app-text-muted mb-8 leading-tight"
-            >
+        <header className="min-h-[85svh] flex flex-col justify-center items-start px-4 md:px-20 max-w-7xl mx-auto pt-28 pb-16">
+            <p className="text-app-accent font-semibold mb-4">
+                {lang === 'es' ? 'Hola, soy' : 'Hi, I’m'}
+            </p>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">{name}</h1>
+            <p className="text-2xl md:text-4xl font-semibold text-app-text-muted mb-6 max-w-4xl leading-tight">
                 {tagline}
-            </motion.h2>
-
-            <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
-                className="text-app-text-muted text-lg md:text-xl max-w-2xl mb-12 leading-relaxed"
-            >
-                {
-                    Array.isArray(subtext) ? (
-                        subtext.map((paragraph, index) => (
-                            <p key={index}>{paragraph}</p>
-                        ))
-                    ) : (
-                        subtext
-                    )
-                }
-            </motion.p>
-
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6 }}
-            >
-                <a
-                    href={resumeLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group relative px-8 py-4 bg-transparent border border-app-accent text-app-accent font-medium rounded hover:bg-app-accent/10 transition-colors duration-300"
-                >
-                    Download Resume
-                    <span className="absolute inset-0 rounded ring-1 ring-app-accent/50 group-hover:ring-app-accent transition-all duration-300 blur-sm opacity-0 group-hover:opacity-50"></span>
+            </p>
+            <div className="text-app-text-muted text-lg md:text-xl max-w-2xl mb-8 leading-relaxed space-y-2">
+                {subtext.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            </div>
+            <div className="flex flex-wrap gap-4">
+                <a href="#contact" className="px-6 py-3 bg-app-accent text-app-bg font-semibold rounded hover:opacity-90 transition-opacity">
+                    {lang === 'es' ? 'Escríbeme' : 'Email me'}
                 </a>
-            </motion.div>
-        </div>
+                <a href={resumeLink} download className="px-6 py-3 border border-app-accent text-app-accent font-medium rounded hover:bg-app-accent/10 transition-colors">
+                    {lang === 'es' ? 'Descargar CV' : 'Download résumé'}
+                    <span className="sr-only"> (PDF)</span>
+                </a>
+            </div>
+        </header>
     );
 }

@@ -1,46 +1,54 @@
-# Astro Starter Kit: Basics
+# Manuel.team
 
-```sh
-npm create astro@latest -- --template basics
+Portafolio bilingüe de Manuel Almaguer, generado como HTML estático con Astro,
+React y Tailwind CSS. Las páginas públicas son `/` (inglés) y `/es/` (español).
+
+## Requisitos
+
+- Node **22.23.3 LTS**, fijado en `.nvmrc` (mínimo admitido: 22.22.0).
+- pnpm **10.32.1**, declarado en `packageManager`.
+- Astro 7.4.0, integración React 7.1.0 y Tailwind CSS 4.3.3.
+
+Con nvm para Windows:
+
+```powershell
+nvm install 22.23.3
+nvm use 22.23.3
+corepack enable pnpm
+pnpm install --frozen-lockfile
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+El proyecto usa **pnpm** y `pnpm-lock.yaml` como única fuente de versiones
+resueltas. Conserva el lockfile al instalar o actualizar dependencias.
+Si vienes de una instalación con npm, elimina primero `node_modules` y vuelve
+a instalar con pnpm para evitar que se carguen dependencias antiguas.
 
-## 🚀 Project Structure
+Si la red usa certificados del almacén del sistema, Node puede utilizarlos con
+`$env:NODE_OPTIONS='--use-system-ca'` antes de instalar los paquetes.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Comandos
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+| Comando | Resultado |
+| --- | --- |
+| `pnpm dev` | Servidor de desarrollo en localhost:4321 |
+| `pnpm test` | Compilación de producción y pruebas de regresión |
+| `pnpm build` | Sitio estático en `dist/` |
+| `pnpm preview` | Vista previa local de `dist/` |
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Las pruebas comprueban metadatos, idiomas, CV, enlaces locales, HTML estático,
+desplegables y estilos. La revisión de navegador cubre además menú, temas,
+teclado y tamaños de pantalla.
 
-## 🧞 Commands
+## Contenido y publicación
 
-All commands are run from the root of the project, from a terminal:
+- `src/data/portfolio.json`: textos y datos en ambos idiomas.
+- `src/pages/`: páginas públicas.
+- `src/layouts/Layout.astro`: metadatos, idiomas y estructura compartida.
+- `src/styles/global.css`: temas y estilos globales.
+- `public/`: imágenes, CV, sitemap y verificación de Search Console.
+- `firebase.json`: Firebase Hosting sirve únicamente `dist/`.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+La compilación no publica el sitio. La migración conserva Firebase Hosting
+estático y no requiere un adaptador de servidor.
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Detalles adicionales en [DOCUMENTATION.md](DOCUMENTATION.md).

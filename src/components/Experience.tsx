@@ -17,7 +17,7 @@ export default function Experience({ experience, lang = 'en' }: ExperienceProps)
     return (
         <SectionContainer id="experience">
             <h2 className="flex items-center text-3xl font-bold text-app-text mb-5">
-                {lang === 'en' ? 'Where I\'ve Worked' : 'Donde He Trabajado'}
+                {lang === 'en' ? 'Experience' : 'Experiencia'}
                 <span className="ml-4 h-px bg-app-surface flex-grow max-w-xs"></span>
             </h2>
 
